@@ -1,0 +1,734 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>彩乐乐用户登录</title>
+	<script type="text/javascript">
+	var ctx="http://127.0.0.1:8080/lottery";
+var ctx_jsonp="http://127.0.0.1:8080/lottery/jsonp";
+</script>
+</head>
+
+<body>
+
+	<style type="text/css">
+*
+{margin: 0px;padding: 0px;font-size: 12px;
+}
+ul, li
+{list-style: none;}
+img
+{border: 0px;}
+ a
+{text-decoration: none;color: #666666;}
+ a:hover
+{ text-decoration: underline;}
+div.middle
+{height: auto;
+    /*border-left: 1px solid #e66c01;
+    border-right: 1px solid #e66c01;
+    border-bottom: 1px solid #e66c01;*/
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-top:15px;
+    color: #666666;
+}
+div.middle span
+{
+    display: block;
+    padding: 8px 0px 8px 0px;
+}
+div.middle label
+{
+    display: inline-block;
+    width: 90px;
+    padding-right:10px;
+    text-align: right;
+    vertical-align: middle;
+    color: #666666;
+}
+div.middle span label.error
+{
+    display: inline-block;
+    width:280px;
+    text-align:left;
+    height:25px;
+    line-height:25px;
+    margin-left:30px;
+    margin-right:30px;
+    border:1px solid #ff7c7c;
+    background-color:#fff6f1;
+    color:#333333;
+    padding-left:30px;
+    padding-top:0px;
+    padding-bottom:0px;
+    background-image: url("http://img.cailele.com/img_new/top/top_bg.gif");
+    background-repeat: no-repeat;
+    background-position: -170px -490px;
+    overflow:hidden;
+    }
+div.middle span label.error b{
+	color:#ff0000;
+}
+div.middle input 
+{
+    height: 22px;
+    line-height: 22px;
+    width: 170px;
+    padding: 2px 5px 2px 5px;
+    font-family: "Arial";
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    vertical-align: middle;
+    border-color: #f1a436;
+    color: #000000;
+    font-size:14px;
+    background-image: url("http://img.cailele.com/img_new/top/top_bg.gif");
+    background-repeat: repeat-x;
+    background-position: left -435px;
+}
+div.middle input.gray
+{
+    background-position: left -330px;
+    border-color: #cccccc;
+    color: #cccccc;
+    font-size:14px;
+}
+div.middle span a.login
+{
+    background-image: url("http://img.cailele.com/img_new/top/top_bg.gif");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 10px;
+    background-position: left -365px;
+    color: #fffaf7;
+    font-size:14px;
+    font-weight:bold;
+}
+div.middle span a.null
+{
+    background-image:none;
+    margin-left:8px;
+    width:auto;
+    margin-right:8px;
+    }
+ div.middle span a.refresh
+{
+    background-image: url("http://img.cailele.com/img_new/top/top_bg.gif");
+    background-repeat: no-repeat;
+    background-position: -180px -475px;
+    vertical-align: middle;
+    margin-left:8px;
+    width:auto;
+    margin-right:8px;
+    padding-left:18px;
+    }
+div.middle span img#validateImg
+{
+    vertical-align: middle;
+    width: 70px;
+    margin-left: 10px;
+    height: 28px;
+    cursor: pointer;
+}
+div.middle span font.clear
+{
+    background-image: url("http://img.cailele.com/img_new/top/top_bg.gif");
+    background-repeat: no-repeat;
+    background-position: right -295px;
+    vertical-align: middle;
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right:10px;
+}
+div.middle span.mar_left{ margin-left:10px;}
+div.middle span a.icon
+{
+    background-image:none;
+    padding-left:3px;
+    width:auto;
+    padding-right:3px;
+	float:left;
+    }
+div.middle span  b{ font-weight:normal; float:left; margin-left:3px; margin-right:3px;} 
+div.middle a i{ margin-left:5px;}
+
+div.middle a i.qq{ display:inline-block; width:20px; height:20px;  background:url(http://img.cailele.com/img_new/common/login_icon.png) no-repeat -75px 0px ; margin-top:-2px; float:left; }
+div.middle a i.zfb{ display:inline-block; width:20px; height:20px;  background:url(http://img.cailele.com/img_new/common/login_icon.png) no-repeat -97px 0px ; margin-top:-2px; float:left;  margin-left:90px; }
+div.middle a i.cft{ display:inline-block; width:20px; height:20px;  background:url(http://img.cailele.com/img_new/common/login_icon.png) no-repeat -120px 0px ; margin-top:-2px; float:left; }
+div.middle a i.ty{ display:inline-block; width:20px; height:20px;  background:url(http://img.cailele.com/img_new/common/login_icon.png) no-repeat -76px -25px ; margin-top:-2px; float:left; }
+div.middle a i.bd{ display:inline-block; width:20px; height:20px;  background:url(http://img.cailele.com/img_new/common/login_icon.png) no-repeat -98px -25px ; margin-top:-2px; float:left; }
+div.middle a i.tyy{ display:inline-block; width:20px; height:20px;  background:url(http://img.cailele.com/img_new/common/login_icon.png) no-repeat -121px -25px ; margin-top:-2px; float:left; }
+</style>
+<script type="text/javascript">
+onload = function(){
+	if(self == top){
+		document.write("&nbsp;");
+	}else{
+		load_CheckLogin();
+		checkTopTips();
+	}
+}
+//登录成功之后执行方法 优先执行
+var resultFN = null;
+//登录成功之后执行方法
+var loginSucceedFunction = null;
+//退出成功之后执行方法
+var exitSucceedFunction = null;
+
+function $cailele_index_fid(id) { return document.getElementById(id); }
+//去空格
+function trimText(str) { return str.replace(/(^\s*)|(\s*$)/g, ""); }
+//ie567
+function isIE567(){ return (/MSIE (5\.5|6\.|7\.)/.test(navigator.userAgent));}
+//检查输入
+function changeInputClass(input, val, text,tag) {
+    if (val == 0) {
+        if (input.className == "gray") {
+            input.value = "";
+            input.className = "";
+        } else {
+            input.select();
+        }
+        
+        if(tag){
+        	//if(isIE567())
+        	getImgSrc();
+        }
+    } else {
+        if (trimText(input.value) == "") {
+            input.className = "gray";
+            input.value = text ? text : "";
+        }
+    }
+}
+//重置登录
+function resetlogin() {
+    var text = $cailele_index_fid("usernamenew");
+    text.value = "用户名/手机号/邮箱";
+    text.className = "gray";
+    text = $cailele_index_fid("passwordnew");
+    text.value = "000000";
+    text.className = "gray";
+    var span = $cailele_index_fid("validatespan");
+    if (span && span.style.display != "none") {
+	    text = $cailele_index_fid("validatecodenew");
+	    if(text != null){
+	    	text.value = "";
+	    	text.className = "gray";
+	    }
+	    getImgSrc();
+    }
+    var span = $cailele_index_fid("errorHintSpan");
+	span.style.display = "none";
+	try{
+		parent.window.changeLoginPanelBgSize();
+	}catch(e){}
+	return;
+}
+//检查登录
+function checkLoginPanel() {
+    var username = $cailele_index_fid("usernamenew");
+    var uText = trimText(username.value);
+    if (uText == "" || (username.className == "gray")) {
+        showError("请输入您的账号信息");
+        try{username.focus();}catch(e){}
+        return false;
+    }
+    var password = $cailele_index_fid("passwordnew");
+    var pText = password.value;
+    if (pText == "" || password.className == "gray") {
+        showError("请输入您的登录密码");
+        try{password.focus();}catch(e){}
+        return false;
+    }
+    var span = $cailele_index_fid("validatespan");
+    //初始值
+    var vText = "";
+    if (span && span.style.display != "none") {
+        var validatecode = $cailele_index_fid("validatecodenew");
+        vText = trimText(validatecode.value);
+        if (vText == "") {
+            showError("请输入验证码");
+            try{validatecode.focus();}catch(e){}
+            return false;
+        }
+    }
+ 	var isSaveUserName = $cailele_index_fid("isSaveUserName").value;
+ 	var result = new xmlhttp().request(ctx+"/member/loginnew.php?username=" +  encodeURIComponent(encodeURIComponent(uText)) + "&password=" +  encodeURIComponent(encodeURIComponent(pText)) + "&authCode=" + encodeURIComponent(encodeURIComponent(vText)) + "&isSaveUserName="+isSaveUserName+"&tag=" + getDateStr());
+	result = replaceHTML(result);
+    var json = eval("(" + result + ")");     
+    if (result && result != "" && json) {
+       if (json.code == 0) {
+           showError(json.message);
+           showValidateSpan(json.showvalidatecode);
+           if(validatecode != null){
+           		getImgSrc();
+           		validatecode.value = "";
+           		validatecode.focus();
+           }
+       } else if (json.code == 1) {
+       	   resetPassword(password);
+       	   showValidateSpan(json.showvalidatecode);
+       	   resetInput(validatecode);
+           showError(json.message);
+           //getImgSrc();
+           username.focus();
+       } else if (json.code == 3) {
+       	   resetPassword(password);
+       	   showValidateSpan(json.showvalidatecode);
+       	   resetInput(validatecode);
+       	   showError(json.message);
+       	   username.focus();
+       } else if (json.code == 2) {
+	       resetUserName(username);
+	       resetPassword(password);
+	       resetInput(validatecode);
+           parent.window.hideLoginDIV();
+           load_CheckLogin();
+           checkTopTips();
+           
+           try{
+			setTimeout(function(){
+					bbsFn('login',loginFn);
+				}, 500);            
+           }catch(e){}
+       }
+       return;
+   }
+	resetUserName(username);
+	resetPassword(password);
+	resetInput(validatecode);
+	showError("服务器异常，请稍候尝试登录");
+	return true;
+}
+/*2014开年大户领红包活动相关js代码  create:2014-01-21 调用已删除,保留判断代码*/
+//判断用户是否大客户
+function majorCustomerGift(){
+	var url = "/promotion/majorCustomerGift.php?action=isMajorCustomer";
+	var isMajorCustomer = new xmlhttp().request(url);
+	if(isMajorCustomer == "true"){
+		//大户用户,提示可参加活动
+		parent.window.cll_confirm("尊贵的会员，欢迎您的到来！彩乐乐为您准备了88元至1688元的开年红包，快去抽一个吧！",
+			function(){
+				parent.window.location.href="/promotion/majorCustomerGift.php";
+			},
+			function(){});
+	}
+}
+/*2014开年大户领红包活动end*/
+//bbs登录处理
+function bbsFn(state,callback){
+	if(state == 'login'){
+		var result = new xmlhttp().request(ctx_jsonp+"/member/loginnew.php?action=bbsLogin");
+	}else{
+		var result = new xmlhttp().request(ctx_jsonp+"/member/logoutnew.php?action=bbsLogout");
+	}
+	result = replaceHTML(result);
+    var json = eval("(" + result + ")");
+	if(json.bbsForward != null && json.bbsForward.indexOf("http://bbs.cailele.com") > -1){
+		//var oIframe = parent.window.document.getElementById("hiddenframe");
+		var oIframe = document.createElement("iframe");//创建iframe,不获取hiddenframe,不然会引发多次加载bug
+		oIframe.src = json.bbsForward;
+		oIframe.style.display = "none";
+		document.body.appendChild(oIframe);//必须放在onload事件之前
+		if (oIframe.attachEvent){//ie独有的方式
+		    oIframe.attachEvent("onload", function(){ callback();});
+		}else{//不支持ie
+		     oIframe.onload = function(){ callback();};
+		}
+	}else{
+		callback();
+	}
+}
+
+//登录成功后的处理函数
+function loginFn(){
+	try{
+   		if(resultFN && typeof(resultFN) == "function")
+   			resultFN();
+	   	else{
+			if(loginSucceedFunction && typeof(loginSucceedFunction) == "function")
+				loginSucceedFunction();
+   		}	
+    }catch(e){}
+}
+
+//退出成功后的处理函数
+function exitFn(){
+	try{
+		exitSucceedFunction = parent.window.exitSucceedFunction;
+		if(exitSucceedFunction && typeof(exitSucceedFunction) == "function")
+          	 	exitSucceedFunction();
+		}catch(e){}
+}
+
+function showError(txt){
+	var span = $cailele_index_fid("errorHintSpan");
+	var label = span.getElementsByTagName("LABEL")[0];
+	label.innerHTML = txt;
+	span.style.display = "block";
+	parent.window.changeLoginPanelBgSize();
+	return;
+}
+function resetInput(input){
+	if(input == null)
+		return;
+	if(input.className == "gray")
+		return;
+	input.value = "";
+	input.className = "gray";
+	return;
+}
+function resetUserName(input) {
+	if(input == null)
+		return;
+	input.value = getUserNameCookie();
+	//设置焦点
+	if(input.value != '' && input.value != null) {
+		input.className = "";
+		$cailele_index_fid("passwordnew").focus();
+	} else {
+		$cailele_index_fid("usernamenew").className="gray";
+		changeInputClass($cailele_index_fid("usernamenew"),1,'用户名/手机号/邮箱');
+		changeInputClass($cailele_index_fid("passwordnew"),1,'000000');
+	}
+	//重置记住用户名
+	$cailele_index_fid("isSaveUserName").value = 1;
+	$cailele_index_fid("isSaveUserName").checked = true;
+	return;
+}
+function resetPassword(input) {
+	if(input == null)
+		return;
+	if(input.className == "gray")
+		return;
+	input.value = "";
+	var v = getUserNameCookie();
+	if(v != '' && v != null)
+		return;
+	input.className = "gray";
+}
+function loginDIVKeyDown(e) {
+    var oEvent = (window.event) ? window.event : e;
+    if (oEvent.keyCode == 13) {
+        checkLoginPanel();
+    }
+    return;
+}
+function changeImgSrc(img){
+	//if(!isIE567())
+	getImgSrc(img);
+
+   	try{
+   		var validateText = $cailele_index_fid("validatecodenew");
+   		validateText.value = "";
+   		validateText.focus();
+   	}catch(e){}
+   	return false;
+}
+function showValidateSpan(val){
+	var span = $cailele_index_fid("validatespan");
+    if (span != null && val == "1"){
+    	span.style.display = "block";
+    	getImgSrc();
+    }else{
+    	span.style.display = "none";
+    }
+    parent.window.changeLoginPanelBgSize();
+    return;
+}
+
+//更换图片
+function getImgSrc(img) {
+	var span = $cailele_index_fid("validatespan");
+    if (span == null || span.style.display == "none")
+    	return;
+    if (img == null)
+        img = $cailele_index_fid("validateImg");
+    img.src = "/interface/AuthCode?width=60&height=20&r=" + getDateStr();
+    return;
+}
+//转换单引号
+function replaceHTML(html) {
+    return html;
+    var str = "\\\"";
+    try {
+        var index = html.indexOf(str);
+        while (index > -1) {
+            html = html.replace("\\\"", "\\'");
+            index = html.indexOf(str);
+        }
+    } catch (e) { }
+    return html;
+}
+//ajax
+function xmlhttp() {
+    var obj;
+    this.requestBuf = null;
+    this.charset = 'gbk';
+    this.sendData = '';
+    this.regAxObject = function () {
+        if (obj) return true;
+        if (window.ActiveXObject) {
+            try {
+                obj = new ActiveXObject('MSXML2.XMLHTTP');
+            } catch (e) {
+                try {
+                    obj = new ActiveXObject('Microsoft.XMLHTTP');
+                } catch (e) {
+                    return false;
+                }
+            }
+        } else if (window.XMLHttpRequest) {
+            try {
+                obj = new XMLHttpRequest();
+            } catch (e) {
+                return false;
+            }
+        } else {
+            return false;
+        }
+        return true;
+    }
+
+    this.request = function () {
+        if (!this.regAxObject()) {
+            return false;
+        }
+        if (arguments[0]) {
+            this.url = arguments[0];
+        }
+        if (arguments[1] || arguments[1] == '') {
+            this.sendData = arguments[1];
+        }
+        try {
+            if (this.sendData != '') {
+                obj.open('post', this.url, false);
+                obj.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                obj.setRequestHeader('Content-Length', this.sendData.length);
+                obj.send(this.sendData);
+            } else {
+                obj.open('get', this.url, false);
+                obj.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                obj.setRequestHeader('Content-Type', 'text/html;charset=' + this.charset);
+                obj.send(null);
+            }
+        } catch (e) { }
+        if (obj.readyState == 4) {
+            if (obj.status == 404) {
+                return false;
+            }
+            if (obj.status == 200) {
+                this.requestBuf = obj.responseText;
+                return obj.responseText;
+            }
+        }
+    }
+}
+//时间戳
+function getDateStr() {
+    return new Date().getTime().toString(36);
+}
+//更新用户登录信息
+function load_CheckLogin() {
+	try{
+	    var result = new xmlhttp().request(ctx+"/member/loginCheck.php?tag=" + getDateStr());   
+	    if (result.indexOf("<!--ok-->") > -1) {                       
+	       	parent.window.document.getElementById("topLoginLeftDIV").innerHTML = result;
+	       	
+	       	checkResultStr(result);
+	       	try{window.parent.addTopLoginLeftDIVHTML();}catch(e){}
+	    }
+    }catch(e){}
+    return;
+}
+//是否弹出窗口
+function checkResultStr(result){
+	var index = result.indexOf('<script type="text/javascript"><\/script>');
+	if(index>-1){
+	   //parent.window.showValmontOpen();
+	}
+}
+//检查是否有登录
+function checkLogin(fn){
+	try{
+		var result = new xmlhttp().request(ctx+"/member/loginCheck.php?isCheckLogin=0&tag=" + getDateStr());
+	    if(result == "ok")
+	    {
+	    	if(fn && typeof(fn) == "function")
+	    		fn();
+	    }else{
+	    	parent.window.openLoginWindow(fn);
+	    }
+	}catch(e){}
+	return;
+}
+//关闭弹出窗口
+function closeValmontOpen(){
+    try{
+		parent.window.closeValmontOpen();
+	}catch(e){}
+}
+//退出
+function logout() {
+    if (confirm('您确定要退出登录吗？')) {
+        //隐藏活动
+        var result = new xmlhttp().request(ctx+"/member/logoutnew.php?tag=" + getDateStr());
+        var json = eval("(" + result + ")");
+        load_CheckLogin();
+        clearTopTips();
+        closeValmontOpen();
+        try{
+			setTimeout(function(){
+					bbsFn('exit',exitFn);
+				}, 500);
+		}catch(e){}
+    }
+    return;
+}
+//领工资
+function getSalary() {
+    if (confirm("每周一领取3元工资\r是否愿意用999个积分换取3元彩金?")) {
+        var result = new xmlhttp().request(ctx_jsonp+"/mycll/salary.php?tag=" + getDateStr());
+        var json = eval("(" + result + ")");
+        alert(json.message);
+    }
+}
+//是否显示验证码
+function checkShowValidateCode(){
+	var result = new xmlhttp().request(ctx_jsonp+"/member/loginnew.php?checkValidateCode=0&tag=" + getDateStr());
+	showValidateSpan(result);
+	return;
+}
+
+//获取指定名称的cookie的值
+function getCookie(objName){
+    var arrStr = document.cookie.split("; ");
+    for(var i = 0;i < arrStr.length;i ++){
+       var temp = arrStr[i].split("=");
+       if(temp[0] == objName) return decodeURIComponent(temp[1]);
+   }
+}
+
+//获取cookie中的用户名
+function getUserNameCookie() {
+	var userName = getCookie("user_name");
+	if(userName == null) {
+		return '';
+	}
+	return userName;
+}
+
+//选择是否记住用户名
+function selectSaveUserName(obj) {
+	if(!obj.checked) {
+		isSaveUserName.value = 0;
+	}
+}
+
+// 检查是否显示头部提示
+function checkTopTips() {
+	try{
+		var result = new xmlhttp().request(ctx_jsonp+"/checkTopTips.php?tag=" + getDateStr());
+		var json = eval("(" + result + ")");
+        
+		if (json.code == 0) {
+			parent.window.document.getElementById("topTips").innerHTML = '<p><i class="iconfont iwarn">&#xe640;</i>为了您的帐户安全，请<a href="http://www.cailele.com/uc/safeCenter.php">绑定手机或邮箱</a>，以便找回密码。<a href="javascript:void(0);" class="iconfont idelete" onclick="closeTips(\'topTips\')">&#xe60c;</a></p>';
+    	}
+	}catch(e){}
+}
+
+// 清除头部提示
+function clearTopTips() {
+	try{
+		parent.window.document.getElementById("topTips").innerHTML = '';
+	}catch(e){}
+}
+
+// 正则解析
+function parse(re, condition) {
+	re = condition.indexOf("b")>-1 ? "^"+re.source+"$" : re.source;
+	return new RegExp(re, condition.replace("b",""));
+}
+
+// 是否手机号码
+function isMobile(str) {
+	return parse(/1(?:3\d|4\d|5\d|7\d|8\d)-?\d{8}/, "b").test(str);
+}
+
+// 是否email
+function isEmail(str) {
+	return parse(/\w+(?:[\-\.]\w+)*@\w+(?:[\-\.]\w+)*\.(?:com|cn|net|org|cc|tv|hk|biz|info|com\.cn|net\.cn|org\.cn|gov\.cn)/, "bi").test(str);
+}
+
+var LOGIN_NORMAL = 0; // 普通登录
+var LOGIN_MOBILE = 1; // 手机登录
+var LOGIN_EMAIL = 2; // 邮箱登录
+var loginType = LOGIN_NORMAL; // 登录类型
+
+/**
+ * 检查手机和邮箱是否开通登录功能
+ */
+function checkMobileAndEmail(dom) {
+	var val = dom.value;
+	
+	if (val == "") {
+		$cailele_index_fid("errorHintSpan").style.display = "none";
+		return;
+	}
+	
+	if (isMobile(val)) {
+		loginType = LOGIN_MOBILE;
+	} else if (isEmail(val)) {
+		loginType = LOGIN_EMAIL;
+	} else {
+		loginType = LOGIN_NORMAL;
+	}
+    
+	var ret = new xmlhttp().request(ctx_jsonp+"/member/loginnew.php?action=checkMobileAndEmail&username=" + encodeURIComponent(encodeURIComponent(val)) + "&loginType=" + loginType);
+    
+	if (ret == '1') {
+    	showError("该手机暂未开通登录功能，请先在安全中心开通");
+    } else if (ret == '2') {
+    	showError("该邮箱暂未开通登录功能，请先在安全中心开通");
+    } else {
+    	$cailele_index_fid("errorHintSpan").style.display = "none";
+    }
+}
+</script>
+<div class="middle" onkeypress="loginDIVKeyDown(event);">
+      <span id="errorHintSpan" style="display:none;"><label class="error"></label></span>
+      <span><label>用户名：</label><input type="text" id="usernamenew" class="gray" maxlength="30" value="用户名/手机号/邮箱"
+          	onfocus="changeInputClass(this,0,'',true);" onblur="changeInputClass(this,1,'用户名/手机号/邮箱');" onchange="checkMobileAndEmail(this)" tabindex="1" autocomplete="off"/><a
+        	href="http://www.cailele.com/member/register.php" target="_blank" class="null" title="免费注册">免费注册</a></span>
+      <span><label>密&nbsp;&nbsp;码：</label><input type="password" id="passwordnew" class="gray" maxlength="30" autocomplete="off"
+        	value="000000" onfocus="changeInputClass(this,0);" onblur="changeInputClass(this,1,'000000');" tabindex="2"/><a
+         	href="http://www.cailele.com/jsp/uc/passwordFind/forgetPwd.shtml" target="_blank" class="null" title="忘记密码">忘记密码</a></span>
+      <span id="validatespan" style="display:none;"><label>验证码：</label><input type="text" id="validatecodenew" class="gray" maxlength="4" autocomplete="off" 
+      		style="width: 55px;" onfocus="changeInputClass(this,0,'');" onblur="changeInputClass(this,1);" tabindex="3"/><img
+         	id="validateImg" height="28" width="70" src="http://img.cailele.com/img_new/validatecode.gif" onclick="changeImgSrc(this);"/><a 
+      		href="javascript:void(0);" class="refresh" title="看不清,换一张" onclick="changeImgSrc(null);return false;" tabindex="4">看不清,换一张</a></span>
+      <span style="padding:2px 0;"><label>&nbsp;</label><input type="checkbox" id="isSaveUserName" tabindex="4" value="1" checked onclick="selectSaveUserName(this)" style="width:auto;border:none;background:none;"/><label for="isSaveUserName" style="text-align:left;padding-left:3px;width:auto;">记住用户名</label></span>
+      <span><label><font class="clear" onclick="resetlogin();" title="清空重置"></font></label><a 
+         	href="javascript:void(0);" class="login" title="登录" onclick="checkLoginPanel();" tabindex="5">登&nbsp;录</a> 或用以下网站帐号登录</span>
+      <span class="mar_left"><!--<label style="width:25px;"></label>-->
+            <a href="http://www.cailele.com/member/loginZFB.php?action=login" target="_blank" class="icon" title="支付宝帐号登录" tabindex="6" onfocus="this.blur();"><i class="zfb"></i></a>
+            <a href="http://www.cailele.com/member/loginCFT.php?action=login" target="_blank"  class="icon" title="财付通登录" tabindex="7"><i class="cft"></i></a>
+            <a href="http://www.cailele.com/member/loginQQ.php?action=login" target="_blank"  class="icon" title="QQ帐号登录" tabindex="8"><i class="qq"></i></a>
+            <a href="http://www.cailele.com/member/loginTianYa.php?action=login" target="_blank" class="icon" title="天涯帐号登录" tabindex="9"><i class="ty"></i></a>
+            <a href="http://www.cailele.com/member/loginBaidu.php?action=login" target="_blank"  class="icon" title="百度帐号登录" tabindex="10"><i class="bd"></i></a>
+            <a href="http://www.cailele.com/member/loginE189.php?action=login" target="_blank"  class="icon" title="天翼帐号登录" tabindex="11"><i class="tyy"></i></a>
+	</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,329 @@
+@charset "utf-8";
+/*说明：
+* 此样式表是所有数字彩彩种都引用的样式文件
+*/
+
+/*--------------------------------------------------------以下部分是网站 v1版本样式----------------------------------------------*/
+.centerDIV { width: 100%; border: 0px solid; clear:both; }
+.centerDIV .contentTable,
+.centerDIV .contentDIV,
+.centerDIV .contentDIV_t { margin:0px auto; width: 1000px; text-align: left; border: 0px solid; clear:both; }
+
+/*加载层*/
+#loadHintDIV { width:1000px; border:3px solid #1b8fe8; display: inline-block; text-align:center; padding:10px 0px 10px 0px; color:#5f9ade; position:absolute; width:200px; background-color:#ffffff; z-index:4; margin-top:10px; margin-left:397px; }
+#loadHintDIV img { vertical-align: middle; margin-right:5px; }
+#loadHintBgDIV { margin:0px auto; position:absolute; width:1000px; background-color: #666666; opacity: 0.1;  filter: alpha(opacity:10);
+-moz-opacity: 0.1; height:100px; z-index:3; }
+
+/*标题部分*/
+.centerDIV .contentDIV_t { background: url('http://img.cailele.com/img_new/common/common_bg.gif') no-repeat; background-position: left top; margin-top: 10px; border-bottom: 3px solid #f28b22; }
+.centerDIV .contentTable { width:1000px; height: 120px; }
+.centerDIV .contentTable .tdLogo { width:95px; border:0px solid; }
+.centerDIV .contentTable .title { height: 65px; width: 265px; border: 0px solid; vertical-align: middle; }
+.centerDIV .contentTable .title b { font-size: 18px; font-weight: bold; color: #ca6100; margin-right: 10px; font-family: "Microsoft YaHei"; }
+.centerDIV .contentTable .title span { font-size: 12px; border:0px solid; display:block; }
+.centerDIV .contentTable .title span font { display:inline-block; font-weight: bold; color: #ff0000; font-size: 14px; margin: 0px 1px 0px 1px; font-family: Verdana; }
+.centerDIV .contentTable .tdHint { height: 27px; vertical-align: top; border:0px solid; }
+.centerDIV .contentTable .tdHint div { border:0px solid; text-align:center; background-color:#ffffff; padding:0px; width:200px; display:inline-block; height:20px; line-height:20px; background: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat; background-position: left -180px; color:#a34902; font-family: Verdana; }
+.centerDIV .contentTable .tdHint b { color: #ff0000; margin: 0px 3px 0px 3px; }
+.centerDIV .contentTable .tdR { text-align: right; width: 170px; border: 0px solid; }
+.centerDIV .contentTable .tdR select { margin-right: 10px; }
+.centerDIV .contentTable .tdR a { color: #000000; display: inline-block; margin: 0px 5px 0px 5px; text-decoration:none; }
+.centerDIV .contentTable .tdR a:hover { text-decoration:underline; color: #ff0000; }
+.centerDIV .contentTable .tdSWF { border: 0px solid; width: 470px; vertical-align: middle; }
+.centerDIV .contentTable .btnTD { height: 28px; line-height: 28px; font-size: 0px; white-space: nowrap; border: 0px solid; }
+.centerDIV .contentTable .btnTD a { vertical-align: top; height: 28px; font-size: 0px; white-space: nowrap; display: inline-block; margin: 0px 8px 0px 0px; }
+.centerDIV .contentTable .btnTD a font { height: 28px; font-size: 14px; line-height: 28px; background-image: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif'); background-repeat: no-repeat; display: inline-block; vertical-align: top; cursor: pointer; }
+.centerDIV .contentTable .btnTD a font.l { background-position: left top; width: 5px; }
+.centerDIV .contentTable .btnTD a font.m { background-position: center top; padding: 0px 5px 0px 5px; font-weight: bold; color: #ca6100; }
+.centerDIV .contentTable .btnTD a font.r { background-position: right top; width: 5px; }
+.centerDIV .contentTable .btnTD a.current font { color: #ffffff; cursor: default; }
+.centerDIV .contentTable .btnTD a.current font.l { background-position: left -35px; }
+.centerDIV .contentTable .btnTD a.current font.m { background-position: center -35px; }
+.centerDIV .contentTable .btnTD a.current font.r { background-position: right -35px; }
+span#dateTime { width: 120px; text-align: center; color: #43d044; height: 20px; line-height: 20px; font-family: arial; background-image: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif'); background-repeat: no-repeat; background-position: left -155px; display: inline-block; margin-right: 10px; margin-top:10px; }
+
+/*左侧*/
+.centerDIV .contentDIV .left { float: left; width: 732px; border: 0px solid; background-color:#ffffff; margin:0px; display:inline-block; }
+
+/*玩法选择*/
+.playChoiceDIV { border-left: 1px solid #ffb64b; border-right: 1px solid #ffb64b; background-image: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif'); background-repeat: repeat-x; background-position: left -69px; height: 41px; display: inline-block; width:730px; }
+.playChoiceDIV ul { display: inline-block; list-style: none; margin-left: 10px; }
+.playChoiceDIV ul li { float: left; border: 0px solid; margin-top: 11px; height: 30px; line-height: 30px; color: #ca6100; width: 65px; font-weight: bold; text-align: center; cursor: pointer; }
+.playChoiceDIV ul li.offlong { width: 80px; }
+.playChoiceDIV ul li img.float { position:absolute; margin-top:-9px; _margin-top:-15px; margin-left:15px; vertical-align:top; }
+.playChoiceDIV ul li.on,
+.playChoiceDIV ul li.onlong { cursor: default; background-image: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif'); background-repeat: no-repeat; font-weight: bold; text-align: center; color: #db0101; }
+.playChoiceDIV ul li.on { background-position: left -115px; width: 65px; }
+.playChoiceDIV ul li.onlong { background-position: -120px -440px; width: 80px; }
+.playChoiceDIV ul li.on:hover { color: #db0101; }
+.playChoiceDIV ul li:hover { color: #ff0000; }
+.playChoiceDIV ul li.btnList { text-align:right; }
+.playChoiceDIV ul li.btnList a.btn { background:url("http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif") no-repeat left -370px; color:#ffffff; display:inline-block; height:22px; line-height:20px; width:84px; text-align:center; cursor:pointer; font-weight: normal; }
+
+/*右侧*/
+.centerDIV .contentDIV .right { float: left; overflow:hidden;width: 260px; border: 0px solid; display:inline-block; margin-left:8px; }
+.right .rightPanel { border: 0px solid; margin-top: 10px; }
+.right .rightPanel .title { background-image: url('http://img.cailele.com/img_new/common/common_bg.gif'); background-position: right -120px; padding: 0px 6px 0 12px; height: 31px; line-height: 31px; width: 242px; color: #333333; font-size: 14px; font-weight: bold; }
+.right .rightPanel .title a.float { float: right; font-size: 12px; color: #222222; font-weight: normal; text-decoration:none; }
+.right .rightPanel .title a.float:hover { text-decoration:underline; }
+.right .rightPanel .title a.float img { position: absolute; margin-top: -10px; }
+.right .rightPanel .title .shouqi,
+.right .rightPanel .title .zhankai { float: right; display:inline-block; width:18px; height:10px; line-height:10px; font-size:0px; overflow:hidden; background:url("http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif") no-repeat; cursor:pointer; margin-top:10px; text-align:center; color:#a2a2a2; }
+.right .rightPanel .title .shouqi { background-position:-150px -205px; }
+.right .rightPanel .title .zhankai { background-position:-180px -205px; }
+
+/*右侧面板*/
+.right .rightPanel .panelBorderDIV { border-left: 1px solid #d6d6d6; border-right: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; width: 258px; }
+.right .rightPanel .panelBorderDIV .tubiao { text-align:center; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_d { background:url("http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif") left -635px repeat-x; height:31px; display:inline-block; width:258px; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_d li { float:left; width:64px; margin-top:4px; height:23px; padding-top:4px; text-align:center; cursor:pointer; color:#000000; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_d li.don { background:url("http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif") -136px -525px no-repeat; cursor:default; padding-top:5px; height:22px; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_d li a { color:#000000; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_d li a:hover { text-decoration: underline; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_x { width:248px; height:25px; border:0px solid; margin-top:5px; margin-right:5px; margin-left:5px; margin-bottom:3px; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_x li { width:40px; float:left; background:url("http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif") left -675px repeat-x; padding-top:4px; lien-height:14px; height:21px; border-right:1px solid #ffffff; cursor:pointer; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_x li.xon { background-position:-159px -565px; background-repeat:no-repeat; color:#ffffff; padding-top:3px; height:22px; cursor:default; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_x li.li { width:118px; text-align:right; padding-right:6px; cursor:default; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_x li.li a,
+.right .rightPanel .panelBorderDIV .tubiao ul.tlx2 li.rightli a { color:#000000; }
+.right .rightPanel .panelBorderDIV .tubiao ul.select_x li.li a:hover,
+.right .rightPanel .panelBorderDIV .tubiao ul.tlx2 li.rightli a:hover { text-decoration: underline; }
+.right .rightPanel .panelBorderDIV .tubiao ul.tlx2 { width:248px; margin:5px 5px 0px 5px; height:20px; line-height:20px; border:0px solid; }
+.right .rightPanel .panelBorderDIV .tubiao ul.tlx2 li { width:120px; border-right:1px solid #ffffff; background-color:#f29417; border-bottom:1px solid #ececec; float:left; color:#ffffff; text-align:center; }
+.right .rightPanel .panelBorderDIV .tubiao ul.tlx2 li.rightli { background-color:#ececec; border-bottom:1px solid #f7f7f7; text-align:right; padding-right:6px; }
+.right .rightPanel .panelBorderDIV .sx_x { width:248px; margin:0px 5px 5px 5px; background-color:#f8f8f8; padding-top:5px; }
+.right .rightPanel .panelBorderDIV .sx_x a { display:inline-block; width:82px; text-align:center; margin-bottom:3px; color:#333333; }
+.right .rightPanel .panelBorderDIV .sx_x a:hover { color:#000000; text-decoration: underline; }
+
+/*右侧表格面板*/
+.right .rightPanel .panelBorder,
+.right .rightPanel .panelBorder_two { border-left: 1px solid #d6d6d6; border-right: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; width: 260px; }
+.right .rightPanel .panelBorder th,
+.right .rightPanel .panelBorder_two th { height: 25px; line-height: 25px; text-align: center; background-color: #fafafa; border-bottom: 1px solid #e4e4e4; font-weight: normal; }
+.right .rightPanel .panelBorder td,
+.right .rightPanel .panelBorder_two td { height: 25px; line-height: 25px; text-align: center; border-bottom: 1px solid #efefef; }
+.right .rightPanel .panelBorder .td-title { background-color: #f9f9f9; border-bottom-color: #e4e4e4; }
+.right .rightPanel .panelBorder tr.null td,
+.right .rightPanel .panelBorder tr .null,
+.right .rightPanel .panelBorder_two tr.null td,
+.right .rightPanel .panelBorder_two tr .null { border-bottom: 0px solid; }
+.panelBorder .hot { color: #ff1d38; }
+.panelBorder .cool { color: #2a619a; }
+.right .rightPanel .panelBorder_two tr.title td { text-align:left; background:url("http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif") left -635px repeat-x; height:30px; padding-left:10px; border-top:0px; border-bottom:0px; }
+.right .rightPanel .panelBorder_two tr.h td { color:#FF1D38; }
+.right .rightPanel .panelBorder_two tr.c td { color:#2A619A; }
+.right .rightPanel .panelBorder_two tr.title-t td { background-color:#fcfcfc; text-align:center; border-right:1px solid #efefef; }
+.right .rightPanel .panelBorder_two tr.hot td,
+.right .rightPanel .panelBorder_two tr.cool td { border-right:1px solid #efefef; }
+.right .rightPanel .panelBorder_two tr.hot td { color:#FF1D38; }
+.right .rightPanel .panelBorder_two tr.cool td { color:#2A619A; }
+.right .rightPanel .panelBorder_two tr.t .t { background-color:#fdfdfd; text-align:center; color:#000000; }
+
+.rank_ico{display:inline-block;width:15px;height:13px;background:url(http://img.cailele.com/img_new/common/rank_num_sprite.png) no-repeat;}
+#rankIco1{background-position:0 0;}
+#rankIco2{background-position:0 -13px;}
+#rankIco3{background-position:0 -26px;}
+#rankIco4{background-position:0 -39px;}
+#rankIco5{background-position:0 -52px;}
+#rankIco6{background-position:0 -65px;}
+#rankIco7{background-position:0 -78px;}
+#rankIco8{background-position:0 -91px;}
+#rankIco9{background-position:0 -104px;}
+#rankIco10{background-position:0 -117px;}
+
+/*----------切换按钮样式----------*/
+/*切换区域清除浮动*/
+.tag_list:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.tag_list{display:inline-block;}
+html[xmlns] .tag_list{display:block;}
+* html .tag_list {height:1%;}
+
+.tag_commond{}
+.tag_commond .tag_list{}
+.tag_commond .tag_list li{float:left;}
+
+.t_style_gray{}
+.t_style_gray .tag_list{}
+.t_style_gray .tag_list li{background:#f4f4f4;border-right:#e4e4e4 1px solid;border-bottom:#e4e4e4 1px solid;text-align:center;cursor:pointer;}
+.t_style_gray .tag_list li.current{border-bottom:#FCFCFC 1px solid;background:#FCFCFC;text-align:center;font-weight:bold;}
+
+/*中奖排行*/
+.right .rightPanel .selectDIV { border-left: 1px solid #e4e4e4; border-right: 1px solid #e4e4e4; width: 258px; overflow: hidden; display: inline-block; height: 26px; }
+.right .rightPanel .selectDIV ul { width: 260px; }
+.right .rightPanel .selectDIV ul li { float: left; width: 64px; text-align: center; height: 25px; line-height: 25px; border-right: 1px solid #e4e4e4; background-color: #f4f4f4; border-bottom: 1px solid #e4e4e4; cursor: porinter; }
+.right .rightPanel .selectDIV ul li.current { background-color: #fcfcfc; border-bottom: 1px solid #fcfcfc; font-weight: bold; }
+.right .rightPanel .newListDIV { border-left: 1px solid #e4e4e4; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; width: 240px; padding: 9px; }
+.right .rightPanel .newListDIV ul { width: 240px; overflow: hidden; }
+.right .rightPanel .newListDIV ul li { margin: 4px 0px 4px 0px; line-height: 20px; height: 20px; list-style: none; margin-left: 0px; padding-left: 15px; border-bottom: 0px #EDEDED dotted; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; vertical-align: middle; overflow: hidden; background: url(http://img.cailele.com/img/lottery/dotted.gif) no-repeat 0px 5px; }
+.right .rightPanel .newListDIV ul li a { color: #666666; margin-left: 4px; text-decoration:none; }
+.right .rightPanel .newListDIV ul li a:hover { text-decoration: underline; color: #ff0000; }
+.right .rightPanel .newListDIV ul li { padding-left:10px; background:url(http://img.cailele.com/img/lottery/dotted.gif) no-repeat 0px 3px; }
+.right .rightPanel .newListDIV ul li .dat { float:right; color:#999; }
+
+/*右侧表格列表*/
+.right .rightPanel .tableListPanel { width:260px; }
+.right .rightPanel .tableListPanel .tableListTab { width: 260px; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; }
+.right .rightPanel .tableListPanel .tableListTab td { text-align: center; height: 25px; line-height: 25px; border-right: 1px solid #e4e4e4; background-color: #f4f4f4; border-bottom: 1px solid #e4e4e4; cursor: porinter; }
+.right .rightPanel .tableListPanel .tableListTab .current { background-color: #fcfcfc; border-bottom: 1px solid #fcfcfc; font-weight: bold; cursor:default; }
+.left .itemListDIV { width: 730px; border-left: 1px solid #ffb64b; border-right: 1px solid #ffb64b; border-bottom: 1px solid #ffb64b; display: inline-block; padding-bottom:10px; }
+.left .itemListDIV .item { background: url('http://img.cailele.com/img_new/common/arrow_p.png') no-repeat center bottom; padding: 10px 0px 40px 0px; display: inline-block; border: 0px solid; }
+.left .itemListDIV .null { background-image: none; padding-bottom: 0px; }
+.left .itemListDIV .item .title { position: absolute; color: #787878; width: 100px; padding: 10px 0px 0px 0px; text-align: center; font-size: 12px; border: 0px solid; line-height:16px; }
+.left .itemListDIV .item .title h3 { line-height:16px; color:#333333; }
+.left .itemListDIV .item .main { padding: 0px 10px 0px 100px; width: 618px; display: inline-block; line-height: 25px; font-size: 12px; border: 0px solid; }
+.left .itemListDIV .null .title { padding-top: 0px; line-height: 25px; }
+.left .item .main ul { display: inline-block; }
+.left .item .main ul li { float: left; }
+.left .item .main ul li.radio,
+.left .item .main .radio { height:14px; line-height:14px; border:0px solid; padding:0px; margin-bottom:5px; margin-top:5px; color:#000000; font-weight:normal; }
+.left .item .main .radio { display:inline-block; border:0px solid; }
+.left .item .main ul li.radio font.font { border:0px solid; line-height:14px; vertical-align:middle; font-weight:bold; color:#F00; }
+.left .item .main label { margin-right: 8px; /*border: 0px solid; padding: 0px; cursor: default; display:inline-block; height:14px; line-height:14px; border:0px solid; */}
+.left .item .main label font { height:14px; display:inline-block; border:0px solid; vertical-align: middle;font-size:12px;}
+.left .item .main label input { margin-right: 3px; margin-top:0px; }
+.left .item .main label input.radio { width:14px; height:14px; vertical-align: middle; }
+.left .item .main label img.float { position: absolute; margin-left:-20px; margin-top:-15px; }
+.left .item .main a.red { color: #ff6666; text-decoration: underline; }
+.left .item .bntbuy { position: absolute; border: 0px solid; margin-left: 500px; }
+.left .item .ul { border: 0px solid; display: inline-block; width:618px; }
+.left .item .main .col999 { color: #999999; display: block; width: 618px; border:0px solid; *+margin-top:10px;}
+.left .item .main p.addwardhintP { width:570px; padding:3px; border:1px solid #f60; background:#fc9; }
+.left .item .main label.addwardhintLabel { width:570px; padding:3px; border:1px solid #f60; background:#fc9; display:block; color:#333; }
+
+/*遗漏号码*/
+.missbox { background: #fff6d7; border: 1px solid #fbc080; padding: 5px; float: left; width: 560px; margin-bottom: 20px; }
+.missbox ul { display: block; margin: 0px 0px 5px 0px; padding: 0; }
+.missbox ul li { float: left; padding: 0px 5px 0px 5px; text-align: center; line-height: 16px; }
+.missbox ul li b { display: block; padding: 5px 0; }
+.missbox ul li a { background: #ffda78; border: 1px solid #ffb239; color: #6B8FA3; display: block; padding: 5px; }
+.missbox ul li span { display: block; line-height: 20px; }
+.missbox p { border-top: 1px solid #ffc66c; color: #666; line-height: 18px; padding: 5px 0 0 5px; clear: both; }
+.left .item .main .numyl { margin-top: 5px; }
+.left .item .main .yl1 { width: 27px; margin: 1px 2px; float: left; font-family: Arial; display: block; text-align: center; color: #999; }
+.left .item .main .li00 { float: left; width: 57px; text-align: center; margin: 0px 4px 0px 2px; padding-top: 7px; color: #999; }
+.left .item .main .li1 { float: left; /*background: url(http://img.cailele.com/img/images/bgli01.gif) no-repeat center center;*/
+    background:url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat right -155px; width: 53px; height:19px; line-height:19px; text-align: center; margin: 3px 4px 0px 2px; padding-top: 0px; padding-right:4px; color: #ffffff; line-height: 21px; }
+.left .item .main .li2,
+.left .item .main .blue-off { float: left; width: 27px; height: 27px; margin: 1px 2px; text-align: center; /*border: 1px #FBD3B3 solid;*/
+    border: 0px solid #ff0000; background:url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat -139px -115px; font-family: Verdana; font-weight: bold; color: #787878; font-size: 14px; line-height: 24px; display: block; cursor: pointer; }
+.left .item .main .li3 { float: left; width: 20px; height: 20px; margin: 3px 2px 2px 6px; text-align: center; border: 0px #DBDBDB solid; background-image:url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif'); background-position:0px -205px; background-repeat:no-repeat; line-height: 20px; display: block; cursor: pointer; color:#686868; }
+.left .item .main .li3:hover { background-position:-30px -205px; color:#1470b6; }
+.left .item .main .so01 { float: left; width: 27px; height: 27px; margin: 1px 2px; text-align: center; /*border: 1px #FBD3B3 solid;background: #f90;*/
+    border: 0px solid #ff0000; background:url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat -173px -490px; font-family: Verdana; font-weight: bold; color: #fff; font-size: 14px; line-height: 24px; display: block; cursor: not-allowed; }
+.left .item .main .so02 { float: left; width: 27px; height: 27px; margin: 1px 2px; text-align: center; border: 1px #FBD3B3 solid; border: 0px solid #ff0000; background:url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat -139px -490px; font-family: Verdana; font-weight: bold; color: #787878; font-size: 14px; line-height: 24px; display: block; cursor: not-allowed; }
+.left .item .main .lion { float: left; width: 27px; height: 27px; margin: 1px 2px; text-align: center; /*border: 1px #FBD3B3 solid;background: #f90;*/
+    border: 0px solid #ff0000; background:url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat -173px -115px; font-family: Verdana; font-weight: bold; color: #fff; font-size: 14px; line-height: 24px; display: block; cursor: pointer; }
+.left .item .main .blue-on { float: left; width: 24px; height: 24px; margin: 1px 2px; text-align: center; border: 1px #b3dafb solid; font-family: Verdana; font-weight: bold; color: #fff; font-size: 14px; line-height: 24px; display: block; cursor: pointer; background: #118afa; }
+.left .item .main .addToListBtn { width: 173px; height:30px; margin-right: 21px; float: left; background: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat left -230px; }
+.left .item .main .addToListBtn a { width: 173px; height:26px; display:inline-block; vertical-align:top; }
+.left .item .main .filtrateNumberBtn { float: left; padding: 0px; width: 102px; height:30px; background: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat left -265px; }
+.left .item .main .filtrateNumberBtn a { width: 102px; height:26px; display:inline-block; vertical-align:top; }
+.left .item .main .filtrateNumberBtn img.floatnew { position: absolute; margin-top:-8px; margin-left:30px; }
+.left .item .main .clearNumberAreaBtn { float: left; padding: 0px; width: 102px; height:30px; background: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat left -335px; }
+.left .item .main .clearNumberAreaBtn a { width: 102px; height:26px; display:inline-block; }
+.left .item .main li.btnli { float: left; padding:5px; }
+.left .item .main .widthOrangeBtn,
+.left .item .main .widthBlueBtn { display:inline-block; height:28px; background-image: url('http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif'); background-repeat: no-repeat; padding:0px 0px 0px 17px; line-height:28px; text-align:center; width:80px; }
+.left .item .main .widthOrangeBtn:hover,
+.left .item .main .widthBlueBtn:hover { text-decoration: none; }
+.left .item .main .widthOrangeBtn { background-position:left -300px; }
+.left .item .main .widthOrangeBtn:hover { color:#ba4b04; }
+.left .item .main .widthBlueBtn { background-position:right -300px; }
+.left .item .main .widthBlueBtn:hover { color:#014a98; }
+.left .item .main span { color: #f30; font-weight: bold; }
+.left .item .main span label { color:#000000; font-weight: normal; }
+.left .item .main .floatl4 { float: left; text-align: center; width: 230px; }
+.left .item .main a.li5 { text-decoration: none; background: url(http://img.cailele.com/img/images/bgli04.gif) no-repeat left center; padding: 5px 0px 0px 29px; padding: 8px 0px 0px 29px\9; height: 28px; display: block; line-height: 170%; }
+.left .item .main a.li0 { color: #f66; text-decoration: underline; }
+.left .item .main a { color: #333; text-decoration: none; }
+.left .item .main a:hover { color: #ff3300; text-decoration: underline; }
+.left .item .main .bntbuy { float: right; width: 245px; }
+.left .item .main td { padding: 3px; }
+.left .item .main .inp2 { width: 35px; font-family: Arial,; font-size: 14px; font-weight: bold; color: #FF0000; text-align:center; }
+.left .item .main .peopleInput { line-height:18px; vertical-align: top; }
+.left .item .main .peopleInput b { color:#ff0000; }
+/*追号*/
+.left .item .main .zhuDIV { width: 500px; margin: 10px 0px 10px 0px; background: #f7f7f7; border: 1px #f1f1f1 solid; padding: 20px; line-height: 16px; display: none; }
+.left .item .main .zhuDIV div p { width: 200px; border: 1px solid #f1f1f1; background: #fff; margin-top: -5px; padding-top: 5px; height: 17px; overflow: hidden; text-align: center; float: right; }
+.left .item .main .zhuDIV div label { margin-right: 3px; }
+#chaseTermSubShow { background: #fff; border: 1px solid #e0e2e1; padding: 10px 10px 10px 10px; height: 120px; overflow-y: scroll; }
+#hmSelect { width: 540px; margin: 10px auto 10px auto; background: #f7f7f7; border: 1px #f1f1f1 solid; display: none; }
+#hmSelect td{padding: 3px;}
+
+#inteChaseSelect { display: none; margin: 10px 0px 10px 0px; }
+#inteChaseSelect .line-title { clear: both; background: #ffe7c5; padding: 5px 0px 5px 0px; text-align: center; color:#ca6100; border-top: 1px #ffc775 solid; border-bottom: 1px #ffc775 solid; }
+#inteChaseSelect .line-title .red { color:#ff3300; }
+#inteChaseSelect .line-title a { color:#ff0000; }
+#inteChaseSelect .line-title a:hover { text-decoration: underline; }
+#inteTab { width: 570px; height: 238px; overflow-y: scroll; }
+.left .item .main .clearNumberAreaBtn { float: left; padding: 0px; width: 102px; height:30px; background: url(' http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif') no-repeat left -335px; }
+.left .item .main .clearNumberAreaBtn a { width: 102px; height:26px; display:inline-block; }
+.item .main ul.ul li.floatleft { width:450px; height:120px; border:0px solid; }
+
+/*--------------------------------------------------------以下部分是网站 v2版本样式----------------------------------------------*/
+
+/*----------橙色结果框----------*/
+.rnd_module{margin:10px 0;}
+.rnd_module .hd_out{background:url(http://img.cailele.com/img_new/lottery/commond/rnd_hd_bg.png) no-repeat;}
+.rnd_module .hd_in{height:30px;background:url(http://img.cailele.com/img_new/lottery/commond/rnd_hd_bg.png) no-repeat right -30px;}
+.rnd_module .bd_out{border-left:#eed9af 1px solid;border-right:#eed9af 1px solid;background:#fffaef;}
+.rnd_module .bd_in{overflow:hidden;position:relative;}
+.rnd_module .ft_out{background:url(http://img.cailele.com/img_new/lottery/commond/rnd_ft_bg.png) no-repeat;}
+.rnd_module .ft_in{height:6px;line-height:6px;background:url(http://img.cailele.com/img_new/lottery/commond/rnd_ft_bg.png) no-repeat right -6px;font-size:0;}
+
+.rnd_module .hd_in .tit{width:100%;height:30px;line-height:30px;background:url(http://img.cailele.com/img_new/lottery/commond/rnd_tit_bg.png) no-repeat center center;text-align:center;color:#ba6101;font-size:14px; text-shadow:1px 1px 0 #ffffff;}
+.rnd_module .hd_in .tit em{color:#b32739;}
+.rnd_module .hd_in .tit2{background:url(http://img.cailele.com/img_new/lottery/commond/rnd_tit2_bg.png) no-repeat;}
+.rnd_module .hd_in .tit2_in{height:30px;line-height:30px;background:url(http://img.cailele.com/img_new/lottery/commond/rnd_tit2_bg.png) no-repeat right -30px;}
+
+/*进度条*/
+.pro .proDIV{border:1px solid #ff9900;background-color: #ffffff;height: 25px;line-height: 25px;margin: 0px 10px;}
+.pro .proDIV .proBg{background-color: #ff5500; height: 25px;line-height: 25px;}
+.pro .bd_out{padding: 10px 10px 5px;}
+.pro .proText{text-align: center;color: #000000;margin-top: 5px;}
+
+/*随机结果*/
+
+.lottery_ball_area{margin:0 auto;}
+.q_ball_list {width:100%;margin:10px 0 0 0;text-align:center;}
+.q_ball_list li {display:inline-block;*display:inline;*zoom:1;width:36px; height:38px;line-height:30px;margin:0 3px 0 0; background:url(http://img.cailele.com/img_new/index/quick_lottery.png) no-repeat;text-align:center;color:#FFF;font-weight:bold; font-family:Arial, Helvetica, sans-serif;font-size:16px;}
+.left .item .main .q_ball_list li{float:none;*display:inline;zoom:1;}
+.q_ball_list li.ball_red { background-position:0 -60px; }
+.q_ball_list li.ball_blue { background-position:-36px -60px; }
+
+.q_ball_list .num_input {display:block;width:36px;height:21px;margin:7px auto 0 auto;line-height:21px;border:0px #FFF solid; background:none; text-align:center; font-size:14px; font-weight:bold;*text-indent:2px;}
+
+/*换一换按钮*/
+.change_btn_area{width:100%;margin:10px 0;text-align:center;}
+.com_btn_orange{display:inline-block;background:url(http://img.cailele.com/img_new/lottery/commond/com_btn_orange.png) no-repeat;}
+.com_btn_orange i{display:inline-block;height:30px;line-height:30px;padding:0 15px;background:url(http://img.cailele.com/img_new/lottery/commond/com_btn_orange.png) no-repeat right -30px;font-style:normal;text-align:center;font-size:14px;color:#9d4b00;text-shadow:1px 1px 0 #ffffff;}
+
+
+.step_area{width:730px;border:#FFB64B 1px solid;border-top:none;}
+.step_area .step_box{}
+
+.lo_mainer{border-bottom:none;}
+.lot_record{margin-bottom:0 !important;}
+.lot_record .bd .def_style_dtb{border:none;}
+.lot_record .hd .hd_in{border-left:none !important;border-right:none !important;border-bottom:#dcdbe0 1px solid !important;}
+
+/*-----奖金预测样式------*/
+.calculated{ width:560px;}
+.calculated .circle{ padding:10px;}
+.calculated .circle .double{ font-family:Microsoft Yahei,Simsun;}
+.calculated .circle .parsing{ margin-top:5px;}
+.calculated .circle .parsing .clldatalist th, .calculated .circle .parsing .clldatalist td{font-family:Microsoft Yahei,Simsun, Arial, Helvetica; border:1px solid #dddcdc;}
+.calculated .circle .parsing .clldatalist .budget{ color:#f00;}
+
+.double .example .cllbasetab{ border:1px solid #dddcdc;}
+.double .example .cllbasetab .head ul{border-bottom:1px solid #dddcdc;}
+.double .example .cllbasetab .head ul li a, .double .example .cllbasetab .head ul li a:visited{ width:90px; font-weight:bold;}
+.double .example .cllbasetab .head ul li.current a, .double .example .cllbasetab .head ul li.current a:visited{ width:90px; border-left:1px solid #dddcdc; border-right:1px solid #dddcdc; font-weight:bold; color:#F00;}
+.double .example .body .adjust{ padding:0 15px;}
+.double .example .body .adjust li{ margin:15px 0; color:#666;}
+.double .example .body .adjust li .scheme{ color:#F00; font-weight:bold;}
+.double .example .body .adjust li .confirm{ text-align:center;}
+.bankcard_list { background-color:#fff; border:1px solid #d6e2eb; color:#333; font:14px "Microsoft YaHei"; width:43px; height:25px; line-height:25px; outline:medium none; text-decoration:none; vertical-align: middle; overflow:hidden;}
+.double .example .body .adjust li .adding{ margin-right:15px;}
+.double .example .body .adjust li .adding input{}

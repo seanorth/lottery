@@ -1,0 +1,1547 @@
+@font-face {
+	font-family: digital;
+	font-weight: normal;
+	font-style: normal;
+}
+.menus {
+	width: 1000px; margin-top: -41px; margin-left: 0px;
+}
+.navi {
+	background: url("../images/games/head-bg.png") no-repeat top; width: 1000px; height: 100px; margin-top: 5px;
+}
+.nav_logo {
+	background: url("../images/games/games.png") no-repeat 0px 0px; width: 108px; height: 80px; margin-top: 11px; float: left;
+}
+.nav_box {
+	background: url("../images/games/text.png") no-repeat 0px 0px; width: 297px; height: 63px; text-align: right; line-height: 34px; margin-top: 24px; float: left;
+}
+.nav_box h3 {
+	display: none;
+}
+.navi .sale-time {
+	padding-left: 180px; margin-top: 17px; float: left;
+}
+.sale-time strong {
+	color: rgb(61, 60, 60); float: left;
+}
+.gameperiod span {
+	margin: 0px 5px; color: rgb(237, 6, 6); font-weight: 700;
+}
+.nav_box em {
+	background: url("../images/games/ssq_btns.png") no-repeat -343px -122px; padding: 0px 10px; width: 51px; height: 20px; color: rgb(255, 255, 255); line-height: 20px; display: none;
+}
+.nav_time {
+	text-align: right; padding-left: 30px; float: left; display: none;
+}
+.nav-bottom {
+	left: 262px; top: 40px; width: 991px; height: 42px;
+}
+.nav_menu_a {
+	height: 35px; margin-top: 13px; float: left;
+}
+.nav_menu_a a {
+	background: url("../images/games/nav_bg1.png") no-repeat -103px 0px; width: 93px; height: 32px; text-align: center; color: rgb(255, 0, 0); line-height: 32px; letter-spacing: 1px; font-size: 15px; font-weight: 700; margin-right: 5px; float: left; display: inline-block;
+}
+.nav_menu_a a.on {
+	background-position: 0px 0px; color: rgb(255, 255, 255); text-decoration: none;
+}
+.nav_menu_a a:hover {
+	background-position: 0px 0px; color: rgb(255, 255, 255); text-decoration: none;
+}
+.nav_links {
+	margin-top: 17px; float: right;
+}
+.nav_links a {
+	margin: 0px 6px; color: rgb(255, 255, 255);
+}
+.nav_links a:link {
+	color: rgb(26, 145, 207); text-decoration: none;
+}
+.nav_links a:visited {
+	color: rgb(26, 145, 207); text-decoration: none;
+}
+.nav_links a:hover {
+	color: rgb(26, 145, 207); text-decoration: underline;
+}
+.nav_links a:active {
+	color: rgb(26, 145, 207); text-decoration: underline;
+}
+.sub_nav {
+	height: 40px; clear: both;
+}
+.sub_nav_b {
+	border-width: 3px 1px 1px; border-style: solid; border-color: rgb(241, 49, 49) rgb(198, 198, 198) rgb(198, 198, 198); border-image: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.sub_nav_in {
+	background: url("../images/games/xh_tz_bj.png") repeat-x 0px 0px; height: 38px; position: relative; z-index: 20;
+}
+.sub_nav_in a {
+	width: 91px; height: 38px; text-align: center; color: rgb(85, 85, 85); line-height: 38px; text-decoration: none; float: left; display: inline-block;
+}
+.sub_nav_in a span {
+	width: 92px; text-align: center; font-size: 12px; display: block; cursor: pointer;
+}
+.sub_nav_in a:link span {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; display: block;
+}
+.sub_nav_in a:visited span {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; display: block;
+}
+.sub_nav_in a.on span {
+	background: 0px 0px rgb(241, 49, 49); border-width: 1px 1px 0px; border-color: rgb(234, 188, 124); border-image: none; height: 38px; color: rgb(255, 255, 255); text-indent: 1px; font-weight: 700; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.sub_nav_in a:hover span {
+	background: 0px 0px rgb(241, 49, 49); border-width: 1px 1px 0px; border-color: rgb(234, 188, 124); border-image: none; height: 38px; color: rgb(255, 255, 255); text-indent: 1px; font-weight: 700; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.xbkbj {
+	background: url("../images/games/nav_bg1.png") -212px -13px; left: 20px; top: 31px; width: 52px; height: 8px; position: absolute;
+}
+.sub_nav_in .sub_span {
+	margin-top: 10px; margin-right: 10px; float: right;
+}
+a.middle_nav {
+	width: 70px;
+}
+a.middle_nav span {
+	width: 71px;
+}
+a.small_nav {
+	width: 64px;
+}
+a.small_nav span {
+	width: 66px;
+}
+a.small_nav1 {
+	width: 55px;
+}
+a.small_nav1 span {
+	width: 55px;
+}
+.ssq_banner .nav_logo {
+	background-position: 10px 0px;
+}
+.ssq_banner .nav_box {
+	background-position: 0px -157px;
+}
+.cqssc_banner .nav_logo {
+	background-position: 10px -425px;
+}
+.cqssc_banner .nav_box {
+	background-position: 0px -80px;
+}
+.jx11x5_banner .nav_logo {
+	background-position: 10px -207px;
+}
+.jx11x5_banner .nav_box {
+	background-position: 0px -313px;
+}
+.dlt_banner .nav_logo {
+	background-position: 10px -100px;
+}
+.dlt_banner .nav_box {
+	background-position: 0px -232px;
+}
+.qxc_banner .nav_logo {
+	background-position: 10px -200px;
+}
+.qxc_banner .nav_box {
+	background-position: 0px -105px;
+}
+.s11x5_banner .nav_logo {
+	background-position: 10px -301px;
+}
+.s11x5_banner .nav_box {
+	background-position: 0px -166px;
+}
+.pl3_banner .nav_logo {
+	background-position: 10px -318px;
+}
+.pl3_banner .nav_box {
+	background-position: 0px -391px;
+}
+.pl5_banner .nav_logo {
+	background-position: 10px -720px;
+}
+.pl5_banner .nav_box {
+	background-position: 0px -398px;
+}
+.ssc_banner .nav_logo {
+	background-position: 10px -520px;
+}
+.ssc_banner .nav_box {
+	background-position: 0px -284px;
+}
+.qlc_banner .nav_logo {
+	background-position: 10px -622px;
+}
+.qlc_banner .nav_box {
+	background-position: 0px -340px;
+}
+.fc3d_banner .nav_logo {
+	background-position: 10px -535px;
+}
+.fc3d_banner .nav_box {
+	background-position: 0px -467px;
+}
+.s22x5_banner .nav_logo {
+	background-position: 10px -927px;
+}
+.s22x5_banner .nav_box {
+	background-position: 0px -518px;
+}
+.lottery_wrap {
+	margin: 8px auto; width: 1000px;
+}
+.lottery_wrap .clear {
+	height: auto;
+}
+.headerBox {
+	background: url("/assets/images/bg-000.jpg") repeat-x 0px 0px; margin: 10px auto 0px; border-radius: 10px 10px 0px 0px; width: 992px; height: 83px; padding-right: 8px;
+}
+.cz_logo {
+	background: url("/assets/images/czlogo_76x83.png") no-repeat 0px 0px; width: 76px; height: 83px; text-indent: -999px; overflow: hidden; float: left; display: block;
+}
+.headerBox h1 {
+	padding-left: 5px; font-size: 20px; font-weight: bold; margin-right: 10px; float: left;
+}
+.headerBox h1 a {
+	color: rgb(178, 9, 4);
+}
+.titleBox {
+	margin: 5px; height: 40px; line-height: 40px;
+}
+.gameintr {
+	float: left;
+}
+.gameintr em {
+	background: url("../images/games/ssq_btns.png") no-repeat -343px -122px; padding: 0px 10px; width: 65px; height: 20px; color: rgb(255, 255, 255); line-height: 20px; display: inline-block;
+}
+.menuBox {
+	height: 38px;
+}
+.gameMenu {
+	margin-top: 4px; float: left;
+}
+.gameMenu li {
+	background: url("../images/games/ssq_btns.png") no-repeat -328px -180px; margin: 0px 3px; width: 82px; height: 34px; text-align: center; line-height: 34px; font-size: 14px; font-weight: bold; float: left;
+}
+.gameMenu li a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.gameMenu .active {
+	background: url("../images/games/ssq_btns.png") no-repeat -328px -146px; color: rgb(255, 255, 255);
+}
+.gameMenu li:hover {
+	background: url("../images/games/ssq_btns.png") no-repeat -328px -146px; color: rgb(255, 255, 255);
+}
+.gameMenu li.active a {
+	color: rgb(255, 255, 255);
+}
+.gameMenu li a:hover {
+	color: rgb(255, 255, 255);
+}
+.pool {
+	height: 40px; line-height: 40px; margin-top: 5px; vertical-align: middle; float: left;
+}
+.pool em {
+	font-size: 14px;
+}
+.pool strong {
+	margin: 0px 2px; color: rgb(255, 0, 0); font-size: 20px; font-weight: bold;
+}
+.bet_timer {
+	float: right;
+}
+.betnav {
+	background: url("/assets/images/bg-000.jpg") repeat-x 0px -87px; margin: 0px auto; border: 1px solid rgb(235, 166, 95); border-image: none; width: 998px; height: 36px; line-height: 36px; position: relative;
+}
+.betnav a {
+	margin: 6px 5px 0px; width: 80px; height: 29px; text-align: center; color: rgb(206, 97, 9); line-height: 22px; font-weight: bold; text-decoration: none; float: left; display: inline-block;
+}
+.betnav a.on {
+	background: url("/assets/images/dhk_btnbg.png") no-repeat 50% 50%; color: rgb(255, 255, 255);
+}
+.betnav a.on:hover {
+	background: url("/assets/images/dhk_btnbg.png") no-repeat 50% 50%; color: rgb(255, 255, 255);
+}
+.betnav a:hover {
+	background: url("/assets/images/dhk_btnbg.png") no-repeat 50% 50%; color: rgb(255, 255, 255);
+}
+.betnav a:active {
+	background: url("/assets/images/dhk_btnbg.png") no-repeat 50% 50%; color: rgb(255, 255, 255);
+}
+.betnav i {
+	background: url("../images/games/ssq_btns.png") no-repeat -181px -203px; width: 1px; height: 36px; font-size: 0px; float: left;
+}
+.betnav .sys_area {
+	top: 1px; right: 1px; position: absolute;
+}
+.betnav .sys_area span {
+	display: inline-block;
+}
+.smaillbetnav a {
+	margin: 6px 2px 0px; padding: 0px 8px; width: auto; height: 29px; text-align: center; color: rgb(206, 97, 9); line-height: 22px; font-weight: bold; text-decoration: none; float: left; display: inline-block;
+}
+.midumnav a {
+	margin: 6px 2px 0px; padding: 0px 15px; width: auto; text-decoration: none;
+}
+.sub_nav span.sys_clock {
+	width: 170px; height: 35px; color: rgb(35, 17, 17); line-height: 35px; margin-top: 2px; margin-right: 2px; float: right; display: inline-block;
+}
+.sub_nav .sys_clock em {
+	font: 20px/32px digital, tahoma, arial; width: 28px; height: 32px; text-align: right; color: rgb(255, 0, 0); padding-right: 2px; vertical-align: -2px; display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.small_clock span.sys_clock {
+	background: url("../images//time_bj.jpg") no-repeat -45px 0px; width: 125px; overflow: hidden; border-left-color: rgb(160, 22, 22); border-left-width: 1px; border-left-style: solid;
+}
+.small_clock span.sys_clock em {
+	width: 27px;
+}
+.ssq_main {
+	margin: 0px auto; width: 1000px;
+}
+.ssq_main .buy_single {
+	border: 1px solid rgb(245, 204, 156); border-image: none; width: 742px; float: left;
+}
+.playprompt {
+	font: 12px/1.5 arial, "����", tahoma, helvetica; margin: 8px 30px 15px 2px; font-size-adjust: none; font-stretch: normal;
+}
+.playprompt em {
+	font-weight: 700;
+}
+.tip2 {
+	background: 0px 0px rgb(254, 248, 234); margin: 0px 0px 5px; padding: 5px; border: 1px solid rgb(236, 209, 181); border-image: none; line-height: 20px;
+}
+.tip2 i {
+	background: url("../images/games/cj_old.gif") no-repeat 0px 0px; width: 17px; height: 15px; margin-top: 2px; margin-right: 5px; margin-left: 10px; vertical-align: top; display: inline-block;
+}
+.ball_area {
+	margin: 10px 0px 10px 50px; width: 660px;
+}
+.ball_area_fix {
+	width: 688px; margin-left: 32px;
+}
+.ball_area_fix .clear {
+	overflow: visible;
+}
+.red_balls {
+	width: 418px; padding-bottom: 15px; float: left; position: relative;
+}
+.ball_area_fix .red_balls {
+	padding-bottom: 2px;
+}
+.blue_balls {
+	width: 228px; float: right;
+}
+.red_balls li {
+	width: 32px; height: 51px; text-align: center; line-height: 16px; font-family: Arial,Verdana,Tahoma; margin-right: 6px; float: left;
+}
+.blue_balls li {
+	width: 32px; height: 51px; text-align: center; line-height: 16px; font-family: Arial,Verdana,Tahoma; margin-right: 6px; float: left;
+}
+.red_balls li b {
+	background: url("../images/games/ssq_btns.png") no-repeat -3px -83px; outline: 0px; width: 30px; height: 35px; text-align: center; line-height: 31px; overflow: hidden; font-size: 16px; font-weight: 700; text-decoration: none; display: block;
+}
+.blue_balls li b {
+	background: url("../images/games/ssq_btns.png") no-repeat -3px -83px; outline: 0px; width: 30px; height: 35px; text-align: center; line-height: 31px; overflow: hidden; font-size: 16px; font-weight: 700; text-decoration: none; display: block;
+}
+.red_balls li b:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.red_balls li b:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.red_balls li b:hover {
+	background-position: -37px -83px; color: rgb(0, 0, 0); cursor: pointer;
+}
+.red_balls li b:active {
+	background-position: -37px -83px; color: rgb(0, 0, 0); cursor: pointer;
+}
+.blue_balls li b:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.blue_balls li b:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.blue_balls li b:hover {
+	background-position: -105px -83px; color: rgb(0, 0, 0); cursor: pointer;
+}
+.blue_balls li b:active {
+	background-position: -105px -83px; color: rgb(0, 0, 0); cursor: pointer;
+}
+.red_balls li span {
+	color: rgb(182, 182, 182); font-size: 11px;
+}
+.blue_balls li span {
+	color: rgb(182, 182, 182); font-size: 11px;
+}
+.red_balls li b.selected_red {
+	background-position: -71px -83px; color: rgb(255, 255, 255);
+}
+.blue_balls li b.selected_blue {
+	background-position: -139px -83px; color: rgb(255, 255, 255);
+}
+.random_selection {
+	text-align: right; color: rgb(113, 113, 113); line-height: 22px; padding-top: 2px; padding-right: 10px; clear: both;
+}
+.random_selection select {
+	width: 45px; height: 22px;
+}
+.random_selection .random_btn {
+	background: url("../images/games/ssq_btns.png") no-repeat 0px 0px; margin: 0px 2px; width: 56px; height: 22px; text-align: left; color: rgb(46, 46, 46); line-height: 22px; padding-left: 15px; text-decoration: none; display: inline-block;
+}
+.random_selection .red_random_btn {
+	background-position: 0px -131px;
+}
+.random_selection .blue_random_btn {
+	background-position: 0px -153px;
+}
+.random_selection .clearbtn {
+	background: url("../images/games/ssq_btns.png") no-repeat -294px -84px; width: 47px; height: 22px; text-align: center; color: rgb(46, 46, 46); line-height: 22px; text-decoration: none; margin-left: 8px; display: inline-block;
+}
+.select_result {
+	background: url("../images/games/res_line.jpg") no-repeat 50% 9px; height: 20px; text-align: center; clear: both;
+}
+.select_result span {
+	background: 0px 0px rgb(255, 255, 255); padding: 0px 6px;
+}
+.select_result span em {
+	padding: 0px 5px;
+}
+.addToList {
+	padding: 11px 0px 6px 302px;
+}
+.addToList .addToListBtn {
+	width: 137px; height: 34px; display: inline-block; cursor: pointer;
+}
+.ssq_bjx .a2 {
+	background: url("../images/games/ssq_btns.png") no-repeat -294px -84px; width: 47px; height: 22px; text-align: center; color: rgb(46, 46, 46); line-height: 22px; text-decoration: none; display: inline-block;
+}
+p.result {
+	margin: 15px 0px; text-align: center; clear: both;
+}
+.ssq_red {
+	background: url("../images/games/ssq_btns.png") no-repeat 2px 0px; height: 30px; text-align: center; color: rgb(250, 127, 127); line-height: 12px; font-size: 12px;
+}
+.ssq_blue {
+	background: url("../images/games/ssq_btns.png") no-repeat 0px -40px; width: 220px; color: rgb(120, 173, 253);
+}
+.ssq_red strong {
+	color: rgb(255, 0, 0); font-size: 14px;
+}
+.ssq_blue strong {
+	color: rgb(6, 68, 161);
+}
+.ssq_ball a {
+	background: url("../images/games/ssq_btns.png") no-repeat -13px -84px; width: 30px; height: 33px; text-align: center; color: rgb(46, 46, 46); line-height: 28px; font-size: 16px; text-decoration: none; margin-right: 8px; float: left; display: block;
+}
+.ssq_ball a:hover {
+	background: url("../images/games/ssq_btns.png") no-repeat -13px -84px; width: 30px; height: 33px; text-align: center; color: rgb(46, 46, 46); line-height: 28px; font-size: 16px; text-decoration: none; margin-right: 8px; float: left; display: block;
+}
+.ssq_ball a:active {
+	background: url("../images/games/ssq_btns.png") no-repeat -13px -84px; width: 30px; height: 33px; text-align: center; color: rgb(46, 46, 46); line-height: 28px; font-size: 16px; text-decoration: none; margin-right: 8px; float: left; display: block;
+}
+.ssq_ball a:hover {
+	background-position: -61px -84px;
+}
+.ssq_ball a:active {
+	background-position: -109px -84px; color: rgb(255, 255, 255);
+}
+.ssqblue_content .ssq_ball a:hover {
+	background-position: -157px -84px;
+}
+.ssqblue_content .ssq_ball a:active {
+	background-position: -205px -84px;
+}
+.bet_snav {
+	height: 30px; line-height: 30px;
+}
+.bet_snav label {
+	width: auto; margin-right: 10px; float: left; display: inline-block;
+}
+.bet_snav label input {
+	margin-right: 2px; vertical-align: -2px;
+}
+.dantuo_area {
+	width: 690px; margin-left: 50px; position: relative;
+}
+.common .red_balls {
+	width: 700px; float: none;
+}
+.danma .red_balls {
+	width: 700px; float: none;
+}
+.dan_con {
+	background: url("../images/games/dt_title.gif") no-repeat 50% 0px; height: 30px; text-align: center; color: rgb(51, 51, 51); line-height: 12px; font-size: 12px;
+}
+.tuo_con {
+	background: url("../images/games/dt_title.gif") no-repeat 50% -40px; height: 30px; text-align: center; color: rgb(51, 51, 51); line-height: 12px; font-size: 12px;
+}
+.dantuo_title {
+	padding: 0px 10px 8px; color: rgb(196, 196, 196);
+}
+.balls_con {
+	height: auto;
+}
+.bet_balls {
+	width: 690px; margin-top: 10px;
+}
+.bet_text {
+	width: 54px; height: 56px; text-align: center; line-height: 27px; padding-top: 2px; padding-right: 8px; float: left;
+}
+.bet_text b {
+	line-height: 28px; display: block;
+}
+.dntitle {
+	margin-top: 24px; display: block;
+}
+.help_div {
+	padding-left: 26px; float: left;
+}
+.help_div li {
+	background: 0px 0px rgb(233, 233, 233); margin: 5px 5px 0px 0px; padding: 2px 4px 0px; border: 1px solid rgb(203, 203, 203); border-image: none; text-align: center; color: rgb(70, 70, 70); line-height: 18px; float: left; cursor: pointer;
+}
+.help_div li.on {
+	background: 0px 0px rgb(220, 3, 3); border: 1px solid rgb(176, 6, 6); border-image: none; text-align: center; color: rgb(255, 255, 255); display: block;
+}
+.ssq_ylz {
+	height: 26px; clear: both;
+}
+.ssq_ylz i {
+	width: 30px; text-align: center; color: rgb(155, 154, 154); padding-top: 3px; margin-right: 8px; display: inline-block;
+}
+.ssq_ylz i.color_red {
+	color: rgb(255, 0, 0);
+}
+.szc_yilou {
+	padding: 0px 10px 0px 5px; width: 26px; height: 22px; text-align: center; color: rgb(199, 33, 33); line-height: 22px; margin-top: 2px; margin-left: 5px;
+}
+.szc_yilou cite {
+	height: 24px; display: block; cursor: pointer;
+}
+.szc_yilou em {
+	background: 0px 0px rgb(255, 187, 133); left: 0px; top: 22px; width: 41px; text-align: left; padding-bottom: 6px; display: none; position: absolute; z-index: 2;
+}
+.szc_yilou a {
+	background: 0px 0px rgb(255, 187, 133); color: rgb(199, 33, 33); line-height: 22px; text-indent: 6px; display: block;
+}
+.szc_yilou a:hover {
+	background: 0px 0px rgb(247, 149, 72);
+}
+.szc_xuanhao {
+	background: url("../images/games/ssq_btns.png") no-repeat -241px -83px; border-radius: 3px; left: -45px; top: 36px; width: 44px; height: 24px; text-align: left; color: rgb(199, 33, 33); padding-left: 7px; float: left; position: absolute;
+}
+.szc_num {
+	left: -50px; top: 36px; position: absolute; z-index: 2;
+}
+.szc_num .szc_xuanhao {
+	margin-left: 5px; float: none; position: static;
+}
+.ssq_bjx {
+	margin: 25px 0px 15px; height: 26px; text-align: center; line-height: 26px;
+}
+.ssq_bjx .a1 {
+	background: url("../images/games/ssq_btns.png") no-repeat 0px -131px; width: 56px; height: 22px; color: rgb(46, 46, 46); line-height: 22px; padding-left: 15px; text-decoration: none; display: inline-block;
+}
+.ssq_bjx .a1_blue {
+	background-position: 0px -153px;
+}
+.ssq_bjx .a2 {
+	background: url("../images/games/ssq_btns.png") no-repeat -294px -84px; width: 47px; height: 22px; text-align: center; color: rgb(46, 46, 46); line-height: 22px; text-decoration: none; display: inline-block;
+}
+p.result {
+	margin: 15px 0px; text-align: center; clear: both;
+}
+.blue {
+	color: rgb(5, 65, 199);
+}
+.yellow {
+	color: rgb(214, 104, 14);
+}
+p.result strong {
+	color: rgb(255, 0, 0); font-size: 14px;
+}
+p.result span {
+	background: url("../images/games/ssq_btns.png") no-repeat -204px -256px; width: 190px; height: 1px; margin-top: -3px; display: inline-block;
+}
+.sure {
+	margin: 15px 0px 25px; text-align: center;
+}
+.sure a {
+	color: rgb(3, 49, 154); text-decoration: underline;
+}
+.biaoqian {
+	background: url("/assets/images/biaoqian.jpg") no-repeat center; height: 30px; margin-top: 20px;
+}
+.ssq_entry {
+	margin: 10px auto; width: 630px;
+}
+.selected_list {
+	background: 0px 0px rgb(255, 243, 234); border-radius: 3px; border: 1px solid rgb(181, 181, 181); border-image: none; width: 515px; height: 125px; margin-right: 10px; float: left;overflow-x: hidden; overflow-y: scroll;
+}
+.selected_list ul {
+	height: 120px; margin-left: 3px; border-top-color: rgb(241, 241, 241); border-left-color: rgb(250, 250, 250); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; display: block; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+.selected_list li {
+	font: 12px/2.5 arial, "����", tahoma, helvetica; padding: 0px 5px; width: 498px; height: auto; clear: both; border-bottom-color: rgb(174, 174, 174); border-bottom-width: 1px; border-bottom-style: dotted; font-size-adjust: none; font-stretch: normal;
+}
+.selected_list li span {
+	text-align: left; float: left; display: block;
+}
+.selected_list li .i1 {
+	width: 125px;
+}
+.selected_list li .i2 {
+	width: 260px; color: rgb(131, 131, 131); overflow: hidden; font-weight: bold; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.selected_list li .i3 {
+	text-align: right; padding-right: 5px;
+}
+.selected_list li .i4 {
+	margin: 0px 4px; color: rgb(113, 113, 113);
+}
+.selected_list a {
+	margin: 0px 4px; color: rgb(113, 113, 113);
+}
+.selected_list dd:hover {
+	background-color: rgb(251, 248, 229);
+}
+.selected_list .ddhover {
+	background-color: rgb(251, 248, 229);
+}
+.selected_list .ddactive {
+	background-color: rgb(251, 248, 229);
+}
+.selected_list .ddactive:hover {
+	background-color: rgb(251, 248, 229);
+}
+.selected_list dd.inEdit {
+	background-color: rgb(255, 238, 191);
+}
+.selected_list dd.inEdit:hover {
+	background-color: rgb(255, 238, 191);
+}
+.selected_list dd span {
+	display: block;
+}
+.selected_list dd .type {
+	width: 60px; float: left;
+}
+.selected_list dd .nums em {
+	padding: 0px 5px; font-family: Arial,sans-serif;
+}
+.selected_list dd .edit {
+	float: right;
+}
+.selected_list dd .edit em {
+	width: 33px; display: inline-block;
+}
+.selected_list dd .edit a:hover {
+	color: rgb(186, 38, 54);
+}
+.selected_list em.c_cb0505 {
+	color: rgb(203, 5, 5); font-weight: 700;
+}
+.selected_list em.c_004eff {
+	color: rgb(0, 78, 255); font-weight: 700;
+}
+.selected_list .sum {
+	color: rgb(0, 0, 0); float: right;
+}
+.selected_list .sum em {
+	color: rgb(186, 38, 54);
+}
+.c_ba1d21 {
+	color: rgb(186, 29, 33); font-weight: 700;
+}
+.c_2042a2 {
+	color: rgb(32, 66, 162); font-weight: 700;
+}
+.selected_list dd .nums em.c_dan {
+	color: rgb(186, 29, 33); padding-right: 0px; font-weight: 700;
+}
+.ssq_entry strong {
+	line-height: 30px; padding-left: 8px; clear: both; display: block;
+}
+.ssq_entry input {
+	margin: 0px 0px 5px;
+}
+.ssq_entry .ssq_w35 {
+	margin: 0px 3px; padding: 3px; width: 35px; vertical-align: middle;
+}
+.ssq_entry b.gray {
+	color: rgb(150, 152, 151); font-size: 12px;
+}
+.del_all1 {
+	background: url("../images/games/ssq_btns.png") no-repeat -182px -162px; border: 0px currentColor; border-image: none; width: 98px; height: 28px; cursor: pointer;
+}
+.del_all2 {
+	background: url("../images/games/ssq_btns.png") no-repeat -280px -162px; border: 0px currentColor; border-image: none; width: 48px; height: 28px; cursor: pointer;
+}
+.del_all1:hover {
+	color: rgb(203, 5, 5);
+}
+.del_all1:hover {
+	color: rgb(203, 5, 5);
+}
+.gray_but {
+	color: rgb(139, 139, 139);
+}
+.touzhu_modo {
+	margin: 2px 0px 0px; border-radius: 3px 3px 0px 0px; border: 1px solid rgb(178, 179, 181); border-image: none; text-align: left; line-height: 36px;
+}
+.touzhu_modo label {
+	margin: 0px 10px;
+}
+.touzhu_modo input {
+	margin-right: 3px;
+}
+.touzhu_modo span {
+	background: 0px 0px rgb(222, 223, 228); padding: 0px 5px; display: inline-block;
+}
+.touzhu_modo .tip {
+	background: 0px; width: 260px; text-align: right; color: rgb(135, 135, 135);
+}
+label.cite_title {
+	display: inline-block; position: relative;
+}
+label.cite_title cite {
+	background: url("../images/games/ssq_btns.png") no-repeat -72px -131px; padding: 3px; left: -45px; top: -30px; width: 157px; height: 23px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; display: block; position: absolute; z-index: 999;
+}
+.ssq_entry .jx_txt {
+	width: 36px; height: 24px; text-align: center; line-height: 24px; margin-right: 6px;
+}
+.ssq_goumai_but {
+	text-align: center;
+}
+.ssq_goumai_but p {
+	margin: 20px 0px;
+}
+.ssq_goumai_but p input.dialogBtn {
+	background-position: -160px -1px; width: 94px !important;
+}
+.ssq_goumai_but input {
+	vertical-align: -2px;
+}
+.buy_but {
+	background: url("../images/games/ssq_btns.png") no-repeat 0px -199px; border: 0px currentColor; border-image: none; width: 175px; height: 58px;
+}
+.ssq_copies {
+	width: 25px;
+}
+.borderyes {
+	border: 1px solid rgb(253, 161, 86); border-image: none;
+}
+.ssqList {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-image: none; border-right-color: rgb(253, 161, 86); -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.hmList .ssq_copies {
+	clear: both;
+}
+.ssq_h4bt {
+	background: 0px 0px rgb(246, 198, 155); padding: 0px 10px; color: rgb(255, 0, 0);
+}
+.ssq_h4bt a {
+	margin-right: 10px; float: right;
+}
+.ssq_s1 {
+	padding: 5px;
+}
+.ssq_s1 i {
+	width: 60px; text-align: right; line-height: 20px; float: left; display: block;
+}
+.ssq_fq_input {
+	margin: 0px 3px; padding: 0px 3px;
+}
+.ssq_fq_textarea {
+	margin: 0px 3px; padding: 0px 3px;
+}
+.ssq_fq_select {
+	margin: 0px 3px; padding: 0px 3px;
+}
+.ssq_s1 .ssq_fq_textarea {
+	width: 180px; height: 75px;
+}
+.ssq_s1 s.question_ico {
+	background: url("../images/games/ssq_btns.png") no-repeat -348px -89px; width: 16px; height: 16px; display: inline-block;
+}
+.ssq_fq_input2 {
+	width: 45px;
+}
+.ssq_s1 a {
+	margin: 0px 10px; color: rgb(4, 103, 179); text-decoration: underline; display: inline-block;
+}
+.buychase {
+	padding-left: 1px;
+}
+.buychase .chaseConditions {
+	background: 0px 0px rgb(253, 253, 230); border-width: 1px 0px; border-style: solid; border-color: rgb(229, 229, 229); padding: 5px 8px; border-image: none; height: 20px; line-height: 22px; display: block; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.buychase .chaseConditions .con-left {
+	float: left;
+}
+.buychase .chaseConditions .con-left label {
+	position: relative;
+}
+.buychase .chaseConditions .con-right {
+	float: right;
+}
+.buychase .chaseConditions img.new {
+	top: -10px; width: 16px; height: 18px; right: -8px; display: block; position: absolute;
+}
+.buychase .chaseIssuseCondition {
+	padding: 5px; line-height: 25px;
+}
+.buychase .txt-issusecount {
+	margin: 0px 3px; padding: 0px; border-radius: 2px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 50px; height: 16px; text-align: center; vertical-align: middle; -ms-ime-mode: disabled;
+}
+.check {
+	margin-right: 2px !important; vertical-align: -2px;
+}
+.buychase .chaseIssuseCondition .quickIssuseNumber b {
+	padding: 2px 3px; border-radius: 2px; border: 1px solid rgb(211, 211, 211); border-image: none; font-weight: normal; cursor: pointer;
+}
+.buychase .chaseIssuseCondition .quickIssuseNumber b:hover {
+	background: 0px 0px rgb(242, 242, 242); color: rgb(0, 0, 0);
+}
+.multi-condition-containor {
+	padding: 5px 0px; line-height: 22px; display: none;
+}
+.multi-condition-containor li {
+	padding: 5px 3px;
+}
+.multi-condition-containor li.border {
+	text-align: left; border-bottom-color: rgb(232, 173, 94); border-bottom-width: 1px; border-bottom-style: dotted; float: none;
+}
+.multi-condition-containor li input.radio {
+	margin: 3px; padding: 5px; vertical-align: -2px;
+}
+.multi-condition-containor li .conditioninput {
+	margin: 2px; padding: 2px; border: 1px solid rgb(213, 223, 229); border-image: none; width: 40px; text-align: center; -ms-ime-mode: disabled;
+}
+.chaseList {
+	width: 621px !important; height: 200px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; -ms-overflow-y: scroll;
+}
+.chaseList li.selected {
+	background: 0px 0px rgb(255, 235, 211); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.chaseList li.selected:hover {
+	background-color: rgb(253, 253, 230);
+}
+.chaseList li span {
+	text-align: center; border-right-color: rgb(233, 233, 233); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.chaseList li .i1 {
+	width: 40px;
+}
+.chaseList li .i2 {
+	width: 95px;
+}
+.chaseList li .i3 {
+	width: 95px; text-align: center;
+}
+.chaseList li .i3 .bs {
+	padding: 2px 3px; border-radius: 4px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 38px; height: 14px; text-align: center; margin-right: 3px;
+}
+.chaseList li .i4 {
+	width: 95px;
+}
+.chaseList li .i5 {
+	width: 95px;
+}
+.chaseList li .i6 {
+	width: 95px;
+}
+.chaseList li .i7 {
+	width: 81px;
+}
+.chaseListInfo {
+	padding: 10px; display: block;
+}
+.buychase ul {
+	width: 627px; clear: both; display: block;
+}
+.buychase li {
+	text-align: center; line-height: 30px; overflow: hidden; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.chaselist ul {
+	transition:background 0.2s ease-in-out;
+}
+ul.ssq_zhuhao_bt li {
+	background: 0px 0px rgb(255, 169, 69); text-align: center;
+}
+.chaselist {
+	width: 626px; -ms-overflow-x: hidden; -ms-overflow-y: auto; max-height: 320px;
+}
+.chaselist ul.odd li {
+	background: 0px 0px rgb(247, 247, 247);
+}
+.chaselist ul li {
+	border-right-color: rgb(233, 233, 233); border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.chaselist ul {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.chaselist ul.on li {
+	background: 0px 0px rgb(255, 235, 211); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.chaselist ul:hover li {
+	background: 0px 0px rgb(253, 253, 230) !important;
+}
+.chaseloading {
+	background: url("../images/imgs/onLoad.gif") no-repeat 50% 50% rgb(255, 255, 255); height: 40px;
+}
+.buychase .chaseinput {
+	padding: 2px 3px; border-radius: 4px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 38px; height: 14px; text-align: center; margin-right: 3px;
+}
+.winStopV {
+	padding: 2px 3px; border-radius: 4px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 48px; height: 14px; text-align: center; margin-right: 3px;
+}
+li.cm_w40 {
+	width: 40px;
+}
+li.cm_w65 {
+	width: 65px;
+}
+li.cm_w167 {
+	width: 167px;
+}
+li.cm_w95 {
+	width: 85px; text-align: left; padding-left: 10px;
+}
+li.cm_w100 {
+	width: 100px;
+}
+li.cm_w154 {
+	width: 154px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+li.cm_w100 em {
+	font: 700 14px/20px Arial, Verdana; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+li.cm_w167 select {
+	margin: 0px 3px; padding: 3px;
+}
+ul.on li.cm_w100 em {
+	color: rgb(255, 0, 0);
+}
+.chaseinfo {
+	background: 0px 0px rgb(253, 253, 230); padding: 12px 12px 6px; height: 32px;
+}
+.chaseinfo span {
+	float: right;
+}
+.chase_secrecy {
+	background: 0px 0px rgb(253, 253, 230); padding: 2px 12px 3px; height: 28px; clear: both;
+}
+.addbtn {
+	background: url("../images/games/ssq_btns.png") no-repeat -191px -223px; margin: 0px 5px; border: 0px currentColor; border-image: none; width: 137px; height: 33px; cursor: pointer;
+}
+.disabled {
+	background-position: -191px -190px;
+}
+.groupBox {
+	border-width: 0px 1px 1px; border-style: none solid solid; margin: 0px 0px 10px; border-radius: 0px 0px 3px 3px; border-image: none; border-right-color: rgb(180, 180, 180); -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.dlt .ball_area {
+	width: 688px;
+}
+.dlt .blue_balls {
+	width: 206px;
+}
+.dlt div.ssq_red {
+	background-position: 0px -267px;
+}
+.dlt div.ssq_blue {
+	background-position: 0px -307px; width: 187px;
+}
+.upload_err {
+	color: rgb(255, 0, 0);
+}
+.user_account {
+	height: 30px; font-size: 14px; position: relative;
+}
+.user_account span {
+	line-height: 30px; margin-right: 5px; float: left;
+}
+.user_account span.again {
+	padding-right: 10px; font-weight: 700;
+}
+.user_account span.again input {
+	margin-right: 3px;
+}
+.user_account span.multiple_span {
+	line-height: 30px;
+}
+.user_account em {
+	color: rgb(255, 0, 0); font-weight: 700;
+}
+.user_account span input {
+	margin-top: 8px; float: left;
+}
+.add_btn {
+	background: url("../images/games/muti_bg.jpg") no-repeat 0px 0px; border: 0px currentColor; border-image: none;
+}
+.sub_btn {
+	background: url("../images/games/muti_bg.jpg") no-repeat 0px 0px; border: 0px currentColor; border-image: none;
+}
+.muti_input {
+	background: url("../images/games/muti_bg.jpg") no-repeat 0px 0px; border: 0px currentColor; border-image: none;
+}
+.add_btn {
+	background-position: -41px 0px; width: 19px; height: 17px; cursor: pointer;
+}
+.add_btn_des {
+	background-position: -41px -17px;
+}
+.sub_btn {
+	background-position: -59px 0px; width: 18px; height: 17px; cursor: pointer;
+}
+.sub_btn_des {
+	background-position: -59px -17px;
+}
+.muti_input {
+	background-position: 0px 0px; width: 42px; height: 17px; text-align: center; line-height: 17px; font-size: 12px;
+}
+.myaccount {
+	padding-left: 88px;
+}
+.myaccount em {
+	line-height: 34px; float: left; display: inline-block;
+}
+.myaccount #bet_user_account {
+	float: left;
+}
+.buydg {
+	height: 40px; line-height: 40px; padding-left: 31px;
+}
+.buydg span {
+	float: left; display: inline-block;
+}
+.chase_secrecy span {
+	float: left; display: inline-block;
+}
+.buydg span label {
+	margin: 0px 10px; display: inline-block;
+}
+.chase_secrecy span label {
+	margin: 0px 10px; display: inline-block;
+}
+.buydg span label input {
+	margin-right: 2px;
+}
+.chase_secrecy span label input {
+	margin-right: 2px;
+}
+.buydg span.secrecy_span {
+	width: 60px;
+}
+.chase_secrecy span.secrecy_span {
+	width: 60px;
+}
+.projectinfo {
+	margin: 2px 10px; width: auto;
+}
+.projectinfo a {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.projectinfo a:hover {
+	color: rgb(247, 70, 17);
+}
+.projectinfo_tb {
+	width: 100%; table-layout: fixed;
+}
+.projectinfo_tb td {
+	border: 1px solid rgb(134, 57, 1); border-image: none; height: 40px; text-align: center; line-height: 40px;
+}
+.projectinfo_tb td.fb {
+	text-align: right; font-weight: 700;
+}
+.projectinfo_tb td.lpadding {
+	text-align: left; padding-left: 10px;
+}
+.projectinfo_tb em {
+	color: rgb(255, 0, 0); font-weight: 700;
+}
+.viewinfo_ban em {
+	color: rgb(255, 0, 0); font-weight: 700;
+}
+.projectinfo .buy_panel {
+	margin: 6px auto; text-align: center;
+}
+.projectinfo .buy_panel a {
+	margin: 0px 9px; color: rgb(0, 0, 0); line-height: 24px; text-decoration: underline;
+}
+.projectinfo .buy_panel label input {
+	margin-top: -2px; margin-right: 2px;
+}
+.projectinfo .buyhm_tb {
+	border: 1px solid rgb(134, 57, 1); border-image: none;
+}
+.projectinfo .buyhm_tb td {
+	border: 0px currentColor; border-image: none; height: 32px; line-height: 32px; vertical-align: top;
+}
+.project_cont {
+	background-color: rgb(248, 248, 248);
+}
+.project_cont em {
+	margin: 0px 2px; color: rgb(204, 0, 0); font-weight: 700;
+}
+.project_cont dl {
+	text-align: left; overflow: auto; clear: both; font-size: 12px;
+}
+.project_cont dt {
+	color: rgb(85, 85, 85); line-height: 34px; display: inline-block;
+}
+.project_cont dd {
+	color: rgb(85, 85, 85); line-height: 34px; display: inline-block;
+}
+.project_cont .p_description_tip {
+	margin-right: 0px; margin-left: 10px;
+}
+.project_cont dt {
+	width: 90px; text-align: right; font-size: 14px; vertical-align: top;
+}
+.project_cont dd {
+	width: 450px;
+}
+.project_cont dd span {
+	margin: 0px 5px; display: inline-block;
+}
+.project_cont dd span.p_title_tip {
+	margin-right: 0px;
+}
+.project_cont dd a.project_allbd {
+	padding: 0px 0px 0px 15px; color: rgb(0, 123, 180); display: inline-block;
+}
+.project_cont .p_deduct {
+	padding: 1px 0px 1px 3px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 65px; height: 24px; color: rgb(85, 85, 85); font-weight: 700; box-shadow: 1px 1px 3px #ccc;
+}
+.project_cont .in_text {
+	padding: 3px 7px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 80px; height: 20px; color: rgb(85, 85, 85); font-size: 14px; font-weight: 700; margin-right: 5px; box-shadow: 1px 1px 3px #ccc;
+}
+.project_cont .project_cont_tip {
+	color: rgb(114, 112, 112); padding-left: 18px; margin-left: 30px;
+}
+.project_cont .project_area {
+	background: url("../images/t3.gif") no-repeat top rgb(255, 255, 255); padding: 0px 20px; text-align: center; line-height: 32px;
+}
+.project_cont .p_description {
+	margin: 4px 0px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 328px; height: 42px; color: rgb(85, 85, 85); line-height: 20px; overflow: auto; padding-left: 5px; float: left;
+}
+.project_cont .project_area .cblue {
+	color: rgb(0, 123, 180); font-weight: 700;
+}
+.project_cont .secrecy_lab label {
+	outline: 0px; height: 25px; margin-right: 10px; display: inline-block;
+}
+.project_cont .secrecy_lab input {
+	width: 12px; height: 12px; margin-right: 3px; vertical-align: -2px;
+}
+.project_cont .p_title {
+	padding: 3px 7px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 20px; color: rgb(85, 85, 85); font-size: 12px; margin-right: 5px;
+}
+.logininfo .user_ico {
+	margin: 0px 5px; padding-left: 25px; text-decoration: none; display: inline-block;
+}
+.logininfo .user_ico {
+	color: rgb(0, 0, 0);
+}
+.logininfo .user_ico b {
+	font: 12px/1.5 arial, "����", tahoma, helvetica; color: rgb(254, 109, 6); font-size-adjust: none; font-stretch: normal;
+}
+.user_acccount {
+	text-align: left;
+}
+.error {
+	width: 101px; height: 30px; display: inline-block; position: relative;
+}
+.error input {
+	padding: 1px; border: 1px solid rgb(255, 0, 0); border-image: none; background-color: rgb(255, 254, 214);
+}
+.error b {
+	margin: 0px 1px; left: 0px; top: 7px; width: 92px; height: 22px; text-align: center; color: rgb(255, 0, 0); line-height: 22px; overflow: hidden; display: inline-block; white-space: nowrap; position: absolute; z-index: 1; background-color: rgb(255, 254, 214);
+}
+.szc_right {
+	width: 250px; overflow: hidden; float: right;
+}
+.szc_right a.more {
+	color: rgb(227, 99, 5); font-family: simsun; font-size: 12px; text-decoration: none; margin-right: 4px; float: right;
+}
+.content_pub {
+	margin: 0px; border: 1px solid rgb(213, 199, 183); border-image: none;
+}
+.cp_slide_tip {
+	height: 34px; color: rgb(229, 112, 26); line-height: 40px; font-family: "΢���ź�"; font-size: 16px; font-weight: 700; margin-right: 6px; float: left;
+}
+.content_pub {
+	margin-bottom: 8px;
+}
+.content_pub .cp_slide {
+	width: 239px; height: 370px; position: relative;
+}
+.content_pub .cp_slide_nav {
+	background: url("../images/games/public_h4bg.gif") repeat-x 0px 0px; padding: 0px 4px; height: 40px; line-height: 40px; font-size: 16px;
+}
+.content_pub .cp_slide_nav li {
+	background: url("/assets/images/tab_bg.gif") no-repeat right; padding: 0px 5px; width: 40px; height: 40px; float: left;
+}
+.content_pub .cp_slide_nav li a {
+	background: url("/assets/images/index_bg.png") no-repeat -262px 2px; height: 37px; text-align: center; line-height: 38px; font-size: 12px; display: block;
+}
+.content_pub .cp_slide_nav li.no_bg {
+	background: 0px;
+}
+.content_pub .cp_slide_body {
+	height: 320px; overflow: hidden; clear: both;
+}
+.content_pub .cp_slide_body .cp_slide_con {
+	background: 0px 0px rgb(255, 255, 255); left: 0px; top: 0px; width: 239px; position: absolute;
+}
+.content_pub .cp_slide_nav li a:hover {
+	background-position: -202px 30px; font-weight: 700;
+}
+.web_kj .cp_slide_nav li.on a {
+	background-position: -202px 30px; font-weight: 700;
+}
+.content_pub .cp_slide_nav li a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.content_pub p {
+	height: 26px; line-height: 26px; padding-left: 8px; font-size: 12px;
+}
+.content_pub .cp_slide_body {
+	height: 192px; overflow: hidden;
+}
+.content_pub .cp_slide_banner {
+	height: 24px; text-align: right; line-height: 24px; overflow: hidden; padding-right: 10px; border-top-color: rgb(236, 236, 236); border-top-width: 1px; border-top-style: solid;
+}
+.content_pub .cp_slide_banner span {
+	background: url("../images/games/sscbtn.gif") no-repeat -101px 7px; width: 28px; height: 30px; padding-left: 6px; float: right; display: block; cursor: pointer;
+}
+.content_pub .cp_slide_banner span.cp_slide_open {
+	background-position: -101px -18px;
+}
+.rb_p1 strong {
+	font-size: 16px; font-weight: bold; margin-right: 10px; display: inline-block;
+}
+.content_pub .rb_p3 {
+	height: 32px; border-bottom-color: rgb(221, 144, 82); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.rb_p3 span {
+	display: block;
+}
+.rb_p3 i {
+	background: url("../images/games/ssq_btns.png") no-repeat -172px -84px; margin: 0px 0px 5px; width: 28px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-style: normal; font-weight: 700; display: inline-block;
+}
+.rb_p3 b {
+	background: url("../images/games/ssq_btns.png") no-repeat -172px -84px; margin: 0px 0px 5px; width: 28px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-style: normal; font-weight: 700; display: inline-block;
+}
+.prize_number li i {
+	background: url("../images/games/ssq_btns.png") no-repeat -172px -84px; margin: 0px 0px 5px; width: 28px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-style: normal; font-weight: 700; display: inline-block;
+}
+i.blueball {
+	background-position: -207px -84px; margin-left: 2px;
+}
+.rb_p3 b.blueball {
+	margin-left: 15px;
+}
+.web_news {
+	margin-top: 0px;
+}
+.web_news dl span {
+	height: 26px; text-align: center; line-height: 26px; display: inline-block; white-space: nowrap; cursor: pointer;
+}
+.prize_number span {
+	height: 26px; text-align: center; line-height: 26px; display: inline-block; white-space: nowrap; cursor: pointer;
+}
+.web_news dt {
+	background: 0px 0px rgb(252, 252, 252); line-height: 30px; border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.web_news .kjxx_jx {
+	width: 48px;
+}
+.web_news .kjxx_zs {
+	width: 55px;
+}
+.web_news .kjxx_jj {
+	width: 75px;
+}
+.web_news .kjxx_zjtj {
+	width: 58px;
+}
+.web_news .allsale {
+	margin: 5px 0px; font-size: 14px;
+}
+.web_news .gray {
+	background: 0px 0px rgb(236, 236, 236);
+}
+.web_news .special .kjxx_jx {
+	width: 66px;
+}
+.web_news .special .kjxx_zs {
+	width: 78px;
+}
+.web_news .special .kjxx_jj {
+	width: 100px;
+}
+.r_border {
+	border-right-color: rgb(234, 234, 234); border-right-width: 1px; border-right-style: solid;
+}
+.prize_number {
+	height: 358px; overflow: hidden;
+}
+.prize_number span em {
+	display: inline-block;
+}
+.prize_number p {
+	border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.prize_number .r_border {
+	width: 97px; overflow: hidden; float: left;
+}
+.prize_number .qihao {
+	width: 140px; overflow: hidden;
+}
+.prize_number .blue {
+	margin-left: 2px;
+}
+.prize_number_list {
+	height: auto;
+}
+.special_number {
+	display: none;
+}
+.special_number h5 a {
+	margin: 4px 0px 0px 5px; width: 55px; height: 29px; text-align: center; color: rgb(255, 255, 255); font-size: 14px; display: inline-block;
+}
+.special_number h5 a:hover {
+	text-decoration: none;
+}
+.special_number li {
+	height: 28px; line-height: 10px; overflow: hidden; padding-top: 7px;
+}
+.special_number li span {
+	background: 0px 0px rgb(204, 204, 204); border-radius: 3px; border: 1px solid rgb(171, 171, 171); border-image: none; width: 160px; height: 10px; overflow: hidden; display: inline-block;
+}
+.special_number li i {
+	margin-left: 5px; float: left; display: block;
+}
+.special_number li span {
+	margin-left: 5px; float: left; display: block;
+}
+.special_number li em {
+	margin-left: 5px; float: left; display: block;
+}
+.special_number li i {
+	margin-top: -8px;
+}
+.special_number span b {
+	background: 0px 0px rgb(255, 0, 0); width: 80%; height: 10px; display: block;
+}
+.special_number li em {
+	width: 35px; display: inline-block;
+}
+.special_number .b_ball i {
+	background-position: 3px -33px;
+}
+.special_number .b_ball b {
+	background: 0px 0px rgb(47, 111, 254);
+}
+.rb_5 {
+	margin: 8px 0px; text-align: center;
+}
+.tool_links {
+	height: auto; line-height: 24px; padding-bottom: 15px;
+}
+.tool_links a {
+	color: rgb(0, 0, 0); margin-left: 12px; display: inline-block;
+}
+.tool_links a:hover {
+	color: rgb(255, 0, 0);
+}
+.up_notice {
+	margin: 10px 0px; line-height: 20px;
+}
+.upload_body {
+	padding: 5px 10px; border: 1px solid rgb(236, 195, 46); border-image: none; width: 405px; height: 125px; color: rgb(204, 204, 204); line-height: 18px; font-size: 12px; float: left; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+.import_numberarea p.rdesc {
+	width: 225px; line-height: 25px; vertical-align: top; float: right;
+}
+.import_buttonrow {
+	margin: 8px 0px; padding: 5px 0px; clear: both;
+}
+.import_buttonrow form {
+	float: left; display: inline-block;
+}
+.upbtn {
+	background: url("../images/games/hemaidating.png") no-repeat 0px 0px; margin: 0px 5px; border: 0px currentColor; border-image: none; width: 62px; height: 24px; text-align: center; vertical-align: middle;
+}
+.szc_notice {
+	position: relative;
+}
+.szc_notice:link {
+	text-decoration: none;
+}
+.szc_notice:visited {
+	text-decoration: none;
+}
+.szc_notice:hover {
+	text-decoration: none;
+}
+.szc_notice span {
+	display: none;
+}
+.szc_notice .sl {
+	color: rgb(0, 75, 145); text-decoration: underline;
+}
+.szc_notice:hover {
+	background: 0px; z-index: 3;
+}
+.szc_notice:hover .sl {
+	color: rgb(255, 0, 0);
+}
+.szc_notice:hover span {
+	padding: 5px 5px 5px 10px; border: 1px solid rgb(245, 186, 102); border-image: none; left: 9px; top: 21px; width: 265px; height: auto; color: rgb(116, 115, 116); line-height: 20px; display: block; position: absolute; background-color: rgb(255, 245, 221);
+}
+.slnum {
+	background: 0px 0px rgb(248, 81, 49); padding: 1px; color: rgb(255, 255, 255);
+}
+.blnum {
+	background: 0px 0px rgb(24, 117, 221); padding: 1px; color: rgb(255, 255, 255);
+}
+.slnum2 {
+	background: 0px 0px rgb(248, 81, 49); padding: 1px 5px; color: rgb(255, 255, 255);
+}
+.up_body {
+	height: 40px; position: relative;
+}
+.up_body .uploadify {
+	margin-top: 0px;
+}
+.upload_file_banner {
+	height: 40px; position: relative;
+}
+.upload_file_banner label {
+	padding: 0px 4px; line-height: 38px; font-size: 14px;
+}
+.upload_file_banner input {
+	margin-right: 2px;
+}
+.up_body .single_txt {
+	float: left;
+}
+.up_body .single_txt .up_text {
+	font: 12px/16px arial, tahoma; padding: 3px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 200px; height: 16px; color: rgb(102, 102, 102); vertical-align: 0px; font-size-adjust: none; font-stretch: normal; box-shadow: 1px 1px 3px rgba(204,204,204,0.7);
+}
+.up_file {
+	left: 0px; top: 0px; width: 278px; height: 30px; position: absolute; z-index: 1; opacity: 0;
+}
+.upbtn:hover {
+	background-position: 0px -24px; color: rgb(255, 255, 255);
+}
+.upbtnex:hover {
+	background-position: 0px -24px;
+}
+.up_body_p {
+	line-height: 24px;
+}
+.laterup {
+	padding: 10px; display: none;
+}
+.laterup label {
+	width: 90px; line-height: 30px; margin-left: 22px; display: inline-block;
+}
+.laterup input {
+	font: 700 14px/26px arial, tahoma; padding: 3px 6px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 56px; height: 26px; color: rgb(102, 102, 102); margin-right: 10px; font-size-adjust: none; font-stretch: normal; box-shadow: 1px 1px 3px rgba(204,204,204,0.7);
+}
+.laterup dl {
+	margin: 20px; line-height: 24px;
+}
+.scheme_tip {
+	margin-left: 10px;
+}
+.scheme_tip b {
+	color: rgb(204, 0, 0); font-size: 14px; font-weight: 700;
+}
+.tps {
+	width: 286px; float: left; display: inline-block;
+}
+.scheme_showtip {
+	border-radius: 3px; left: 200px; top: 0px; height: 32px; line-height: 28px; font-size: 12px; vertical-align: middle; display: block; position: absolute;
+}
+.scheme_showtip b {
+	margin-right: 10px;
+}
+.scheme_showtip b i {
+	color: rgb(204, 0, 0); font-size: 14px; font-weight: 700;
+}
+.alert {
+	padding: 0px 35px 0px 28px; border-radius: 4px; border: 1px solid rgb(251, 238, 213); border-image: none; color: rgb(0, 0, 0); margin-bottom: 5px; text-shadow: 0px 1px 0px rgba(255,255,255,0.5); background-color: rgb(252, 248, 227);
+}
+.alert-info {
+	background-position: -216px -43px; border-color: rgb(226, 215, 255); color: rgb(0, 0, 0); background-color: rgb(233, 240, 255);
+}
+.alert-error {
+	background-position: -216px 0px; border-color: rgb(243, 201, 172); color: rgb(0, 0, 0); background-color: rgb(255, 242, 233);
+}
+.alert-ok {
+	background-position: -216px -86px; border-color: rgb(211, 231, 213); color: rgb(0, 0, 0); background-color: rgb(242, 222, 222);
+}
+.fade {
+	transition:0.25s linear; opacity: 0;
+}
+.fade.in {
+	height: auto; opacity: 1;
+}
+.alert .close {
+	background: 0px 0px; padding: 0px; border: 0px currentColor; border-image: none; top: 2px; right: -21px; line-height: 20px; position: relative; cursor: pointer;
+}
+.close {
+	color: rgb(0, 0, 0); line-height: 20px; font-size: 20px; font-weight: bold; float: right; opacity: 0.2; text-shadow: 0px 1px 0px #fff;
+}
+.buy_single .alert b {
+	margin-right: 10px;
+}
+.buy_single .alert b i {
+	color: rgb(204, 0, 0); font-size: 14px; font-weight: 700;
+}
+.buy_single .fade.in {
+	height: 34px;
+}
+.buy_single .fade {
+	height: 0px; overflow: hidden;
+}
+.logininfo {
+	height: 34px; line-height: 34px; clear: both;
+}
+.logininfo .logininfo_name {
+	color: rgb(0, 123, 180);
+}
+.fred {
+	color: rgb(204, 0, 0); font-family: Verdana,Arial; font-weight: 700;
+}
+.ssq_goumai_but p input.dialogBtn.dialogBtn_disabled {
+	background-position: -458px -1px; color: rgb(102, 102, 102);
+}
+.drawNotice {
+	border: 1px solid rgb(245, 204, 156); border-image: none; height: 150px; margin-bottom: 8px;
+}
+.ff {
+	margin-left: 8px; float: left;
+}
+.c_333 {
+	color: rgb(51, 51, 51); font-size: 14px; font-weight: inherit;
+}
+.awardBall {
+	background: url("../images/games/ssq_btns.png") no-repeat -69px -82px; width: 33px; height: 33px; text-align: center; color: rgb(255, 255, 255); line-height: 34px; overflow: hidden; font-size: 16px; font-weight: 700; margin-right: 6px; float: left; display: inline-block;
+}
+.content_pub1 .cp_slide_nav {
+	background: url("../images/games/public_h4bg.gif") repeat-x 0px 0px; padding: 0px 4px; height: 40px; line-height: 40px; font-size: 16px;
+}
+.content_pub1 p {
+	height: 40px; line-height: 36px; padding-left: 8px; font-size: 13px;
+}
+.waitingRelease i {
+	background: url("../images/szc_comicons.png") no-repeat -165px 1px; width: 37px; height: 36px; line-height: 0; margin-right: 5px; vertical-align: bottom; display: inline-block;
+}

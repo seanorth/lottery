@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+    <session-factory>
+    	<mapping class="com.cosun.entities.User"/>
+    	<mapping class="com.cosun.entities.Lottery"/>
+    	<mapping class="com.cosun.entities.Pattn"/>
+    	<mapping class="com.cosun.entities.Trade"/>
+    	<mapping class="com.cosun.entities.Shop"/>
+    	<mapping class="com.cosun.entities.Order"/>
+    </session-factory>
+</hibernate-configuration>

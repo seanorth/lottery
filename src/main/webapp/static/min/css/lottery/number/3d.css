@@ -1,0 +1,636 @@
+@charset "utf-8";
+/*说明：
+* 此样式表是福彩3D一引用到的样式文件
+*/
+
+.dpno {display:none;}
+.clear {clear:both;font-size:0;line-height:0;}
+.space5 {clear:both;font-size:0;line-height:0;height:5px;}
+.space10 {clear:both;font-size:0;line-height:0;height:10px;}
+.tishi {margin-bottom:3px;padding:5px;border:1px solid #efb051;background:#fff6e2;line-height:100%;width:95%;}
+.left{ float:left;}
+.left .item .main .tishi a{text-decoration: underline;color:#0073d5;}
+.left .item .main .tishi a:hover{color:#ff0000;}
+.bgcbx {background:#fffff;}
+.bgcfx {background:#f9fdff;}
+.bgcbx .HmBuy,.bgcfx .HmBuy{display: none;}
+.hover {background:#fffbd8;}
+.hover .b,.hover .jdt_w {display: none;}
+
+.heretishi {position:absolute;top:0;right:295px;z-index:1003;width:249px;height:66px;background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat;overflow:hidden;}
+.heretishi p {color:#ca6100;padding:13px 16px 0 17px;}
+.heretishi p span.b {color:#f00;font-family:arial;font-weight:bolder;}
+.heretishi p span.jinrikj {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat -179px -114px;width:49px;height:13px;text-indent:-9999px;float:right;}
+.heretishi .saleRTShow {}
+.heretishi .saleRTShow li {color:#22fa05;font-family:verdana;font-weight:bolder;width:25px;height:19px;line-height:19px;text-align:center;float:left;margin:3px 15px 0 0;*margin-top:2px;}
+.heretishi .saleRTShow li.tian {width:19px;margin-left:77px;*margin-left:39px;}
+
+.heretishi2 {position:absolute;top:2px;right:282px;z-index:1003;width:280px;height:92px;background:url(http://img.cailele.com/img_new/lottery/ssq/ssq2.png) no-repeat;overflow:hidden;behavior: url(/js/iepngfix.htc);font-size:12px;}
+.heretishi2 p {color:#313131;padding:25px 25px 5px 20px;}
+.heretishi2 p span.b {color:#f00;font-family:verdana;font-weight:bolder;}
+.heretishi2 p span.jinrikj {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat -179px -114px;width:49px;height:13px;text-indent:-9999px;float:right;}
+.heretishi2 p span.zzxs {background:url(http://img.cailele.com/img_new/lottery/ssq/btn.jpg) no-repeat 0px -180px;width:48px;height:13px;text-indent:-9999px;float:right;}
+.heretishi2 .saleRTShow{margin-top: 5px;}
+.heretishi2 .saleRTShow li {color:#313131;float:left;}
+.heretishi2 .saleRTShow li label {float:left;color:#ff5205;font-family:arial;font-weight:bolder;font-size:24px;}
+.heretishi2 .saleRTShow li font {float:left;margin:10px 5px 0;font-size:12px;}
+.heretishi2 .saleRTShow li.tian {margin-left:15px;*margin-left:8px;}
+
+.SJpandian {}
+.SJPD-box {border:1px solid #bccbdc;padding:1px;}
+.SJPD-tl {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat right -212px;height:30px;}
+.SJPD-tl h2 {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat 0 -243px;width:auto;height:22px;padding:8px 0 0 30px;font-size:14px;font-weight:bolder;color:#036;}
+.selectDIV {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) repeat-x 0 -161px;width:243px;height:26px;padding:3px 0 0 13px;overflow: hidden;}
+.selectDIV li {float:left;width:73px;height:18px;text-align:center;margin-right:6px;padding-top:8px;color:#036;background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat -79px -107px;cursor:pointer;}
+.selectDIV li.current {color:#333;font-weight:bolder;background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat 0 -107px;}
+.SJPD-box p {padding:0 13px;line-height:16px;color:#333;}
+.SJPD-box span.b {font-weight:bold;}
+.SJPD-box span.red {color:#f00;font-family:verdana;}
+.SJPD-box p.th {font-weight:bolder;color:#333;background:#eef6ff;border-bottom:1px solid #efefef;padding:5px 13px 3px;}
+.SJPD-box span.more {float:right;margin:6px 0 0;}
+.SJPD-box span.more a {color:#146ac9;}
+.SJPD-box span.more a:hover {color:#f30;text-decoration:underline;}
+.kaijiang {padding:3px 10px 3px 15px;width:231px;height:21px;background-color: #FFF2E1;margin: 3px 0px 3px 0px;}
+.kaijiang li {float:left;width:21px;height:21px;line-height:21px;text-align:center;color:#db0100;font-family:Verdana;font-weight:bolder;margin-right:6px;font-size:14px;font-weight: bold;}
+.kaijiang li.blue {color: #0055ac;}
+.SJPD-box th {font-weight:normal;color:#333;background:#eef6ff;border-top:1px solid #efefef;border-bottom:1px solid #efefef;padding:5px 0 3px;text-align:center;}
+.SJPD-box td {color:#333;border-bottom:1px solid #efefef;text-align:center;padding:5px 0 3px;}
+.SJPD-box .hmlist th,.SJPD-box .hmlist td {text-align:left;padding-left:5px;}
+.SJPD-box .hmlist td {color:#666;}
+.SJPD-box .hmlist td a {color:#146ac9;}
+.SJPD-box .hmlist td a:hover {color:#f30;text-decoration:underline;}
+.SJPD-box .hmlist td .jdt_w {background:#FFFFFF;border:1px solid #E1E1E1;font-size:0;height:2px;overflow:hidden;padding:1px;width:25px;}
+.SJPD-box .hmlist td .jdt_w .jdt_n {background:#2D74D1;height:2px;overflow:hidden;width:25px;float:left;}
+.SJPD-box .hmlist td span.jiezhitime {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat -235px -273px;display:block;height:14px;padding:2px 0 0 15px;}
+.SJPD-box .hmlist td a.dingzhi {font-family:verdana;color:#458aba;text-decoration:none;border:1px solid #cae0f1;background:#e9f6ff;padding:0 2px 2px;line-height:100%;}
+.SJPD-box .hmlist td a.dingzhi:hover {text-decoration:none;}
+.SJPD-box .hmlist td h6 {color:#2d74d1;text-decoration:none;font-size:12px;font-weight:normal;}
+a.HmBuy {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat -85px -191px;display:block;height:20px;width:33px;text-indent:-9999px;}
+
+.xhlist li {padding:3px 0 0 13px;}
+.xhlist li a {color:#333;}
+.xhlist li a:hover {color:#f30;text-decoration:underline;}
+
+.ball li,.ball dd {color:#8A8A8A;float:left;font-family:"Microsoft Yahei";font-size:11px;padding:0;text-align:center;width:33px;line-height:140%;}
+.ball dd{margin-bottom: 5px;}
+.ball dd div {font-size:11px;width: 27px;display: block;}
+
+.left .item .main .lion { background-position:  -105px -115px;}
+.left .item .main .blue-off,
+.left .item .main .blue-on{background:url(http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif) no-repeat;float: left;width: 27px;height: 27px;text-align: center;font-family: Verdana;font-weight: bold;color: #787878;font-size: 14px;line-height: 24px;display: block;cursor: pointer;border: 0px #B3DAFB solid;}
+.left .item .main .blue-off{background-position: -139px -115px;}
+.left .item .main .blue-on {color: #fff;background-position:  -173px -115px;}
+.left .item .main .yl1 {color:#8A8A8A;font-family:"Microsoft Yahei";font-size:11px;padding:0;line-height:140%;margin-bottom: 5px;}
+.left .item .main .numyl {margin-top:0;}
+.left .item .main .li2,.left .item .main .lion,.left .item .main .blue-off,.left .item .main .blue-on,.left .item .main .yl1,.item .main .red-kill,.item .main .blue-kill{margin: 1px 8px 0px 12px;}
+
+.left .item .main .red-kill{float: left;width: 27px;height: 27px;text-align: center;border: 0px solid #ff0000;font-family: Verdana;font-weight: bold;color: #787878;font-size: 14px;line-height: 24px;display: block;cursor: pointer;background:url(http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif) no-repeat  -75px -115px;color:#b5b5b5;}
+.left .item .main .blue-kill{float: left;width: 27px;height: 27px;text-align: center;border: 0px solid #ff0000;font-family: Verdana;font-weight: bold;color: #787878;font-size: 14px;line-height: 24px;display: block;cursor: pointer;background:url(http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif) no-repeat  -75px -115px;color:#b5b5b5;}
+
+.left .item .main .ball-hot-red,.left .item .main .ball-hot-blue,
+.left .item .main .ball-t-red,.left .item .main .ball-t-blue{background:url(http://img.cailele.com/img_new/lottery/ssq/btn.jpg) no-repeat;float: left;width: 27px;height: 27px;text-align: center;font-family: Verdana;font-weight: bold;color: #000000;font-size: 14px;line-height: 24px;display: block;cursor: pointer;border: 0px #B3DAFB solid;margin: 1px 8px 0px 12px;}
+.left .item .main .ball-hot-red{background-position: 0px -120px;color:#b23300;}
+.left .item .main .ball-hot-blue{background-position: -40px -120px;color:#004297;}
+.left .item .main .ball-t-red{background-position: -80px -120px;color:#b40500;}
+.left .item .main .ball-t-blue{background-position: -120px -120px;color:#004297;}
+
+.spaceli {float:left;margin:0 4px 0 2px;padding:3px 4px 0 0;text-align:center;width:53px;color:#8a8a8a;height:13px;line-height:100%;}
+.redli,.blueli {color:#fff;float:left;height:19px;padding:0px 4px 0 0;margin:3px 4px 8px 2px;text-align:center;width:53px;overflow:hidden;line-height: 160%;}
+.redli {background:url(http://img.cailele.com/img_new/common/common_ssq3.gif) no-repeat -192px -67px;}
+.blueli {background: url(http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif) no-repeat right -155px;}
+.left .item .main .ball .jixuan {padding:10px 10px 0px 0px;width: 585px;}
+.left .item .main .ball .jixuan select{vertical-align: top;margin-top: 2px;width: 45px;}
+.left .item .main .ball .jixuan a {vertical-align: top;background:url(http://img.cailele.com/img_new/lottery/ssq/btn.jpg) no-repeat;padding:3px 0 0;margin:0px 0px 0px 5px;height:20px;display:inline-block;overflow:hidden;text-align:center;line-height:14px;}
+.left .item .main .ball .jixuan a:hover{text-decoration: none;}
+.left .item .main .ball .jixuan a.btn-q {background-position:right top;width:52px;}
+.left .item .main .ball .jixuan a.btn-jx-red {background-position:left top;width:67px;}
+.left .item .main .ball .jixuan a.btn-jx-blue {background-position:-70px top;width:67px;}
+.left .item .main .ball .jixuan a.btn-jx-front {background-position:left -30px;width:67px;}
+.left .item .main .ball .jixuan a.btn-jx-next {background-position:-70px -30px;width:67px;}
+.left .item .main .ball .jixuan a.btn-jx-tm {background-position:0px -150px;width:67px;}
+.left .item .main .ball .jixuan a.btn-jx-dm {background-position:-70px -150px;width:67px;}
+
+.left .item .main .JXSM {margin-top: 10px;display: none;width:160px;position: absolute;margin-left: 470px;margin-top: -8px;}
+.left .item .main .JXSM table {border-top:1px solid #c2c4cf;border-left:1px solid #c2c4cf;border-bottom:0px solid #c2c4cf;}
+.left .item .main .JXSM th,.left .item .main .JXSM td {line-height:100%;;border-bottom:1px solid #ffddaa;padding:5px 5px 3px;}
+.left .item .main .JXSM th {background:#f29914;font-weight:normal;color:#ffffff;}
+.left .item .main .JXSM td {color:#666;}
+.left .item .main .JXSM table {margin-left:1px;border:1px solid #f29914;background: lemonChiffon;border-radius: 5px 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);-webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);padding: 0px;text-align: left;overflow-y: auto;height: auto !important;width: 160px;}
+
+.left .item .main .ballListDIV{width:600px;border:0px solid;}
+
+.left .item .main .jxHintDIV{position: relative;}
+.left .item .main .jxHintDIV .hintlink{border:0px solid;}
+.left .item .main .jxHintDIV .hintlink font{cursor: default;color:#ff0000;text-decoration: underline;position: absolute;margin-left: 520px;margin-top: -24px;padding: 2px 5px 2px 5px;line-height: 14px;display: inline-block;}
+.left .item .main .jxHintDIV .hintlink font.hover{background-color:#f29914;color:#ffffff;text-decoration: none;}
+.left .item .main .jixuan .CoolHot {padding:5px 0px 0px 12px;font-size: 0px;white-space: nowrap;line-height: 0px;overflow: hidden;height: 30px;border-top:1px dotted #e8e8e8;background-color: #ffffff;margin-left: 57px;}
+.left .item .main .jixuan .CoolHot .btnDIV{float: left;display:inline-block;width: 300px;}
+.left .item .main .jixuan .CoolHot a {background:url(http://img.cailele.com/img_new/lottery/ssq/btn.jpg) no-repeat;height:26px;display:inline-block;overflow:hidden;text-align:center;line-height:20px;width:60px;margin:0px 3px 0px 0px;}
+.left .item .main .jixuan .CoolHot a.btn-clear {background-position: -60px -185px;}
+.left .item .main .jixuan .CoolHot a.btn-hot-red {background-position:0px -60px;}
+.left .item .main .jixuan .CoolHot a.btn-hot-blue {background-position:-70px -60px;}
+.left .item .main .jixuan .CoolHot a.btn-t-red {background-position:0px -90px;}
+.left .item .main .jixuan .CoolHot a.btn-t-blue {background-position:-70px -90px;}
+.left .item .main .selectRight{float: right;margin-right: 10px;}
+.left .item .main .jixuan .CoolHot select{font-size:12px;}
+.clear{font-size: 0px;height: 0px;}
+
+
+
+
+.right .rightPanel .newListDIV {overflow:hidden;}
+.right .rightPanel .newListDIV ul li a {margin-left:0;}
+.playChoiceDIV ul li.offlong a {color:#CA6100;}
+.playChoiceDIV ul li.offlong a:hover {color:#f00;}
+
+.right .rightPanel .title {background:url(http://img.cailele.com/img/lottery/bgtl02.gif) no-repeat left top;color:#036;display:inline-block;font-size:14px;font-weight:bold;height:31px;line-height:31px;padding:0 6px 0 30px;width:222px;border:1px solid #BCCBDC;border-bottom:0;}
+.right .rightPanel .newListDIV {border:1px solid #bccbdc;border-top:0;padding:9px;width:240px;}
+.right .rightPanel .selectDIV {border-left:1px solid #bccbdc;border-right:1px solid #bccbdc;display:inline-block;height:26px;overflow:hidden;width:258px;}
+.right .rightPanel table.panelBorder {border:1px solid #bccbdc;border-top:0;width:260px;}
+.left .item .bntbuy {border:0 solid;display:block;margin-left:500px;position:absolute;}
+
+/*双色球号码冷热分析*/
+.hot_ball_tag{overflow:hidden;width:258px;border-left:#BCCBDC 1px solid;border-right:#BCCBDC 1px solid;}
+.hot_ball_tag .tag_list{width:260px;}
+.hot_ball_tag .tag_list li{width:64px;height:26px;line-height:26px;}
+
+/*-----------随缘号码----------*/
+.fate_ssq_area{}
+.fate_ssq{position:relative;width:615px;height:205px;}
+/*选项默认状态*/
+.fate_ssq .btn i{overflow:hidden;display:block;background:url(http://img.cailele.com/img_new/lottery/ssq/ssq_lucky_sprite.png) no-repeat;text-indent:-9999em;cursor:pointer;}
+.fate_ssq .item1 i,
+.fate_ssq .item1:visited i{position:absolute;top:0;left:0;width:205px;height:100px;background-position:0 0;}
+.fate_ssq .item2 i,
+.fate_ssq .item2:visited i{position:absolute;top:105px;left:0;width:100px;height:100px;background-position:0 -105px;}
+.fate_ssq .item3 i,
+.fate_ssq .item3:visited i{position:absolute;top:105px;left:105px;width:100px;height:100px;background-position:-104px -105px;}
+.fate_ssq .item4 i,
+.fate_ssq .item4:visited i{position:absolute;top:0;left:210px;width:90px;height:205px;background-position:-210px 0;}
+.fate_ssq .item5 i,
+.fate_ssq .item5:visited i{position:absolute;top:0;left:305px;width:100px;height:100px;background-position:-305px 0;}
+.fate_ssq .item6 i,
+.fate_ssq .item6:visited i{position:absolute;top:0;left:410px;width:100px;height:100px;background-position:-410px 0;}
+.fate_ssq .item7 i,
+.fate_ssq .item7:visited i{position:absolute;top:0;left:515px;width:100px;height:100px;background-position:-515px 0;}
+.fate_ssq .item8 i,
+.fate_ssq .item8:visited i{position:absolute;top:105px;left:305px;width:100px;height:100px;background-position:-305px -105px;}
+.fate_ssq .item9 i,
+.fate_ssq .item9:visited i{position:absolute;top:105px;left:410px;width:205px;height:100px;background-position:-410px -105px;}
+/*选项鼠标经过状态*/
+.fate_ssq .item1:hover i{background-position:0 -220px;}
+.fate_ssq .item2:hover i{background-position:0 -325px;}
+.fate_ssq .item3:hover i{background-position:-104px -325px;}
+.fate_ssq .item4:hover i{background-position:-210px -220px;}
+.fate_ssq .item5:hover i{background-position:-305px -220px;}
+.fate_ssq .item6:hover i{background-position:-410px -220px;}
+.fate_ssq .item7:hover i{background-position:-515px -220px;}
+.fate_ssq .item8:hover i{background-position:-305px -325px;}
+.fate_ssq .item9:hover i{background-position:-410px -325px;}
+/*选项鼠标选中状态*/
+.fate_ssq .item1 i.current,
+.fate_ssq .item1:visited i.current{background-position:0 -440px;}
+.fate_ssq .item2 i.current,
+.fate_ssq .item2:visited i.current{background-position:0 -545px;}
+.fate_ssq .item3 i.current,
+.fate_ssq .item3:visited i.current{background-position:-104px -545px;}
+.fate_ssq .item4 i.current,
+.fate_ssq .item4:visited i.current{background-position:-210px -440px;}
+.fate_ssq .item5 i.current,
+.fate_ssq .item5:visited i.current{background-position:-305px -440px;}
+.fate_ssq .item6 i.current,
+.fate_ssq .item6:visited i.current{background-position:-410px -440px;}
+.fate_ssq .item7 i.current,
+.fate_ssq .item7:visited i.current{background-position:-515px -440px;}
+.fate_ssq .item8 i.current,
+.fate_ssq .item8:visited i.current{background-position:-305px -545px;}
+.fate_ssq .item9 i.current,
+.fate_ssq .item9:visited i.current{background-position:-410px -545px;}
+
+.fate_result_ssq{margin:20px 0 0 0;}
+.fate_result_ssq .bd_in{padding:10px 0 0 0;}
+
+
+/*----------个性选号----------*/
+
+.personality{width:600px;}
+.personality_ssq{position:relative;height:120px;}
+/*选项默认状态*/
+.personality_ssq .btn{}
+.personality_ssq .btn i{position:absolute;overflow:hidden;display:block;width:110px;height:100px;background:url(http://img.cailele.com/img_new/lottery/ssq/ssq_personality_sprite.png) no-repeat;text-indent:-9999em;cursor:pointer;}
+
+.personality_ssq .item1 i,
+.personality_ssq .item1:visited i{top:20px;left:0;}
+.personality_ssq .item2 i,
+.personality_ssq .item2:visited i{top:20px;left:90px;}
+.personality_ssq .item3 i,
+.personality_ssq .item3:visited i{top:20px;left:170px;}
+.personality_ssq .item4 i,
+.personality_ssq .item4:visited i{top:20px;left:250px;}
+.personality_ssq .item5 i,
+.personality_ssq .item5:visited i{top:20px;left:330px;}
+.personality_ssq .item6 i,
+.personality_ssq .item6:visited i{top:20px;left:410px;}
+.personality_ssq .item7 i,
+.personality_ssq .item7:visited i{top:20px;left:490px;}
+
+.personality_ssq .item1 i,
+.personality_ssq .item1:visited i{background-position:0 0;}
+.personality_ssq .item2 i,
+.personality_ssq .item2:visited i{background-position:-120px 0;}
+.personality_ssq .item3 i,
+.personality_ssq .item3:visited i{background-position:-240px 0;}
+.personality_ssq .item4 i,
+.personality_ssq .item4:visited i{background-position:-360px 0;}
+.personality_ssq .item5 i,
+.personality_ssq .item5:visited i{background-position:-480px 0;}
+.personality_ssq .item6 i,
+.personality_ssq .item6:visited i{background-position:-600px 0;}
+.personality_ssq .item7 i,
+.personality_ssq .item7:visited i{background-position:-720px 0;}
+
+/*选项鼠标经过状态*/
+.personality_ssq a:hover{zoom:1;}
+.personality_ssq .btn:hover i{top:0;zoom:1;cursor:pointer;}
+
+/*选项鼠标选中状态*/
+.personality_ssq .item1 i.current,
+.personality_ssq .item1:visited i.current{top:0;background-position:0 -120px;}
+.personality_ssq .item2 i.current,
+.personality_ssq .item2:visited i.current{top:0;background-position:-120px -120px;}
+.personality_ssq .item3 i.current,
+.personality_ssq .item3:visited i.current{top:0;background-position:-240px -120px;}
+.personality_ssq .item4 i.current,
+.personality_ssq .item4:visited i.current{top:0;background-position:-360px -120px;}
+.personality_ssq .item5 i.current,
+.personality_ssq .item5:visited i.current{top:0;background-position:-480px -120px;}
+.personality_ssq .item6 i.current,
+.personality_ssq .item6:visited i.current{top:0;background-position:-600px -120px;}
+.personality_ssq .item7 i.current,
+.personality_ssq .item7:visited i.current{top:0;background-position:-720px -120px;}
+
+/*幸运选号条件*/
+.birthday, .zodiac, .telphone, .full_name, .user_name, .dream, .stars{position:relative;padding:8px 0;border-bottom:#e0d6c3 1px solid;zoom:1;}
+
+.personality_condition{}
+.personality_condition .condition{font-family:Verdana, Geneva, sans-serif;}
+.personality_condition .condition dt,
+.personality_condition .condition dd{float:left;}
+.personality_condition .condition dt{position:absolute;top:50%;left:0;width:80px;margin-top:-13px;text-align:center;font-size:14px;font-family:Microsoft Yahei;}
+.personality_condition .condition dt i{display:inline-block;}
+.personality_condition .condition dt i.s1{width:1em;}
+.personality_condition .condition dd{padding-left:80px;}
+
+.personality_condition .delete,
+.personality_condition .delete:visited{position:absolute;right:10px;top:50%;display:block;overflow:hidden;width:9px;height:9px;line-height:9px;margin:-4px 0 0 0;background:url(http://img.cailele.com/img_new/lottery/commond/close.png) no-repeat 0 -1px;text-indent:-999em;font-size:0;}
+.personality_condition .delete:hover{background-position:0 -17px;}
+
+.personality_condition .border_table{border-collapse:collapse;border-spacing:0;}
+.personality_condition .border_table td{border:#deaa40 1px solid;background:#ffe8bb;text-align:center;padding:0;}
+.personality_condition .border_table td.on{background:#deaa40;color:#fff;}
+.left .item .main .personality_condition .border_table td{padding:0;}/*冲掉原来的样式*/
+
+.personality_condition .msg{position:absolute;left:420px;top:50%;margin:-1em 0 0 0;}
+.personality_condition .error{color:#b32739;}
+.personality_condition .ok{color:#009500;}
+
+.condi_input{width:303px;height:23px;border:#959595 1px solid;background:#ffffff;}
+
+.zodiac_table{}
+.zodiac_table tbody td{width:50px;cursor:pointer;}
+
+.condition_area_ssq .clear_btn{float:right;display:block;width:47px;height:15px;margin:8px 5px 0 0;background:url(http://img.cailele.com/img_new/lottery/commond/clear_btn.png) no-repeat;}
+
+
+.make_area{margin:20px 0 0 0;}
+.make_area .select_box{padding:5px 0 0 0;}
+
+.make_area .select_box a,
+.make_area .select_box a:visited{float:left;display:block;width:66px;height:21px;background:#fefdf8;border:#f1dcc7 1px solid;color:#a7430c;text-align:center;font-family:Verdana, Geneva, sans-serif; text-shadow:1px 1px 0 #ffffff;}
+.make_area .select_box a:hover{background:#ffe8bb; text-decoration:none;}
+.make_area .select_box a.current,
+.make_area .select_box a.current:visited{background:#ffe8bb;border:#ffe8bb 1px solid;}
+
+.make_area .make_btn{overflow:hidden;display:block;width:140px;height:33px;margin:0 auto;background:url(http://img.cailele.com/img_new/lottery/ssq/make_btn.png) no-repeat;text-indent:-999em;}
+
+/*--------------------------------------------------------以下部分是网站 v2版本样式----------------------------------------------*/
+.lo_mainer{min-height:788px;_height:788px;}
+
+#fs_Div .lot_ball .front,
+#gj_Div .lot_ball .front{width:633px;}
+#fs_Div .lot_ball .behind,
+#gj_Div .lot_ball .behind{width:228px;}
+/*#hmSelect{width:auto;border:none;background:none;}*/
+
+.lottery_hc1_logo{position:relative;width:70px;height:77px;margin:10px auto 0 auto;text-align:center;}
+
+/*第二步选择号码*/
+.arrow{ margin:5px 10px 0 0; background:url(http://img.cailele.com/img_new/lottery/number_hc1_t.gif) no-repeat; font-weight:bold;}
+.lot_ball .ball_box .bd .tit{float:left; padding:0 5px 0 0; width:34px;height:19px;line-height:19px; font-size:12px;text-align:center;}
+.lot_ball .ball_box .bd .arrow{ font-weight:bold; color:#B23A3A;}
+.lot_ball .ball_box .bd .ball_omit .tit{ margin-right:10px; height:20px;line-height:18px;color:#787878;}
+.lot_ball .ball_box .bd{padding:0 0 5px 0; overflow:hidden;}
+.lot_ball .ball_box .bd .balls .lion{background-position:-42px 0;color:#ffffff;}
+
+.lot_ball .front .bd .ball_regional .tit{ float:left; margin-right:10px; background:url(/imgs/number_hc1_t.gif) no-repeat; font-weight:bold; color:#b23a3a;}
+.lot_ball .front .bd .ball_regional .emp{ float:left; margin-right:10px; background:#FFF; font-weight:bold; color:#b23a3a;}
+.lot_ball .front{*display:inline;*zoom:1;width:640px;margin-right:5px;border:none;}
+.lot_ball .ball_box .bd .square li{float:left; background:url(http://img.cailele.com/img_new/lottery/lot_number_hc2.gif) repeat-x bottom;width:100px;height:100px;margin:0 35px 0 0; border:1px solid #dedede; font:14px/25px;color:#525252;text-align:center; cursor:pointer; overflow:hidden;}
+.lot_ball .ball_box .bd .square .li2:hover, .lot_ball .ball_box .bd .position .li2:hover{ background:#fef3cf; border:1px solid #ffa200; color:#9d4b01;}
+.lot_ball .ball_box .bd .square .lion, .lot_ball .ball_box .bd .position .lion{background:#ffa200;  border:1px solid #ffa200; color:#ffffff;}
+
+.lot_ball .ball_box .bd .position li{float:left; background:url(http://img.cailele.com/img_new/lottery/lot_number_hc2.gif) repeat-x bottom;width:100px;height:140px;margin:0 35px 10px 0; border:1px solid #dedede; font:14px/25px;color:#525252;text-align:center; cursor:pointer;}
+.lot_ball{padding-left:10px;}
+.lot_ball .ball_box .bd .ball_regional .tit{width:63px;height:19px;line-height:19px;margin-top:5px;margin-right:5px;padding-right:4px;background:url(http://img.cailele.com/img_new/lottery/lot_sprite.png) no-repeat -360px -220px;color:#fff;text-indent:-3px;}
+.lot_ball .ball_box .bd .balls li{width:32px;height:32px;margin:0 3px 0 0;background:url(http://img.cailele.com/img_new/lottery/lot_sprite.png) no-repeat -800px -40px;font:bold 14px/32px Verdana;color:#525252;text-align:center;text-indent:-1px;cursor:pointer;}
+.lot_ball .ball_box .bd .balls .li2:hover{background-position:-800px -80px;color:#9d4b01;}
+.lot_ball .ball_box .bd .balls .lion{background-position:-800px -120px;color:#ffffff;}
+.lot_ball .ball_box .bd .balls .cur_dan{background-position:-800px -200px;color:#9d4b01;}
+.lot_ball .ball_box .bd .balls li{margin-right:5px;}
+.lot_ball .ball_box .bd .ball_omit .tit{width:63px;margin-right:5px;padding-right:4px;}
+.lot_ball .ball_box .bd .ball_omit{margin:3px 0 5px 0;}
+.lot_ball .ball_box .bd .ball_omit .yl1{width:32px;margin-right:5px; float:left; height:20px;line-height:18px; text-align:center;font-size:12px;color:#a9a9a9;}
+.lot_ball .ball_box .bd .set_dan .tit{width:63px;margin-right:5px;padding-right:4px;}
+.lot_ball .ball_box .bd .set_dan .dan_opt{width:32px;margin-right:5px;}
+.lot_ball .ball_box .bd .assist{padding-right:0;}
+.lot_ball .ball_box .bd .assist .ass{margin-right:1px;}
+.lot_ball .ball_box .bd .regional{ margin-bottom:10px; }
+
+.lot_ball .ball_box .bd .card li{ float:left; margin:0 30px 0 0; background: url(http://img.cailele.com/img_new/lottery/lot_number_hc2.gif) repeat-x  bottom ; width:150px; height:100px; border:1px solid #dedede; color:#525252; text-align:center; cursor:pointer;}
+.lot_ball .ball_box .bd .card i{font-style:normal;}
+.lot_ball .ball_box .bd .card .li2:hover{ background:#fef3cf; border:1px solid #ffa200; color:#9d4b01;}
+.lot_ball .ball_box .bd .card .lion{ background:#d8241c; border:1px solid #d8241c; color:#ffffff;}
+
+.lot_ball .ball_box .bd .hyphen li{ float:left; margin:5px 0 0 0; padding:10px; width:80%; border:1px solid #dedede; color:#525252; text-align:center; cursor:pointer;}
+.lot_ball .ball_box .bd .hyphen p{ font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:14px;}
+.lot_ball .ball_box .bd .hyphen .li2:hover{ background:#fef3cf; border:1px solid #ffa200; color:#9d4b01;}
+.lot_ball .ball_box .bd .hyphen .lion{ background:#d8241c; border:1px solid #d8241c; color:#ffffff;}
+.lot_ball .ball_box .bd .ball_omit .yl_sb{width:80%;margin-right:5px; float:left; height:20px;line-height:18px; text-align:center;font-size:12px;color:#a9a9a9;}
+
+
+.yl2{ font-family: Arial;}
+.animal{ font-size:40px; font-weight:normal; font-family: Microsoft Yahei,Simsun;}
+.mission{ font-size:12px; font-weight:normal; font-family: Microsoft Yahei,Simsun;}
+.step_box .step_main{float:left;*display:inline;*zoom:1;width:87%;}
+.lot_ball .remind{ float:left; width:230px; line-height:18px;}
+
+.probability{width:100%;margin:8px 0 0 0;border-collapse:collapse;border-spacing:0;}
+.probability th,
+.probability td{padding:5px;border:#ffe2c2 1px solid;text-align:center;background:#fdfaf1;color:#444444;font-family:Arial;}
+.probability th{background:#fff6d7;}
+.probability b{color:#ff3300;}
+
+/*=========彩种新的投注区域样式==========*/
+.betingbasket .betarea{ width:460px; height:190px; float:left; background:#fff; border:1px solid #7f9db9;  overflow-x: hidden;overflow-y: auto; padding: 1px;}
+
+/*----------右侧部分----------*/
+/*右侧最新开奖*/
+.mod_sider .hd .hd_tlt{background:url(http://img.cailele.com/img_new/lottery/lot_number_hc1.gif) no-repeat 0 -77px; height:30px;line-height:30px; border-bottom:#dcdbe0 1px solid;}
+.sider_award .newest .open_num .open_num_list{padding: 0 0 5px 35px;}
+.sider_award .newest .open_num .open_num_list li{float:left;display:block;background:url(http://img.cailele.com/img_new/lottery/lot_number_hc1.gif) no-repeat; margin-right:10px; width:32px;height:32px; font-size:16px; line-height:32px; text-align:center; font-weight:bold;text-indent:-2px; font-family: Microsoft Yahei,Simsun;}
+.sider_award .newest .open_num .open_num_list li.red_ball{background-position:-33px -40px; color:#ed292a; }
+.sider_award .newest .open_num .open_num_list li.blue_ball{background-position:0 -40px; color:#006dd6;}
+
+.table_2{ width:248px; border-collapse:collapse; border:0px solid #d8d8d8; font-size:12px; text-align:center;}
+.table_2 th{background:#f9f9f9; padding:4px; color:#2d374b;}
+.table_2 td{border-top:1px solid #d8d8d8;  padding:4px; }
+.heat_no{color:#ff3300; }
+.cold_no{color:#217bea; }
+
+.bd_in_new li { border-bottom:1px #ededed solid; color:#333; height:25px; line-height:25px; overflow:hidden;}
+.bd_in_new li span.dat {float:right; color:#999;}
+.bd_in_new li a { display:inline-block;float:left; width:190px; color:#333; overflow:hidden;}
+.bd_in_new li a:hover { color:#f30;}
+.forecast .bd { padding:0 10px;}
+
+/*冷热分析*/
+	#container .lo_sider .bd .hot { color:#f30;}
+	#container .lo_sider .bd .cool { color:#30f;}
+/*玩法介绍*/		
+	.step_main .col999{ border: 0 solid; color: #999999; display: block; width: 600px;}
+	
+		
+/*---------新版样式-----------*/
+	
+.right{ float:right;}	
+.mainer,.main_con{ width:1000px; margin:0px auto;}	
+.lot_tab li a{ color:#2a4e72;}	
+.main { float:left;  padding:10px 10px; width:600px;}
+.main p { clear:both;}
+.main .floatleft { float:left;}
+.main .floatl2 { width:400px; padding-top:2px; font-size:14px;}
+.main .floatl4 { width:230px; float:left; text-align:center;}
+.main .floatl3 { float:left; padding-top:1px; font-size:14px; margin-right:5px; _padding-top:5px;}
+.main .floatl5 { float:left; font-size:14px; margin-right:5px; padding-top:1px; _padding-top:5px;}
+.main .col999 { color:#999999; display:block; width:560px;}
+.main .ul { clear:both;}
+.main .numyl { margin-top:5px;}
+.main .yl0 { float:left; font-family:Arial; color:#999;}
+.main .yl1 { width:24px; margin:0px 3px; float:left; font-family:Arial; display:block; text-align:center; color:#999;}
+.main .yl2 { width:67px; margin:0px 3px; float:left; font-family:Arial; display:block; text-align:center; color:#999;}
+.main .li00 { float:left; width:57px; text-align:center; margin:1px 4px 0px 2px; padding-top:1px; color:#999; clear:both;}
+.main .li1 { float:left; background:url(http://img.cailele.com/img/images/bgli01.gif) no-repeat center center; width:57px; text-align:center; margin:3px 4px 0px 2px; padding-top:3px; color:#666; line-height:160%;}
+.main .li2 { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #FBD3B3 solid; font-family:Verdana; font-weight:bold; color:#CC0808; font-size:14px; line-height:24px; display:block; cursor:pointer;}
+.main .li3 { float:left; width:20px; height:20px; margin:3px 2px; text-align:center; border:1px #DBDBDB solid; line-height:20px;; display:block; cursor:pointer;}
+.main .lion { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #FBD3B3 solid; font-family:Verdana; font-weight:bold; color:#fff; font-size:14px; line-height:24px; display:block; cursor:pointer; background:#f90;}
+.main .so01 { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #FBD3B3 solid; font-family:Verdana; font-weight:bold; color:#fff; font-size:14px; line-height:24px; display:block; cursor:pointer; background:#ECB96C;}
+.main .so02 { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #FBD3B3 solid; font-family:Verdana; font-weight:bold; color:#ECB96C; font-size:14px; line-height:24px; display:block; cursor:pointer;}
+.main .blue-off { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #b3dafb solid; font-family:Verdana; font-weight:bold; color:#118afa; font-size:14px; line-height:24px; display:block; cursor:pointer;}
+.main .blue-on { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #b3dafb solid; font-family:Verdana; font-weight:bold; color:#fff; font-size:14px; line-height:24px; display:block; cursor:pointer; background:#118afa;}
+.main .tradeListLi {width:450px;}
+	
+	/*add by houxinghai 2012-07-17*/
+.main .red-kill{float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #FBD3B3 solid; font-family:Verdana; font-weight:bold; color:#999999; font-size:14px; line-height:24px; display:block; cursor:pointer;background:url(http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif) no-repeat 0 -699px;}
+.main .blue-kill { float:left; width:24px; height:24px; margin:1px 2px; text-align:center; border:1px #b3dafb solid; font-family:Verdana; font-weight:bold; color:#999999; font-size:14px; line-height:24px; display:block; cursor:pointer;background:url(http://img.cailele.com/img_new/lottery/gd11x5/gd11x5.gif) no-repeat -29px -699px;}
+	
+.main .wid92 { width:92px; margin-right:8px;}
+.main .wid173 { width:173px; margin-right:21px;}
+.main .wid102 { width:102px; margin-right:5px;}
+.main span { color:#f30; font-weight:bold;}
+.main .li4 { float:left; background:url(http://img.cailele.com/img/images/bgli03.gif) no-repeat right center; text-align:left;}
+.main a.li5 { text-decoration:none; background:url(http://img.cailele.com/img/images/bgli04.gif) no-repeat left center; padding:5px 0px 0px 29px; padding:8px 0px 0px 29px\9; height:28px; display:block; line-height:170%;}
+.main a.li6 { text-decoration:none; background:url(http://img.cailele.com/img/images/bgli05.gif) no-repeat left center; padding:5px 0px 0px 29px; padding:8px 0px 0px 29px\9; height:28px; display:block; line-height:170%;}
+.main a.li7 { text-decoration:none; background:url(http://img.cailele.com/img/images/bgli02.gif) no-repeat left center; padding:5px 0px 0px 29px; padding:8px 0px 0px 29px\9; height:28px; display:block; line-height:170%;}
+.main a.li8 { text-decoration:none; background:url(http://img.cailele.com/img/images/bgli06.gif) no-repeat left center; padding:5px 0px 0px 29px; padding:8px 0px 0px 29px\9; height:28px; display:block; line-height:170%;}
+.main a.li0 { color:#f66; text-decoration: underline;}
+.main a { color:#333; text-decoration:none;}
+.main a:hover { color:#ff3300;}
+.main .bntbuy { float:right; width:245px;display:none;}
+.main td { padding:3px;}
+.main .td00 { padding:0px;}
+.main .td01 { padding:0px; width:68px; font-weight:bold; text-align:center; cursor:pointer;}
+.main .cs-tabs { background:0; height:33px; border-bottom:3px solid #ffd290; }
+.main .cs-tabs li { float:left; height:33px; background:url(http://img.cailele.com/img/images/gmcp_tab.gif) no-repeat 0 0; margin:0 3px 0 3px; display:inline; padding-left:3px; }
+.main .cs-tabs li a { display:block; float:left; height:33px; line-height:33px; background:url(http://img.cailele.com/img/images/gmcp_tab.gif) no-repeat 100% 0; margin:0 -2px 0 0; _margin:0; padding:0 10px 0 5px; }
+.main .cs-tabs li.on { background:url(http://img.cailele.com/img/images/gmcp_tabHover.gif) no-repeat 0 0; height:33px; }
+.main .cs-tabs li.on a { background:url(http://img.cailele.com/img/images/gmcp_tabHover.gif) no-repeat 100% 0; font-weight:700; height:33px; color:#a32200; }
+.main .cs-Tab .stepTitle { float:left; width:79px; font-size:12px; padding-left:17px; line-height:normal; display:block; overflow:hidden; color:#a32200; }
+.main .cs-Tab .stepTitle strong { display:block; padding:12px 0 5px 20px; background:url(http://img.cailele.com/img/images/icon_05.gif) no-repeat 0 0; }
+.main .cs-Tab .stepTitle span { font-weight:100; padding-left:5px; }
+.re{ width:743px; }
+.sel_play{ margin-top:5px;}
+.lot_ball .ball_box .bd .ball_omit .drop_downn {display: inline-block;height: 20px;left: 0;line-height: 20px;overflow: hidden;position: absolute;text-align: center;top: 0;width: 63px;
+}
+.marright{ margin-right:3px;}
+.martop{ margin-top:7px; margin-bottom:10px;}	
+	
+/*----------左侧部分----------*/
+
+.prompt{margin:10px auto;font-family:Arial,Simsun;}
+.prompt .b{padding-top:5px;}
+
+/*-----第一步：选择玩法-----*/
+#rx1_Div{}
+#rx8_menu{border-right:none;}
+
+/*购彩页走势图*/
+.trend_area{}
+.trend_area .trend_guide{padding-right:5px;text-align:right;color:#e5e4e8;}
+.trend_area .trend_guide a,
+.trend_area .trend_guide a:visited{color:#1e50a2;}
+.trend_area .trend_guide a:hover{color:#f06600;}
+.trend_area .trend_guide .trend_link{}
+.trend_area .trend_guide .trend_show,
+.trend_area .trend_guide .trend_show:visited{display:inline-block;*display:inline;*zoom:1;padding:1px 3px 0 5px;margin-top:10px;border:#e5e4e8 1px solid;color:#af0000;font-family:Arial, Helvetica, sans-serif;}
+.trend_area .trend_guide .trend_show i{display:inline-block;overflow:hidden;width:0px;height:0px;padding:0;font-size:0;border:3px dashed transparent;border-top-style:solid;border-top-color:#686868;vertical-align:middle;*vertical-align:baseline;margin-left:2px;}
+.trend_area .trend_guide .trend_showing,
+.trend_area .trend_guide .trend_showing:visited{border:#f28b22 1px solid;background:#f28b22;color:#fff;}
+.trend_area .trend_guide .trend_showing:hover{color:#fff;}
+.trend_area .trend_guide .trend_showing i{display:inline-block;*display:inline;*zoom:1;overflow:hidden;width:0px;height:0px;padding:0;font-size:0;border:3px dashed transparent;border-top-style:none;border-bottom-style:solid;border-bottom-color:#fff;vertical-align:middle;margin-left:2px;}
+.trend_area .trend_box{/*border-top:#f28b22 2px solid;border-bottom:#dcdbe0 1px solid;*/}
+.trend_area .close{padding-right:5px;border-top:#dcdbe0 1px solid;text-align:right;}
+.trend_area .close .closebtn,
+.trend_area .close .closebtn:visited{display:inline-block;width:45px;height:18px;line-height:18px;text-align:center;background:#e4393c;color:#fff;}
+.trend_area .close .closebtn:hover{background:#dc1e1e;}
+.trend_tb{width:100%;background:#f7f7f7;border:#FFF 1px solid;color:#2b2b2b; border-collapse:collapse;font-family:Arial, Helvetica, sans-serif;}
+.trend_tb th,
+.trend_tb td{border:#FFF 1px solid;text-align:center;}
+.trend_tb i{font-style:normal;}
+.trend_tb thead tr{background:#ececec;}
+.trend_tb thead tr th{padding:3px 0;font-weight:bold;text-align:center;}
+.trend_tb tbody tr td{color:#a1a1a1;}
+.trend_tb tbody .open_num i{position:relative;display:inline-block;width:21px;height:26px;line-height:26px;background:url(http://adkjh.cailele.com/images/zst2.gif) no-repeat;color:#fff;font-weight:bold;}
+.trend_tb tbody .special i{background:url(http://zs.cailele.com/chart/images/ball02.gif) no-repeat center center;}
+.trend_tb tbody .open_num i .small_ball{position: absolute;top:-5px;left:16px;width:14px;height:14px;line-height:13px;background: url(http://zs.cailele.com/chart/images/smallball.gif) no-repeat scroll 0 0 transparent;font-size:11px;font-weight:700;}
+.trend_tb tbody .first{}
+.trend_tb tbody .first i{background:url(http://img.cailele.com/img_new/common/red_cricle_2.gif) no-repeat center center;}
+.trend_tb tbody .second{}
+.trend_tb tbody .second i{background:url(http://adkjh.cailele.com/images/zst2.gif) no-repeat center center;}
+.trend_tb tbody .third{}
+.trend_tb tbody .third i{background:url(http://img.cailele.com/img_new/common/red_cricle_1.gif) no-repeat center center;}
+.trend_tb tbody .open_bulk{background:#f49000;color:#fff;}
+.trend_tb tbody .open_parity{background:#50c255;color:#fff;}
+.trend_tb tbody .open_da{background:#f49000;color:#fff;}
+.trend_tb tbody .open_xiao{background:#0080ff;color:#fff;}
+.trend_tb tbody .open_ji{background:#50c255;color:#fff;}
+.trend_tb tbody .open_ou{background:#800080;color:#fff;}
+.trend_tb tbody .open_amount{background:#51a2e1;color:#fff;}
+.trend_tb .trend_tab{display:inline-block;*display:inline;*zoom:1;font-weight:normal;font-size:0;}
+.trend_tb .trend_tab li{display:inline-block;*display:inline;*zoom:1;margin-right:3px;letter-spacing:0;font-size:12px;}
+.trend_tb .trend_tab li a,
+.trend_tb .trend_tab li a:visited{display:inline-block;width:55px;height:16px;line-height:16px;background:#f7f7f7;border:#ccc 1px solid;text-align:center; color:#333;}
+.trend_tb .trend_tab li a:hover{background:#fffbe5;}
+.trend_tb .trend_tab li.current a,
+.trend_tb .trend_tab li.current a:visited{background:#f49000;border:#de8300 1px solid;color:#fff;}
+.trend_tb .trend_check .opt,
+.trend_tb .trend_check .opt:visited{display:inline-block;*display:inline;*zoom:1;margin-right:3px;padding:2px 5px;border:#c7c7c7 1px solid;background:#fff;color:#525252;font-weight:normal;}
+.trend_tb .trend_check .sel,
+.trend_tb .trend_check .sel:visited{border:#ff6600 2px solid;/*background:#fff7ea;*/background:url(http://img.cailele.com/img_new/common/ico_correct.gif) no-repeat right bottom #fff7ea;color:#333333;}
+.trend_tb .item{display:inline-block;*display:inline;*zoom:1;width:49.9%;height:26px;line-height:26px;background:#d7d7d7;}
+
+.trend_11x5 .t_periods{width:52px;height:45px;}
+.trend_11x5 .t_lot_result{width:99px;}
+.trend_11x5 .t_num{width:36px;}
+
+.step_select{margin-top:10px;padding-bottom:30px;}
+.just_tab{position:relative;top:1px;z-index:99;}
+.just_tab li{float:left;width:80px;height:26px;line-height:26px;margin:0 3px 0 0;/*background:url(http://img.cailele.com/img_new/lottery/lot_sprite.png) no-repeat -260px -440px;*/background:#fffaee;border:#ffd495 1px solid;border-bottom:none;text-align:center;color:#ca6100;cursor:pointer;}
+.just_tab li.on{background-position:-260px -466px;font-weight:bold;}
+
+.miss_hot_box{padding-bottom:15px;}
+.miss_hot_box .box_l,
+.miss_hot_box .box_r{float:left;width:300px;}
+.miss_hot_box .missbox{width:610px;background:#fffaee;border:#ffd495 1px solid;}
+.miss_hot_box .box_l .missbox,
+.miss_hot_box .box_r .missbox{width:300px;}
+.miss_hot_box .box_l{}
+.miss_hot_box .box_r{margin-left:-1px;}
+
+.miss_hot_box .just_tab li{color:#333333;}
+.miss_hot_box .missbox{position:relative;margin-bottom:0;}
+.miss_hot_box .missbox ul{margin:0;padding:5px 0 0 0;}
+.miss_hot_box .missbox ul li{padding:0 4px;}
+.miss_hot_box .missbox ul li a,
+.miss_hot_box .missbox ul li a:visited{display:inline-block;width:auto !important;height:22px !important;line-height:22px;padding:0 10px !important;text-align:center;border:none !important;/*background:url(http://img.cailele.com/img_new/lottery/lot_sprite.png) no-repeat -260px -220px !important;*/background:#fff !important;color:#000 !important;border:#eb961a 1px dotted !important;_border:#ffd495 1px solid !important;}
+.miss_hot_box .missbox ul li a:hover{background:#ffeeba !important;color:#000 !important;}
+.miss_hot_box .missbox ul li span{margin-top:5px;color:#c90000;}
+.miss_hot_box .missbox p{position:absolute;top:-30px;left:80px;border:none;background:none;}
+
+.ranking{overflow:hidden;margin-top:8px;}
+.ranking .relate_layout{padding:15px 0;}
+.ranking .relate_layout dd{float:left;background:url(http://img.cailele.com/img_new/lottery/re_gray_line.png) no-repeat right bottom;}
+.ranking .relate_layout dd.column1{width:33%;}
+.ranking .relate_layout dd.column2{width:34%;}
+.ranking .relate_layout dd.column3{width:33%;background:none;}
+
+/*添加到投注框按钮*/
+.indi_box .add_abacus .on,
+.indi_box .add_abacus .on:visited{background:url(http://img.cailele.com/img_new/lottery/lot_sprite.png?v=20140417) no-repeat;background-position:-200px 0;}
+.indi_box .add_abacus .on:hover{background-position:-200px 0;}
+.indi_box .add_abacus .abacus_filter, .indi_box .add_abacus .abacus_filter:visited{background-position:-514px 0;}
+
+/*确认购买按钮
+.buy_confirm .btn .btnBuy-orange,
+.buy_confirm .btn .btnBuy-orange:visited{line-height:43px;text-align:center;background:#e4393c;font-family:Microsoft Yahei,Simsun;font-weight:bold;font-size:18px;color:#fff;border-radius:2px;}
+.buy_confirm .btn .btnBuy-orange:hover{background:#dc1e1e;}
+.buy_confirm .btn .btnBuy-gray,
+.buy_confirm .btn .btnBuy-gray:visited{line-height:43px;text-align:center;background:#8c8c8c;font-family:Microsoft Yahei,Simsun;font-weight:bold;font-size:18px;color:#fff;border-radius:2px;}
+.buy_confirm .btn .btnBuy-gray:hover{background:#8c8c8c;}*/
+
+/*----------右侧部分----------*/
+/*右侧最新开奖*/
+.sider_award .open_history_tb td{padding:5px 10px;}
+.sider_award .bd{overflow:hidden;}
+
+/*右侧中奖排行*/
+
+.sider_award .bd_in{}
+.hot_cold_num{border-bottom:none !important;}
+.hot_cold_num .bd_in{}
+.hot_cold_num .hot_cold_tb thead th,
+.hot_cold_num .hot_cold_tb thead td{padding:3px 0;border-bottom:#e3e3e6 1px solid;font-weight:normal;color:#2d374b;}
+
+
+.k3_bonus_explain_tb{width:100%;margin:0 0 8px 0;border-collapse:collapse;border-spacing:0;}
+.k3_bonus_explain_tb th,
+.k3_bonus_explain_tb td{padding:5px;border:#e3e3e5 1px solid;text-align:center;background:#fff;color:#444444;font-family:Arial;}
+.k3_bonus_explain_tb th{background:#f5f5f5;}
+.experts .bd{ padding:0 0 8px 0;}
+.bd_in_new dl{ height:92px; margin-top:10px;}
+.bd_in_new dd{ float:left; background:url(http://img.cailele.com/img_new/news/bgzjcj.gif) no-repeat; height:80px; margin:0 0 0 3px; overflow:hidden; padding:10px 0 0 20px; width:150px;}
+.bd_in_new dt{ float:left; padding:0 0 5px 7px; text-align:center; width:60px;}
+.bd_in_new dd h4{ font-size:12px; font-weight:normal; line-height:100%; padding:4px 0; color:red;}
+
+/*走势图表*/
+.trend_tb tbody .term_td{color:#2b2b2b;}
+.trend_tb tbody .prize_td{color:#2b2b2b;font-weight:bold;}
+
+.module .bd .bd_in table { border:0px #F9E4D5 solid; margin:0px 1px;}
+.module .bd .bd_in td { padding:5px 0px 2px 8px;}
+.module .bd .bd_in .tdpad { padding-left:18px;}
+.module .bd .bd_in .tdpad2 { padding:4px 0px 3px 10px;}
+.module .bd .bd_in .tdbd { border-bottom:1px #F9E4D5 solid;}
+.module .bd .bd_in .tdbd2 { border-left:1px #F9E4D5 solid;}
+.module .bd .bd_in .tdbd3 { border-bottom:1px #ededed solid;}
+.module .bd .bd_in .star { color:#f90;}
+.module .bd .bd_in .hot { color:#f30;}
+.module .bd .bd_in .cool { color:#30f;}
+.module .bd .bd_in tbody#openPanel td { border-bottom:1px #ededed solid; padding:5px 0px 2px 8px;}
+.module .bd .bd_in ul#newslist li { border-bottom:1px #ededed solid;padding:6px 0 2px 18px; background:url(http://img.cailele.com/img/lottery/dotted.gif) no-repeat 4px 5px;}
+.module .bd .bd_in ul#newslist li {color:#333;width:230px;height:12px;overflow:hidden;}
+.module .bd .bd_in ul#newslist li span.dat {float:right;color:#999;}
+.module .bd .bd_in ul#newslist li a { color:#333;width:195px;*width:185px;display:inline-block;float:left;overflow:hidden;}
+.module .bd .bd_in ul#newslist li a:hover { color:#f30;}
+
+/*新版彩种导航菜单宽度样式*/
+.prevent .lot_tab li{ width:52px;}

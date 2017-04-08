@@ -1,0 +1,1 @@
+document.write('<a href="http://www.cailele.com/static/info/201502/show_10330629.shtml" target="_blank" style="background:url(http://img.cailele.com/img_new/banner/201503/stopsell_top.png);"></a>');

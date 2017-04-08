@@ -1,0 +1,30 @@
+<div class="order-list-container">
+    <ul class="confirmList">
+    </ul>
+</div>
+<ul class="list">
+    <li>总计：<b class="yellow" id="n_zhu">0</b> 注 金额：<b class="yellow" id="n_yuan">0</b> 元</li><li>
+        起始期号：<b class="yellow" id="n_issue">0000-000</b> 期数：<b class="yellow" id="n_qshu">0</b>
+        总金额：<b class="red" id="c_zje">0</b> 元</li>
+</ul>
+    <div id="rgspn" style="padding-left: 8px;">
+        使用红包金额：<input type="text" onkeyup="checkRb(this)" onafterpaste="checkRb(this)" class="balancepwd"
+                      id="kybanlance" style="width: 50px"/>&nbsp;(红包&nbsp;<em id="ttbanlance" class="yellow">10.00</em>&nbsp;元，最大可使用红包&nbsp;<em
+    id="maxbanlance" class="yellow" data-ratio="0.25">0</em>&nbsp;元)</div>
+<script type="text/javascript">
+    function checkRb(obj) {
+        var ttbanlance = $("#ttbanlance");
+        var maxbanlance = $("#maxbanlance").html();
+        var kybanlance = obj.value;
+        obj.value = kybanlance.replace(/[^\d.]/g, '');
+        kybanlance = obj.value;
+        if (parseFloat(kybanlance) > parseFloat(maxbanlance)) {
+            obj.value = maxbanlance;
+        }
+
+        if (parseFloat(obj.value) > parseFloat(ttbanlance.text())) {
+            obj.value = ttbanlance.text();
+        }
+    }
+</script>
+<!--信息确认框 结束-->

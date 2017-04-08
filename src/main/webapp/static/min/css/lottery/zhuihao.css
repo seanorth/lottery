@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*说明：
+* 此样式表是所有购彩页面彩种都会引用到的样式文件
+*/
+.pursuers{margin:10px 0;font-family:Microsoft Yahei,Simsun;}
+.pursuers .dailybeta:after{content:'\0020';display:block;height:0;line-height:0;font-size:0;clear:both;visibility:hidden;}
+.pursuers .dailybeta{ background:#f3f2f2; padding:0 15px; height:50px; overflow:hidden;}
+.pursuers .dailybeta .periods{ float:left; line-height:46px;}
+.pursuers .dailybeta .periods b{ font-size:14px; color:#e4393c; font-family:Tahoma, Geneva, sans-serif;}
+.pursuers .dailybeta .dailybeta_time{ float:left; _margin-top:11px; line-height:50px;}
+.pursuers .dailybeta .dailybeta_time span{ margin-left:20px; line-height:50px;}
+.pursuers .dailybeta .dailybeta_time em{ display:inline-block; background:#2a333d; margin:0 5px;  width:30px; height:25px; line-height:25px; border-radius:3px; color:#FFFFFF; font-size:18px;  text-align:center; font-family:Arial, Helvetica, sans-serif; vertical-align:middle;}
+
+/*倍投样式*/
+.pursuers .cast_times{ overflow:hidden;}
+.cast_times .put_up:after{content:'\0020';display:block;height:0;line-height:0;font-size:0;clear:both;visibility:hidden;}
+.cast_times .put_up{ width:100%; margin:10px 0; display:inline-block; *display:inline;*zoom:1;}
+.cast_times .put_up .headline{ float:left; display:block; margin-top:8px; _margin-top:6px; padding-right:10px; width:10%; font-size:12px; color:#000; text-align:right; font-weight:bold; overflow:hidden; }
+.cast_times .put_up .generation{ width:743px; text-align:center; overflow:hidden;}
+.cast_times .put_up .generation .cllbtn a:hover{color:#fff !important;}
+.cast_times .put_up .choose{float:left; width:88%;}
+.cast_times .put_up .choose .terms{margin:0 0 0 0; padding:0 10px;height:32px; line-height:32px; color:#313131;}
+.cast_times .put_up .choose .terms b{ font-size:14px; color:#F00;}
+.cast_times .put_up .choose .catch{ background:#f7f7f7; padding:5px 10px; height:22px; line-height:22px; color:#a3a3a3;}
+.cast_times .put_up .choose .proposal{ width:642px; height:361px; overflow-y:scroll; overflow-x:hidden;}
+.cast_times .put_up .choose .raise{ width:642px;}
+.cllinput input{ width:50px; height:20px; line-height:20px;}
+.cllselect{*display:inline;*zoom:1;}
+.cllselect a{ background:url(http://img.cailele.com/img_new/subject/daily/arrow.png) no-repeat scroll 110px 9px #fafafa; height:20px; line-height:20px;}
+.cllselect a:hover{ background:url(http://img.cailele.com/img_new/subject/daily/arrow.png) no-repeat scroll 110px 9px #e3f5ff;}
+
+.cllcheckbox a, .cllcheckbox a:visited {background:none;border:medium none;color:#525252;cursor:pointer;display:inline-block;font-family:Arial,Simsun;margin-right:0px;padding:0;text-decoration:none;}
+.clldatalist thead th, .clldatalist thead td { background:#f7f7f7; color:#333; font-weight:bold; font-family:Microsoft Yahei,Simsun;}
+.clldatalist tbody th, .clldatalist tbody{height:auto !important;}
+.clldatalist tbody th, .clldatalist tbody td { padding:0; height:35px;line-height:35px; border:1px solid #ebebeb;color:#666; font-weight:normal; font-family:Microsoft Yahei,Simsun;text-align:center;}
+.clldatalist tbody .this{ color:#F30;}
+.cllbtn .disable, .cllbtn .disable:visited {background:#8c8c8c;color:#dcdcdc; cursor:pointer;}
+
+/*确认购买样式*/
+.purchase{ display:inline-block; width:100%; text-align:center; font-family:Microsoft Yahei,Simsun;}
+.purchase b{ font-size:16px; color:#F00;}
+
+.cast_times .put_up .choose .grayrow{ color:#313131;}
+.cast_times .put_up .choose .check{ color:#a3a3a3;}
