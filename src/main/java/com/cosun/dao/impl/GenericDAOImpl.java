@@ -7,6 +7,7 @@ import java.util.List;
 import javax.annotation.Resource;
 
 import org.hibernate.Query;
+import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
@@ -39,15 +40,18 @@ public class GenericDAOImpl<T, PK extends Serializable>  implements IGenericDAO<
 	    }  
 	 
 	    public void save(T entity) {  
-	        this.getSession().save(entity);  
+	        this.getSession().save(entity);
+	        this.getSession().flush();
 	    }  
 	  
 	    public void update(T entity) {  
-	        this.getSession().update(entity);  
+	        this.getSession().update(entity);
+	        this.getSession().flush();
 	    }  
 	  
 	    public void delete(Serializable id) {  
-	        this.getSession().delete(this.findById(id));  
+	        this.getSession().delete(this.findById(id));
+	        this.getSession().flush();
 	    }  
 	  
 	    public T findById(Serializable id) {  
@@ -60,6 +64,13 @@ public class GenericDAOImpl<T, PK extends Serializable>  implements IGenericDAO<
 	            query.setParameter(i, params[i]);  
 	        }  
 	        return query.list();  
-	    }  
+	    }
+	    public int excuteBySql(String sql)    
+	    {    
+	        int result ;    
+	        SQLQuery query = this.getSession().createSQLQuery(sql);    
+	        result = query.executeUpdate();    
+	        return result;    
+	    } 
 		
 }

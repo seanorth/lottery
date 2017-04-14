@@ -15,4 +15,7 @@ public interface IGenericDAO<T, PK extends Serializable> {
 	    public T findById(Serializable id);  
 	  
 	    public List<T> findByHQL(String hql, Object... params);  
+
+	    public int excuteBySql(String sql);    
+	
 }

@@ -16,6 +16,13 @@ public class Shop {
 	private Integer printerNum;
 	private Integer sequenceNum;
 	private Integer extracode;
+	private Boolean isUsing;
+	public Boolean getIsUsing() {
+		return isUsing;
+	}
+	public void setIsUsing(Boolean isUsing) {
+		this.isUsing = isUsing;
+	}
 	public Integer getShopId() {
 		return shopId;
 	}
