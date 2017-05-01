@@ -9,7 +9,9 @@
   
   
     <!-- 配置自动扫描的包 -->  
-    <context:component-scan base-package="com.cosun"/>  
+    <context:component-scan base-package="com.cosun"/>
+    <!-- 定时任务配置文件 -->
+    <context:property-placeholder location="classpath:config/quartz.properties"  ignore-unresolvable="true" />  
     <!-- 注解开启事务  -->
     <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true" />  
     <context:property-placeholder location="classpath:config/db.properties"/>

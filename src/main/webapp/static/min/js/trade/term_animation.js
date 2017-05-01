@@ -598,6 +598,7 @@ function initTermInfo(lotteryId){
 			return;
 		}
 		var loadNewEnd = function(){
+			$.get("http://127.0.0.1:8080/lottery/setParam/sequenceNum/reset",{'type':'qyh'},function(data,status){});
 			cll_alert("<font color='#FF0000'>"+ loadNew_oldTerm +"</font>期已截止，投注时请确认您的期号。");
 			changeButton(true);
 			return;

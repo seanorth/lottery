@@ -49,7 +49,18 @@ public class SetParamController {
 		}
 		return "false";
 	}
-	@RequestMapping("/shopId")
+	//群英会流水号置零
+	@RequestMapping("/sequenceNum/reset")
+	@ResponseBody
+	public String reset(@RequestParam("type")String type){
+		boolean boo=shopseServiceImpl.resetShop(type);
+		if (boo) {
+			return "true";
+		} else {
+			return "false";
+		}
+	}
+	@RequestMapping("/sequenceNum_qyh")
 	@ResponseBody
 	public String shopId(@RequestParam("shopId")Integer shopId){
 		boolean boo=shopseServiceImpl.radioShop(shopId);

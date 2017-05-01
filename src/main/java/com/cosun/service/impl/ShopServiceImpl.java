@@ -21,7 +21,7 @@ public class ShopServiceImpl implements ShopService {
 			Shop shop = shopDaoImpl.findById(id);
 			switch (string) {
 			case "sequenceNum":
-				shop.setSequenceNum(map.get(id));
+				//shop.setSequenceNum(map.get(id));
 				break;
 			case "extracode":
 				shop.setExtracode(map.get(id));
@@ -45,6 +45,28 @@ public class ShopServiceImpl implements ShopService {
 		} else {
 			return false;
 		}
+	}
+	@Override
+	public boolean resetShop(String type) {
+		String sql=null;
+		int i=0;
+		switch (type) {
+		case "qyh":
+			 sql="update t_shop  set sequenceNum_qyh=0";
+			 i=shopDaoImpl.excuteBySql(sql);
+			break;
+		case "3d":
+			 sql="update t_shop  set sequenceNum_3d=0";
+			 i=shopDaoImpl.excuteBySql(sql);
+			break;
+		case "ssq":
+			 sql="update t_shop  set sequenceNum_ssq=0";
+			 i=shopDaoImpl.excuteBySql(sql);
+			break;
+		default:
+			break;
+		}
+		return i>0?true:false;
 	}
 
 	

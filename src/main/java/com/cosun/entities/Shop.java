@@ -14,7 +14,9 @@ public class Shop {
 	private Integer shopId;
 	private String  address;
 	private Integer printerNum;
-	private Integer sequenceNum;
+	private Integer sequenceNum_ssq;
+	private Integer sequenceNum_3d;
+	private Integer sequenceNum_qyh;
 	private Integer extracode;
 	private Boolean isUsing;
 	public Boolean getIsUsing() {
@@ -41,11 +43,23 @@ public class Shop {
 	public void setPrinterNum(Integer printerNum) {
 		this.printerNum = printerNum;
 	}
-	public Integer getSequenceNum() {
-		return sequenceNum;
+	public Integer getSequenceNum_ssq() {
+		return sequenceNum_ssq;
 	}
-	public void setSequenceNum(Integer sequenceNum) {
-		this.sequenceNum = sequenceNum;
+	public void setSequenceNum_ssq(Integer sequenceNum_ssq) {
+		this.sequenceNum_ssq = sequenceNum_ssq;
+	}
+	public Integer getSequenceNum_3d() {
+		return sequenceNum_3d;
+	}
+	public void setSequenceNum_3d(Integer sequenceNum_3d) {
+		this.sequenceNum_3d = sequenceNum_3d;
+	}
+	public Integer getSequenceNum_qyh() {
+		return sequenceNum_qyh;
+	}
+	public void setSequenceNum_qyh(Integer sequenceNum_qyh) {
+		this.sequenceNum_qyh = sequenceNum_qyh;
 	}
 	public Integer getExtracode() {
 		return extracode;
