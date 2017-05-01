@@ -1,15 +1,18 @@
 package com.cosun.service.impl;
 
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.cosun.dao.ShopDao;
 import com.cosun.entities.Shop;
 import com.cosun.service.ShopService;
 @Service
+@Transactional
 public class ShopServiceImpl implements ShopService {
 
 	@Autowired
@@ -20,9 +23,7 @@ public class ShopServiceImpl implements ShopService {
 		for (Integer id : keySet) {
 			Shop shop = shopDaoImpl.findById(id);
 			switch (string) {
-			case "sequenceNum":
-				//shop.setSequenceNum(map.get(id));
-				break;
+			
 			case "extracode":
 				shop.setExtracode(map.get(id));
 				break;
@@ -67,6 +68,12 @@ public class ShopServiceImpl implements ShopService {
 			break;
 		}
 		return i>0?true:false;
+	}
+	@Override
+	public Shop currentShop() {
+		String hql="from Shop s where s.isUsing =? ";
+		List<Shop> shopList = shopDaoImpl.findByHQL(hql, 1);
+		return shopList.get(0);
 	}
 
 	

@@ -31,7 +31,7 @@ public class Trade {
 	private Integer		publicStatus;     	//=1
 	private String		stopCondition;
 	private String		submit1;
-	private Integer		term;           	//期数=2017069
+	private String		term;           	//期数=2017069
 	public Integer getId() {
 		return id;
 	}
@@ -140,24 +140,11 @@ public class Trade {
 	public void setSubmit1(String submit1) {
 		this.submit1 = submit1;
 	}
-	public Integer getTerm() {
+
+	public String getTerm() {
 		return term;
 	}
-	public void setTerm(Integer term) {
+	public void setTerm(String term) {
 		this.term = term;
 	}
-	@Override
-	public String toString() {
-		return "Trade [id=" + id + ", addAttribute=" + addAttribute
-				+ ", amount=" + amount + ", amounts=" + amounts
-				+ ", commision=" + commision + ", content=" + content + ", ds="
-				+ ds + ", filePath=" + filePath + ", founderAmount="
-				+ founderAmount + ", founderBdAmount=" + founderBdAmount
-				+ ", isDS=" + isDS + ", lotType=" + lotType + ", multiple="
-				+ multiple + ", other=" + other + ", playType=" + playType
-				+ ", publicStatus=" + publicStatus + ", stopCondition="
-				+ stopCondition + ", submit1=" + submit1 + ", term=" + term
-				+ "]";
-	}
-	
 }

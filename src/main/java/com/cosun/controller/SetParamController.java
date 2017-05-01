@@ -21,7 +21,7 @@ public class SetParamController {
 	public String index(){
 		return "/setPage";
 	}
-	@RequestMapping("/sequenceNum")
+	/*@RequestMapping("/sequenceNum")
 	@ResponseBody
 	public String sequenceNum(@RequestParam("sequenceNums")String sequenceNums){
 		String[] split = sequenceNums.split(",");
@@ -34,7 +34,7 @@ public class SetParamController {
 			if(n>0){return "true";}
 		}
 		return "false";
-	}
+	}*/
 	@RequestMapping("/extracode")
 	@ResponseBody
 	public String extracode(@RequestParam("extracodes")String extracodes){
@@ -49,7 +49,7 @@ public class SetParamController {
 		}
 		return "false";
 	}
-	//群英会流水号置零
+	//流水号置零
 	@RequestMapping("/sequenceNum/reset")
 	@ResponseBody
 	public String reset(@RequestParam("type")String type){
@@ -60,7 +60,8 @@ public class SetParamController {
 			return "false";
 		}
 	}
-	@RequestMapping("/sequenceNum_qyh")
+	//设置商铺活动状态
+	@RequestMapping("shopId")
 	@ResponseBody
 	public String shopId(@RequestParam("shopId")Integer shopId){
 		boolean boo=shopseServiceImpl.radioShop(shopId);

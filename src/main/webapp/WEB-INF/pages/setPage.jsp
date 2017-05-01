@@ -120,12 +120,12 @@
                 <td><input  id="in3"></td>
                 <td><button onclick="submitExtra()"/>提交附加码</button></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td><input  id="inp1"></td>
                 <td><input  id="inp2"></td>
                 <td><input  id="inp3"></td>
                 <td><button onclick="submitSeque()"/>提交流水号</button></td>
-            </tr>
+            </tr> -->
         </table>
     </div>
 </body>
