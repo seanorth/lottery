@@ -648,7 +648,8 @@ function getServerDateByLong(){
 		if(serverDateByLong == null){
 			var result = new xmlhttp().request(ctx_jsonp+"/serverDate.php?type=1&tag=" + new Date().getTime().toString(36));
 			var dt = eval("(" + result + ")");
-			serverDateByLong = parseInt(dt.serverTimeByLong);
+			//serverDateByLong = parseInt(dt.serverTimeByLong);
+			serverDateByLong = parseInt(dt.result.timestamp+"000");
 		}
 	}catch(e){}
 	return serverDateByLong;
@@ -1398,7 +1399,7 @@ function writeBottomNavigation(){
 /****----------------------- 输出底部统计信息 begin ---------------------****/
 function writeStatistic(){
 	//本站统计
-	document.write('<script language="javascript" src="http://127.0.0.1:8080/lottery/static/proxy/js/referer.js"></script>');
+/*	document.write('<script language="javascript" src="http://127.0.0.1:8080/lottery/static/proxy/js/referer.js"></script>');
 	
 	//baidu统计
 	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
@@ -1406,26 +1407,26 @@ function writeStatistic(){
 	//baidu统计 end
 
 	document.write('<script src="http://s45.cnzz.com/stat.php?id=1623102&web_id=1623102&show=pic" language="JavaScript" charset="gb2312"></script>');
-}
+*/}
 
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 
 function writeStatisticBlank(){
-	//本站统计
+	/*//本站统计
 	document.write('<script id="script_referer" language="javascript" src=ctx_static_proxy+"/js/referer.js"></script>');
 	//baidu统计
 	document.write('<script id="script_baidu" src="" language="javascript"></script>');
 	//cnzz 统计
 	document.write('<script id="script_cnzz" src="" language="JavaScript" ></script>');
 	//WPA Button Begin
-   	document.write('<script id="script_wpa" type="text/javascript" src=""></script>');
+   	document.write('<script id="script_wpa" type="text/javascript" src=""></script>');*/
 }
 function doStatistic(){
 	//document.getElementById("script_referer").src = "http://www.cailele.com/js/referer.js";
-	document.getElementById("script_baidu").src =  _bdhmProtocol + "hm.baidu.com/h.js%3F84b44ddfc4d2a64857e02f319615636f";
+/*	document.getElementById("script_baidu").src =  _bdhmProtocol + "hm.baidu.com/h.js%3F84b44ddfc4d2a64857e02f319615636f";
 	document.getElementById("script_cnzz").src = "http://s45.cnzz.com/stat.php?id=1623102&web_id=1623102&show=pic";
 	document.getElementById("script_wpa").src = "http://static.b.qq.com/account/bizqq/js/wpa.js?wty=0&kfuin=4006166111&key=%5D4%067%036%056%063%02b%053P8X9Sf%0F6W9Ra%05k%01g%05%60Z2%075%076Tf";
-}
+*/}
 
 function navHighligh() {
 	var u = document.URL;

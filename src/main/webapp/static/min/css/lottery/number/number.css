@@ -167,7 +167,7 @@ html[xmlns] .tag_list{display:block;}
 .right .rightPanel .tableListPanel .tableListTab td { text-align: center; height: 25px; line-height: 25px; border-right: 1px solid #e4e4e4; background-color: #f4f4f4; border-bottom: 1px solid #e4e4e4; cursor: porinter; }
 .right .rightPanel .tableListPanel .tableListTab .current { background-color: #fcfcfc; border-bottom: 1px solid #fcfcfc; font-weight: bold; cursor:default; }
 .left .itemListDIV { width: 730px; border-left: 1px solid #ffb64b; border-right: 1px solid #ffb64b; border-bottom: 1px solid #ffb64b; display: inline-block; padding-bottom:10px; }
-.left .itemListDIV .item { background: url('http://img.cailele.com/img_new/common/arrow_p.png') no-repeat center bottom; padding: 10px 0px 40px 0px; display: inline-block; border: 0px solid; }
+.left .itemListDIV .item { background: url(http://127.0.0.1:8080/lottery/static/min/img/arrow_p.png) no-repeat center bottom; padding: 10px 0px 40px 0px; display: inline-block; border: 0px solid; }
 .left .itemListDIV .null { background-image: none; padding-bottom: 0px; }
 .left .itemListDIV .item .title { position: absolute; color: #787878; width: 100px; padding: 10px 0px 0px 0px; text-align: center; font-size: 12px; border: 0px solid; line-height:16px; }
 .left .itemListDIV .item .title h3 { line-height:16px; color:#333333; }

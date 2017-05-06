@@ -324,9 +324,9 @@ var loadStopMsg=function(result){
 
 //获取当前服务器时间
 function getCurrentServerTime() {
-	var resp = $.ajax({url: ctx_jsonp+"/serverDate.php?type=1&v=" + new Date().getTime(),async: false,dataType:'josn'}).responseText;
+	var resp = $.ajax({url: ctx_jsonp+"/serverDate.php?type=1&v=" + new Date().getTime(),async: false,dataType:'json'}).responseText;
 	var json = eval("(" + resp + ")");
-	tradeTerm.serverTimeByLong = Number(json.serverTimeByLong);
+	tradeTerm.serverTimeByLong = Number(json.result.timestamp+"000");
 }
 
 //获取截止时间=(当前期截止时间-服务器当前时间)/1000

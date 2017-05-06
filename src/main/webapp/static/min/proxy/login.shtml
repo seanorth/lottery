@@ -639,7 +639,8 @@ function selectSaveUserName(obj) {
 // 检查是否显示头部提示
 function checkTopTips() {
 	try{
-		var result = new xmlhttp().request(ctx_jsonp+"/checkTopTips.php?tag=" + getDateStr());
+		//var result = new xmlhttp().request(ctx_jsonp+"/checkTopTips.php?tag=" + getDateStr());
+		var result={"message":"不显示","code":"1"};
 		var json = eval("(" + result + ")");
         
 		if (json.code == 0) {

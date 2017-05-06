@@ -1,0 +1,46 @@
+
+
+<div id="pagingView" style="display:none;">
+	  
+</div>
+
+<!--代购记录begin-->
+<table id="dgRecordData" cellspacing="0" cellpadding="0" class="record_data_tb dg_tb">
+       <colgroup>
+		<col width="15%" />
+           <col width="auto" />
+           <col width="10%" />
+           <col width="10%" />
+           <col width="10%" />
+       </colgroup>
+      <thead>
+          <tr>
+             <th class="t_time">
+             	<span class="a">时间<s>/</s></span>
+         		<span class="b">奖期</span>
+	      </th>
+	      <td class="t_plan">方案内容</td>
+	      <td class="t_money_gm">购买金额</td>
+	      <td class="t_status">
+	      	<span class="a">状态<s>/</s></span>
+	          <span class="b">奖金</span>
+	      </td>
+	      <td class="t_oper">
+	      	<span class="a">操作</span>
+       	  </td>
+	    </tr>            
+	</thead>
+	<tbody>
+		
+		    
+		    <tr><td align="center" colspan="5">请<a href="javaScript:openLoginWindow();">登录</a>查看记录</td></tr>
+		    
+			
+			
+			
+		
+    </tbody>
+</table>
+ <!--代购记录end-->
+
+

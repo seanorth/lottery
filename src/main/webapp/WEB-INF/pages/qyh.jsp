@@ -4341,13 +4341,13 @@ function appHider(){
 <!--热点推荐end-->
 
 <!--百度推广统计代码begin-->
-<div style="display:none">
+<!-- <div style="display:none">
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa12bd8605a9677fee2a5de6eed347e5c' type='text/javascript'%3E%3C/script%3E"));
 </script>
 
-</div>
+</div> -->
 <!--百度推广统计代码begin-->
 
 <!--悬浮二维码样式begin-->

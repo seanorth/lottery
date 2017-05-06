@@ -708,15 +708,15 @@ a.btnCalcing{background-position:left -580px;}
 
 
 /*-----网站页头-----*/
-.headerarea{background:url(http://img.cailele.com/img_new/common/hd_bg_v4_b.jpg) no-repeat center top;}
+.headerarea{background:url(../img/hd_bg_v4_b.jpg) no-repeat center top;}
 /*.headerarea{background:url(http://img.cailele.com/img_new/common/hd_bg_2015qm.jpg) no-repeat center top;}*/
 .header{overflow:hidden;width:auto;height:auto;margin-bottom:0;text-align:center;z-index:800;}
 .header .layout{height:70px;background:url(http://img.cailele.com/img_new/common/hd_bg_v3.jpg) no-repeat;background:none;}
 /*彩乐乐logo*/
 .header .logo{float:left;width:auto;height:auto;margin:13px 0 0 15px;background:none;}
 .header .logo a,
-.header .logo a:visited{overflow:hidden;display:block;width:156px;height:44px;background:url(http://img.cailele.com/img_new/common/sprite-v4.png) no-repeat 0 0;text-indent:-999em;}
-.header .sublogo{float:left;overflow:hidden;display:block;width:126px;height:24px; background:url(http://img.cailele.com/img_new/common/sprite-v4.png) no-repeat -160px 0;  margin:22px 0 0 5px;text-indent:-9999em;}
+.header .logo a:visited{overflow:hidden;display:block;width:156px;height:44px;background:url(../img/sprite-v4.png) no-repeat 0 0;text-indent:-999em;}
+.header .sublogo{float:left;overflow:hidden;display:block;width:126px;height:24px; background:url(../img/sprite-v4.png) no-repeat -160px 0;  margin:22px 0 0 5px;text-indent:-9999em;}
 /*.header .sublogo{float:left;overflow:hidden;display:block;width:147px;height:70px; background:url(http://img.cailele.com/img_new/banner/201612/2016-christmas.png) no-repeat;  margin:0;text-indent:-9999em;}*/
 .header .honbo_intro,
 .header .honbo_intro:visited{float:right;overflow:hidden;display:block;width:142px;height:29px;margin:20px 25px 0 0;background:url(http://img.cailele.com/img_new/common/main_sprite_v3.png) no-repeat -666px -70px;text-indent:-9999px;}
@@ -731,7 +731,7 @@ a.btnCalcing{background-position:left -580px;}
 .service .iconfont_hd{margin-right:3px;color:#e4393c;font-size:20px;}
 .service .hongbo{display:block;text-align:right;}
 .service .hongbo a,
-.service .hongbo a:visited{overflow:hidden;display:inline-block;width:176px;height:15px;line-height:1000px;margin:12px 0 3px 0;color:#666;background:url(http://img.cailele.com/img_new/common/sprite-v4.png) no-repeat 0 -54px;}
+.service .hongbo a:visited{overflow:hidden;display:inline-block;width:176px;height:15px;line-height:1000px;margin:12px 0 3px 0;color:#666;background:url(../img/sprite-v4.png) no-repeat 0 -54px;}
 .service .hongbo em{color:#e4393c;}
 .service .chat a,
 .service .chat a:visited{display:inline-block;*display:inline;*zoom:1;padding:0 5px 0 5px;height:26px;line-height:26px;border:#dddddd 1px solid;border-radius:2px;}

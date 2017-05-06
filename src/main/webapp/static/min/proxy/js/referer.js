@@ -171,9 +171,9 @@ if(_host == "mzs.cailele.com") {
 	_host = "m.cailele.com";
 }
 //var _st_dest = "http://"+_host+"/interface/IC?ref="+ref+"&T="+(new Date().getTime().toString(36));
-var _st_dest = ctx_jsonp+"/interface/IC?ref="+ref+"&T="+(new Date().getTime().toString(36));
+//var _st_dest = ctx_jsonp+"/interface/IC?ref="+ref+"&T="+(new Date().getTime().toString(36));
 //var _st_dest = "http://www.cailele.com/interface/IC?ref="+ref+"&T="+(new Date().getTime().toString(36));
-document.open();
-document.write( "<script language=\"JavaScript\" type=\"text/javascript\" src=\""+_st_dest+"\"></script>");
-document.close();
+//document.open();
+//document.write( "<script language=\"JavaScript\" type=\"text/javascript\" src=\""+_st_dest+"\"></script>");
+//document.close();
 

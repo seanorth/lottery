@@ -245,7 +245,7 @@
 .lot_tab_box2 .lot_tab li.on a .tit{color:#fff;}
 
 /*-----购彩步骤-----*/
-.step_box{padding:10px 0 35px 0;background:url(http://img.cailele.com/img_new/common/arrow_p.png) no-repeat center bottom; font:12px/1.5 Arial;}
+.step_box{padding:10px 0 35px 0;background:url(http://127.0.0.1:8080/lottery/static/min/img/arrow_p.png) no-repeat center bottom; font:12px/1.5 Arial;}
 .step_box .step_tit{float:left;*display:inline;*zoom:1;width:13%;text-align:center;}
 .step_box .step_main{float:left;*display:inline;*zoom:1;width:87%;}
 .step_box .step_main .step_main_in{padding-right:10px;}

@@ -392,7 +392,7 @@ function initTermInfo(lotteryId){
 		}
 		var getWaitText = function(tag, text) {
 			if(tag == 0)
-				return "<label><img src='http://img.cailele.com/img_new/lottery/gd11x5/loading_flash_red.gif'/><font class='wardhint'>正在开奖! 请稍候...</font></label>";
+				return "<label><img src='http://127.0.0.1:8080/lottery/static/min/img/loading_flash_red.gif'/><font class='wardhint'>正在开奖! 请稍候...</font></label>";
 			return "<label>后开奖</label><b id='" + openTimeSpanId + "'>" + text + "</b>";
 		}
 		var changeLiMargin = function() {
