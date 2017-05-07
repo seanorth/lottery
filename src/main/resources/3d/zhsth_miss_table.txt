@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><xml endTerm="2017119"><item termCount="4490"><r n="三同" c="43/45" f="0.96%" pm="35" pm1="49" pm2="225" cm="77" mm="290" am="103.42" o="0.74" v="0.77" j="-0.42" ct="100.00" sm="4370" /></item></xml>

@@ -1,0 +1,63 @@
+	     <tr>
+	   	  	<td rowspan="3" class="tdbd hot" bgcolor="#f8f8f8">热号</td>
+		    <td class="tdbd3 tdpad hot" style="font-weight:bold;">4</td>
+		    <td class="tdbd3 tdpad hot">6</td>
+		    <td class="tdbd3 tdpad hot">483</td>
+		    <td class="tdbd3 tdpad hot">0.67</td>
+         </tr>
+	     <tr>
+		    <td class="tdbd3 tdpad hot" style="font-weight:bold;">6</td>
+		    <td class="tdbd3 tdpad hot">4</td>
+		    <td class="tdbd3 tdpad hot">478</td>
+		    <td class="tdbd3 tdpad hot">0.44</td>
+         </tr>
+	     <tr>
+		    <td class="tdbd3 tdpad hot" style="font-weight:bold;">1</td>
+		    <td class="tdbd3 tdpad hot">3</td>
+		    <td class="tdbd3 tdpad hot">473</td>
+		    <td class="tdbd3 tdpad hot">0.33</td>
+         </tr>
+         <tr>
+	   		<td rowspan="4" class="tdbd" bgcolor="#f8f8f8">常态</td>
+	        <td class="tdbd3 tdpad" style="font-weight:bold;">0</td>
+		    <td class="tdbd3 tdpad">0</td>
+		    <td class="tdbd3 tdpad">468</td>
+		    <td class="tdbd3 tdpad">0.0</td>
+		  </tr>   
+	     <tr>
+	        <td class="tdbd3 tdpad" style="font-weight:bold;">9</td>
+		    <td class="tdbd3 tdpad">7</td>
+		    <td class="tdbd3 tdpad">452</td>
+		    <td class="tdbd3 tdpad">0.78</td>
+		  </tr>   
+	     <tr>
+	        <td class="tdbd3 tdpad" style="font-weight:bold;">5</td>
+		    <td class="tdbd3 tdpad">11</td>
+		    <td class="tdbd3 tdpad">441</td>
+		    <td class="tdbd3 tdpad">1.1</td>
+		  </tr>   
+	     <tr>
+	        <td class="tdbd3 tdpad" style="font-weight:bold;">7</td>
+		    <td class="tdbd3 tdpad">23</td>
+		    <td class="tdbd3 tdpad">436</td>
+		    <td class="tdbd3 tdpad">2.3</td>
+		  </tr>   
+	     <tr>
+	   		<td rowspan="3" class="tdbd cool" bgcolor="#f8f8f8">冷号</td>
+		    <td class="tdbd3 tdpad cool" style="font-weight:bold;">3</td>
+		    <td class="tdbd3 tdpad cool">2</td>
+		    <td class="tdbd3 tdpad cool">434</td>
+		    <td class="tdbd3 tdpad cool">0.2</td>
+		  </tr>  
+	     <tr>
+		    <td class="tdbd3 tdpad cool" style="font-weight:bold;">8</td>
+		    <td class="tdbd3 tdpad cool">10</td>
+		    <td class="tdbd3 tdpad cool">422</td>
+		    <td class="tdbd3 tdpad cool">1.0</td>
+		  </tr>  
+	     <tr>
+		    <td class="tdbd3 tdpad cool" style="font-weight:bold;">2</td>
+		    <td class="tdbd3 tdpad cool">12</td>
+		    <td class="tdbd3 tdpad cool">403</td>
+		    <td class="tdbd3 tdpad cool">1.09</td>
+		  </tr>  

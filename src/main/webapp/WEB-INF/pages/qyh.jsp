@@ -509,7 +509,7 @@ function appHider(){
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentTable">
       <tr>
         <td rowspan="3" class="tdLogo" align="center"><a href="http://www.cailele.com/lottery/qyh/" title="群英会"><img src="http://img.cailele.com/img/images/icon_qyh01.gif" alt="群英会" /></a></td>
-        <td class="title title_new"><h1><b>山东群英会</b><span class="title_hint_new">每<font>10</font>分钟一期，全天<font>78</font>期</span></h1></td>
+        <td class="title title_new"><h1><b>山东群英会</b><span class="title_hint_new">每<font>10</font>分钟一期，全天<font>81</font>期</span></h1></td>
         <td rowspan="3" class="tdSWF">
           <script type="text/javascript">
 				//flash("/flash/HighFrequencyNew.swf?lotteryType=154", "qyh_WSF", "470px", "100px", { quality: "high", menu: "false", wmode: "transparent", allowScriptAccess: "always", allowNetworking: "all", allowFullScreen: "true" });

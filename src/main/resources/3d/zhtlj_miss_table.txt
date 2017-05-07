@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><xml endTerm="2017119"><item termCount="4490"><r n="拖拉机" c="59/73" f="1.31%" pm="166" pm1="70" pm2="181" cm="183" mm="205" am="75.10" o="2.44" v="2.95" j="-0.27" ct="62.00" sm="4248" /></item></xml>

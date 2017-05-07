@@ -37,12 +37,63 @@ public class JsonpController {
 	}
 
 	@RequestMapping("/trade/tradePlanListNew")
-	public void tradePlanListNew(HttpServletRequest request,
+	public void trade_tradePlanListNew(HttpServletRequest request,
 			HttpServletResponse response) {
 		response.setContentType("text/html;charset=utf-8");
 		String path = request.getSession().getServletContext().getRealPath("/");
 		FileEntity fileEntity = new FileEntity(new File(path
 				+ "\\WEB-INF\\classes/tradePlanListNew.txt"));
+		try {
+			fileEntity.writeTo(response.getOutputStream());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			if (fileEntity!=null) {
+				fileEntity=null;
+			}
+		}
+	}
+	@RequestMapping("/static/3d/{file}")
+	public void static_3d_file(HttpServletRequest request,
+			HttpServletResponse response,@PathVariable("file")String file) {
+		response.setContentType("text/html;charset=utf-8");
+		String path = request.getSession().getServletContext().getRealPath("/");
+		FileEntity fileEntity = new FileEntity(new File(path
+				+ "\\WEB-INF\\classes/3d/"+file+".txt"));
+		try {
+			fileEntity.writeTo(response.getOutputStream());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			if (fileEntity!=null) {
+				fileEntity=null;
+			}
+		}
+	}
+	@RequestMapping("/static/qyh/{file}")
+	public void static_qyh_file(HttpServletRequest request,
+			HttpServletResponse response,@PathVariable("file")String file) {
+		response.setContentType("text/html;charset=utf-8");
+		String path = request.getSession().getServletContext().getRealPath("/");
+		FileEntity fileEntity = new FileEntity(new File(path
+				+ "\\WEB-INF\\classes/qyh/"+file+".txt"));
+		try {
+			fileEntity.writeTo(response.getOutputStream());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			if (fileEntity!=null) {
+				fileEntity=null;
+			}
+		}
+	}
+	@RequestMapping("/static/sjh")
+	public void static_sjh(HttpServletRequest request,
+			HttpServletResponse response) {
+		response.setContentType("text/html;charset=utf-8");
+		String path = request.getSession().getServletContext().getRealPath("/");
+		FileEntity fileEntity = new FileEntity(new File(path
+				+ "\\WEB-INF\\classes/sjh.txt"));
 		try {
 			fileEntity.writeTo(response.getOutputStream());
 		} catch (IOException e) {

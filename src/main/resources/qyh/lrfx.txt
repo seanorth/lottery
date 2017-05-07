@@ -1,0 +1,75 @@
+	           		 <tr class="hot">
+		   			 	<td class="td-title hot" rowspan="5">热号</td>
+					    <td style="font-weight:bold;">02</td>
+					    <td >1</td>
+					    <td >68</td>
+					    <td >0.52</td>
+               		 </tr>
+	          		 <tr class="hot">
+					    <td style="font-weight:bold;">06</td>
+					    <td >2</td>
+					    <td >65</td>
+					    <td >0.96</td>
+               		 </tr>
+	          		 <tr class="hot">
+					    <td style="font-weight:bold;">11</td>
+					    <td >1</td>
+					    <td >61</td>
+					    <td >0.44</td>
+               		 </tr>
+	          		 <tr class="hot">
+					    <td style="font-weight:bold;">05</td>
+					    <td >0</td>
+					    <td >61</td>
+					    <td >0.0</td>
+               		 </tr>
+	          		 <tr class="hot">
+					    <td style="font-weight:bold;">08</td>
+					    <td >7</td>
+					    <td >58</td>
+					    <td >2.86</td>
+               		 </tr>
+                	 <tr class="commond">
+		  				<td class="td-title" rowspan="5">常态</td>
+					    <td style="font-weight:bold;">15</td>
+					    <td >1</td>
+					    <td >49</td>
+					    <td >0.32</td>
+               		 </tr>
+               		<tr class="commond">
+					    <td style="font-weight:bold;">17</td>
+					    <td >1</td>
+					    <td >47</td>
+					    <td >0.31</td>
+               		 </tr>
+               		<tr class="commond">
+					    <td style="font-weight:bold;">16</td>
+					    <td >0</td>
+					    <td >45</td>
+					    <td >0.0</td>
+               		 </tr>
+               		<tr class="commond">
+					    <td style="font-weight:bold;">04</td>
+					    <td >7</td>
+					    <td >45</td>
+					    <td >2.03</td>
+               		 </tr>
+               		<tr class="commond">
+					    <td style="font-weight:bold;">01</td>
+					    <td >9</td>
+					    <td >45</td>
+					    <td >2.62</td>
+               		 </tr>
+	   				 <tr class="cool">
+		   				<td class="td-title cool" bgcolor="#f8f8f8" rowspan="5">冷号</td>
+					    <td style="font-weight:bold;">03</td>
+					    <td >3</td>
+					    <td >39</td>
+					    <td >0.73</td>
+               		 </tr>
+		       		<tr class="cool">
+					    <td style="font-weight:bold;">13</td>
+					    <td >0</td>
+					    <td >36</td>
+					    <td >0.0</td>
+               		 </tr>
