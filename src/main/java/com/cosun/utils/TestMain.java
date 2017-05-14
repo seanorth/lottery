@@ -14,45 +14,30 @@ import java.net.UnknownHostException;
  */
 public class TestMain {
 
-	private static void print(String ip, String printContent) {
-		Socket socket = null;
-		try {
-			socket = new Socket();
-			socket.connect(new InetSocketAddress(ip, 9100), 4000);
+	/*
+	 * private static void print(String ip, String printContent) { Socket socket
+	 * = null; try { socket = new Socket(); socket.connect(new
+	 * InetSocketAddress(ip, 9100), 4000);
+	 * 
+	 * System.out.println("CashierDesk=====小票机连接成功，IP：" + ip);
+	 * 
+	 * OutputStream os = socket.getOutputStream();
+	 * 
+	 * // 切纸命令 String text = printContent + "\n\n\n\n\n\n"; byte[] CMD_INIT = {
+	 * 27, 64 }; os.write(CMD_INIT); os.write(text.getBytes("GB2312")); final
+	 * byte[] CMD_CUT = { 0x1D, 0x56, 0x01 }; os.write(CMD_CUT);
+	 * System.out.println("CashierDesk=====小票机打印完成，IP：" + ip);
+	 * 
+	 * } catch (UnknownHostException e) {
+	 * 
+	 * System.out.println("CashierDesk=====小票机连接失败，IP：" + ip);
+	 * e.printStackTrace(); } catch (IOException e) {
+	 * System.out.println("CashierDesk=====小票机连接失败，IP：" + ip);
+	 * e.printStackTrace(); } finally { if (socket != null) { try {
+	 * socket.close(); } catch (IOException e) { e.printStackTrace(); } } } }
+	 */
 
-			System.out.println("CashierDesk=====小票机连接成功，IP：" + ip);
-
-			OutputStream os = socket.getOutputStream();
-
-			// 切纸命令
-			String text = printContent + "\n\n\n\n\n\n";
-			byte[] CMD_INIT = { 27, 64 };
-			os.write(CMD_INIT);
-			os.write(text.getBytes("GB2312"));
-			final byte[] CMD_CUT = { 0x1D, 0x56, 0x01 };
-			os.write(CMD_CUT);
-			System.out.println("CashierDesk=====小票机打印完成，IP：" + ip);
-
-		} catch (UnknownHostException e) {
-
-			System.out.println("CashierDesk=====小票机连接失败，IP：" + ip);
-			e.printStackTrace();
-		} catch (IOException e) {
-			System.out.println("CashierDesk=====小票机连接失败，IP：" + ip);
-			e.printStackTrace();
-		} finally {
-			if (socket != null) {
-				try {
-					socket.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	}
-
-	public static void main(String[] args) {
-		String ip = "192.168.0.1";
+	public static String content(String[] args) {
 		String printContent = "";
 
 		printContent += "********************倍数放大********************\n";
@@ -210,8 +195,27 @@ public class TestMain {
 		printContent += PrinterCmdUtils.marginCancle();
 		printContent += PrinterCmdUtils.ZoomCancel();
 		printContent += "\n";
-
-		print(ip, printContent);
+		return printContent;
 	}
 
+	public static void main(String[] args) {
+
+		PrinterService printerService = new PrinterService();
+
+		System.out.println(printerService.getPrinters());
+
+		// print some stuff. Change the printer name to your thermal printer
+		// name.
+//		printerService
+//				.printString("EPSON TM-T88III Receipt",
+//						"\n\n\n\n\n横向放大两倍（汉字，英文，数字都支持）\n\n\n testing testing 1 2 3eeeee \n\n");
+		//printerService.printString("EPSON TM-T88III Receipt",content(args));
+		printerService.printString("EPSON TM-T88III Receipt",MyTest.main(args));
+
+		// cut that paper!
+//		byte[] cutP = new byte[] { 0x1d, 'V', 1 };
+//
+//		printerService.printBytes("EPSON TM-T88III Receipt", cutP);
+
+	}
 }

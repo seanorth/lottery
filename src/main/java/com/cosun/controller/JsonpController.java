@@ -87,6 +87,23 @@ public class JsonpController {
 			}
 		}
 	}
+	@RequestMapping("/static/ssq/{file}")
+	public void static_ssq_file(HttpServletRequest request,
+			HttpServletResponse response,@PathVariable("file")String file) {
+		response.setContentType("text/html;charset=utf-8");
+		String path = request.getSession().getServletContext().getRealPath("/");
+		FileEntity fileEntity = new FileEntity(new File(path
+				+ "\\WEB-INF\\classes/ssq/"+file+".txt"));
+		try {
+			fileEntity.writeTo(response.getOutputStream());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			if (fileEntity!=null) {
+				fileEntity=null;
+			}
+		}
+	}
 	@RequestMapping("/static/sjh")
 	public void static_sjh(HttpServletRequest request,
 			HttpServletResponse response) {
@@ -94,6 +111,23 @@ public class JsonpController {
 		String path = request.getSession().getServletContext().getRealPath("/");
 		FileEntity fileEntity = new FileEntity(new File(path
 				+ "\\WEB-INF\\classes/sjh.txt"));
+		try {
+			fileEntity.writeTo(response.getOutputStream());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			if (fileEntity!=null) {
+				fileEntity=null;
+			}
+		}
+	}
+	@RequestMapping("/trade/bonusCalculator")
+	public void trade_bonusCalculator(HttpServletRequest request,
+			HttpServletResponse response) {
+		response.setContentType("text/html;charset=utf-8");
+		String path = request.getSession().getServletContext().getRealPath("/");
+		FileEntity fileEntity = new FileEntity(new File(path
+				+ "\\WEB-INF\\classes/bonusCalculator.txt"));
 		try {
 			fileEntity.writeTo(response.getOutputStream());
 		} catch (IOException e) {

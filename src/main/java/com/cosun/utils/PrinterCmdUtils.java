@@ -11,7 +11,7 @@ public class PrinterCmdUtils {
 	public static final byte SP = 32;// 空格
 	public static final byte HT = 9;// 横向列表
 	public static final byte LF = 10;// 打印并换行（水平定位）
-	public static final byte CR = 13;// 归位键
+	public static final byte CR = 13;// 归位键 打印回车 当打印在行编辑缓存中的一行数据之后，不进行走纸操作
 	public static final byte FF = 12;// 走纸控制（打印并回到标准模式（在页模式下） ）
 	public static final byte CAN = 24;// 作废（页模式下取消打印数据 ）
 
